@@ -73,7 +73,9 @@ async function jiraFetch(path) {
 async function searchAll(jql, fields, expand, cap = 1000) {
   const issues = [];
   let nextPageToken;
+  let page = 0;
   while (issues.length < cap) {
+    page++;
     const body = {
       jql,
       maxResults: 100,
@@ -90,6 +92,22 @@ async function searchAll(jql, fields, expand, cap = 1000) {
       throw new Error(`Jira search failed: ${res.status} ${await res.text()}`);
     }
     const data = await res.json();
+    // Diagnostic logging: prints what actually came back for every query.
+    // If Jira silently ignores or partially misparses part of the JQL, it
+    // can return HTTP 200 with an empty issues array plus a warningMessages
+    // field explaining what was dropped -- surface that here instead of
+    // failing silently, since that's the #1 suspect for "no error, but zero
+    // results" behavior.
+    if (page === 1) {
+      console.log(`  JQL: ${jql}`);
+      console.log(`  -> returned ${data.issues ? data.issues.length : 0} issue(s) on page 1`);
+      if (data.warningMessages && data.warningMessages.length) {
+        console.log(`  ! Jira warningMessages: ${JSON.stringify(data.warningMessages)}`);
+      }
+      if (!data.issues || !data.issues.length) {
+        console.log(`  ! Empty result, raw response: ${JSON.stringify(data).slice(0, 1000)}`);
+      }
+    }
     issues.push(...data.issues);
     if (data.isLast || !data.nextPageToken || !data.issues.length) break;
     nextPageToken = data.nextPageToken;
