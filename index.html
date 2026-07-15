@@ -36,7 +36,9 @@
     .card.green .card-value { color: var(--green); } .card.yellow .card-value { color: var(--yellow); }
     .card.red .card-value { color: var(--red); } .card.blue .card-value { color: var(--blue); } .card.purple .card-value { color: var(--purple); }
     .two-col { display: grid; grid-template-columns: 1.4fr 1fr; gap: 20px; margin-bottom: 24px; }
-    .three-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+    .three-col { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .three-col canvas { max-height: 420px; }
+    @media (max-width: 900px) { .three-col { grid-template-columns: 1fr; } }
     .chart-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; }
     .chart-card h2, .chart-card h3 { font-size: 15px; margin-bottom: 4px; }
     .chart-card p { font-size: 12px; color: var(--muted); margin-bottom: 12px; }
@@ -48,13 +50,14 @@
     /* Project Portfolio tab: fixed 4-column grid (not auto-fill) so all 8
        project cards are the same size, with more room per card than the
        generic .project-grid used elsewhere (WIP tab, Overview). */
-    .portfolio-grid { grid-template-columns: repeat(4, 1fr); grid-auto-rows: 1fr; gap: 20px; }
-    .portfolio-grid .project-card { padding: 24px 26px; display: flex; flex-direction: column; justify-content: space-between; }
-    .portfolio-grid .project-name { font-size: 18px; }
-    .portfolio-grid .p-stat-val { font-size: 26px; }
-    .portfolio-grid .p-stat-lbl { font-size: 11px; }
-    .portfolio-grid .project-stat-row { gap: 22px; }
+    .portfolio-grid { grid-template-columns: repeat(3, 1fr); grid-auto-rows: 1fr; gap: 24px; }
+    .portfolio-grid .project-card { padding: 30px 32px; display: flex; flex-direction: column; justify-content: space-between; }
+    .portfolio-grid .project-name { font-size: 20px; }
+    .portfolio-grid .p-stat-val { font-size: 30px; }
+    .portfolio-grid .p-stat-lbl { font-size: 12px; }
+    .portfolio-grid .project-stat-row { gap: 26px; }
     @media (max-width: 1100px) { .portfolio-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 700px) { .portfolio-grid { grid-template-columns: 1fr; } }
     .project-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; }
     .project-name { font-weight: 700; font-size: 15px; }
     .project-key { font-size: 11px; color: var(--muted); background: var(--surface2); padding: 2px 8px; border-radius: 6px; }
@@ -238,7 +241,7 @@
     <div class="project-grid portfolio-grid" id="portfolioGrid"></div>
     <div class="chart-card" id="portfolioEpicsCard" style="margin-top:20px;display:none">
       <h3 id="epicsTitle">Epic Completion</h3>
-      <p id="epicsSub">% of each Epic's child work items (Stories/Tasks/Bugs) that are Done, via Jira's parent/child hierarchy</p>
+      <p id="epicsSub">Active (not yet completed) Epics — % of each Epic's child work items (Stories/Tasks/Bugs) that are Done, via Jira's parent/child hierarchy</p>
       <div id="epicsList"></div>
     </div>
   </div>
@@ -566,7 +569,7 @@ function epicRows(epics) {
         <span><span class="epic-key">${e.key}</span><span class="epic-summary">${e.summary || ''}</span></span>
         <span class="epic-pct">${fmt(e.percentDone,'%')}${e.childTotal !== null && e.childTotal !== undefined ? ` (${e.childDone}/${e.childTotal})` : ''}</span>
       </div>
-      <div class="epic-bar-track"><div class="epic-bar-fill" style="width:${e.percentDone ?? 0}%;background:${e.epicDone ? 'var(--green)' : 'var(--accent)'}"></div></div>
+      <div class="epic-bar-track"><div class="epic-bar-fill" style="width:${e.percentDone ?? 0}%;background:${e.percentDone >= 100 ? 'var(--green)' : 'var(--accent)'}"></div></div>
     </div>
   `).join('');
 }
