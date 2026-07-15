@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T13:56:17.161Z",
+  "generatedAt": "2026-07-15T14:38:19.172Z",
   "windowDays": 56,
   "groupingNote": "Metrics are grouped by real Jira project (no Pod/DM field exists yet). Update PROJECTS + grouping in fetch-jira-data.js once Pods/DMs are tracked in Jira.",
   "projects": [
@@ -7,185 +7,167 @@
       "key": "INV",
       "wipByStatus": {
         "Backlog": 50,
-        "Ready for Development": 14,
+        "Ready for Development": 13,
         "To Do": 25,
-        "Ready for QA": 4,
-        "In Development": 4,
+        "Ready for QA": 6,
+        "In Development": 3,
         "In Progress": 14,
         "In QA": 1
       },
       "wipTotal": 112,
-      "openBlockers": 12,
-      "internalBlockerCount": 14,
-      "externalBlockerCount": 0,
-      "blockedIssues": [
+      "dependencies": [
         {
-          "key": "INV-979",
-          "summary": "KYC — Finalize generation/rendering/save engine (integration + hardening)",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "INV-980",
-              "summary": "KYC — UAT to Live validation + E2E QA coordination",
-              "status": "Ready for Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "INV-980",
+          "blockerSummary": "KYC — UAT to Live validation + E2E QA coordination",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-975",
+          "blockedSummary": "KYC — Consent-gated report generation",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "INV"
         },
         {
-          "key": "INV-978",
-          "summary": "KYC — KYC task status from report completion",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "INV-961",
-              "summary": "Display the KYC details in the company recap",
-              "status": "Ready for Development",
-              "scope": "internal"
-            },
-            {
-              "key": "INV-980",
-              "summary": "KYC — UAT to Live validation + E2E QA coordination",
-              "status": "Ready for Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "INV-980",
+          "blockerSummary": "KYC — UAT to Live validation + E2E QA coordination",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-976",
+          "blockedSummary": "KYC — Real consent in the Account Verification (CBV) request",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "INV"
         },
         {
-          "key": "INV-977",
-          "summary": "KYC — Consent form tile on the company recap",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "INV-980",
-              "summary": "KYC — UAT to Live validation + E2E QA coordination",
-              "status": "Ready for Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "INV-980",
+          "blockerSummary": "KYC — UAT to Live validation + E2E QA coordination",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-977",
+          "blockedSummary": "KYC — Consent form tile on the company recap",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "INV"
         },
         {
-          "key": "INV-976",
-          "summary": "KYC — Real consent in the Account Verification (CBV) request",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "INV-980",
-              "summary": "KYC — UAT to Live validation + E2E QA coordination",
-              "status": "Ready for Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "INV-980",
+          "blockerSummary": "KYC — UAT to Live validation + E2E QA coordination",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-978",
+          "blockedSummary": "KYC — KYC task status from report completion",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "INV"
         },
         {
-          "key": "INV-975",
-          "summary": "KYC — Consent-gated report generation",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "INV-980",
-              "summary": "KYC — UAT to Live validation + E2E QA coordination",
-              "status": "Ready for Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "INV-980",
+          "blockerSummary": "KYC — UAT to Live validation + E2E QA coordination",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-979",
+          "blockedSummary": "KYC — Finalize generation/rendering/save engine (integration + hardening)",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "INV"
         },
         {
-          "key": "INV-974",
-          "summary": "KYC — Foundation: consent table + onboarding-form-type registration",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "INV-971",
-              "summary": "KYC — Consent onboarding form (#7 Consent for KYB/KYC Verifications)",
-              "status": "Ready for Development",
-              "scope": "internal"
-            },
-            {
-              "key": "INV-977",
-              "summary": "KYC — Consent form tile on the company recap",
-              "status": "Ready for Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "INV-980",
+          "blockerSummary": "KYC — UAT to Live validation + E2E QA coordination",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-961",
+          "blockedSummary": "Display the KYC details in the company recap",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "INV"
         },
         {
-          "key": "INV-971",
-          "summary": "KYC — Consent onboarding form (#7 Consent for KYB/KYC Verifications)",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "INV-975",
-              "summary": "KYC — Consent-gated report generation",
-              "status": "Ready for Development",
-              "scope": "internal"
-            },
-            {
-              "key": "INV-976",
-              "summary": "KYC — Real consent in the Account Verification (CBV) request",
-              "status": "Ready for Development",
-              "scope": "internal"
-            },
-            {
-              "key": "INV-977",
-              "summary": "KYC — Consent form tile on the company recap",
-              "status": "Ready for Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "INV-979",
+          "blockerSummary": "KYC — Finalize generation/rendering/save engine (integration + hardening)",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-924",
+          "blockedSummary": "KYC — Generate Report & Preview",
+          "blockedStatus": "Ready for QA",
+          "blockedProject": "INV"
         },
         {
-          "key": "INV-961",
-          "summary": "Display the KYC details in the company recap",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "INV-980",
-              "summary": "KYC — UAT to Live validation + E2E QA coordination",
-              "status": "Ready for Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "INV-979",
+          "blockerSummary": "KYC — Finalize generation/rendering/save engine (integration + hardening)",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-928",
+          "blockedSummary": "KYC — Save to Documents",
+          "blockedStatus": "Ready for QA",
+          "blockedProject": "INV"
         },
         {
-          "key": "INV-928",
-          "summary": "KYC — Save to Documents",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "INV-979",
-              "summary": "KYC — Finalize generation/rendering/save engine (integration + hardening)",
-              "status": "Ready for Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "INV-961",
+          "blockerSummary": "Display the KYC details in the company recap",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-978",
+          "blockedSummary": "KYC — KYC task status from report completion",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "INV"
         },
         {
-          "key": "INV-924",
-          "summary": "KYC — Generate Report & Preview",
-          "status": "In Development",
-          "blockedBy": [
-            {
-              "key": "INV-979",
-              "summary": "KYC — Finalize generation/rendering/save engine (integration + hardening)",
-              "status": "Ready for Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "INV-977",
+          "blockerSummary": "KYC — Consent form tile on the company recap",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-971",
+          "blockedSummary": "KYC — Consent onboarding form (#7 Consent for KYB/KYC Verifications)",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "INV"
         },
         {
-          "key": "INV-224",
-          "summary": "Enable managers to access a trade request history",
-          "status": "Backlog",
-          "blockedBy": []
+          "blockerKey": "INV-977",
+          "blockerSummary": "KYC — Consent form tile on the company recap",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-974",
+          "blockedSummary": "KYC — Foundation: consent table + onboarding-form-type registration",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "INV"
         },
         {
-          "key": "INV-107",
-          "summary": "Delete a Policy",
-          "status": "Backlog",
-          "blockedBy": []
+          "blockerKey": "INV-976",
+          "blockerSummary": "KYC — Real consent in the Account Verification (CBV) request",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-971",
+          "blockedSummary": "KYC — Consent onboarding form (#7 Consent for KYB/KYC Verifications)",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "INV"
+        },
+        {
+          "blockerKey": "INV-975",
+          "blockerSummary": "KYC — Consent-gated report generation",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-971",
+          "blockedSummary": "KYC — Consent onboarding form (#7 Consent for KYB/KYC Verifications)",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "INV"
+        },
+        {
+          "blockerKey": "INV-971",
+          "blockerSummary": "KYC — Consent onboarding form (#7 Consent for KYB/KYC Verifications)",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "INV",
+          "blockedKey": "INV-974",
+          "blockedSummary": "KYC — Foundation: consent table + onboarding-form-type registration",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "INV"
+        },
+        {
+          "blockerKey": "INV-935",
+          "blockerSummary": "APS-Online: migrate MileageCalcMap to Routes API New + Places API New",
+          "blockerStatus": "In Development",
+          "blockerProject": "INV",
+          "blockedKey": "MOBILE-974",
+          "blockedSummary": "Cross-platform calculation parity QA (fixture-set verification)",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "MOBILE"
         }
       ],
+      "dependencyCount": 15,
       "oldestWipAgeDays": 869.7,
       "agingWipCount": 100,
       "agingWipIssues": [
@@ -205,7 +187,7 @@
           "key": "INV-44",
           "summary": "Implement a validation process - with org chart",
           "status": "Backlog",
-          "ageDays": 867.6
+          "ageDays": 867.7
         },
         {
           "key": "INV-47",
@@ -222,16 +204,16 @@
       ],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 41.5,
-        "median": 22.7,
-        "sampleSize": 63
+        "avg": 7.5,
+        "median": 3.8,
+        "sampleSize": 54
       },
       "leadTimeDays": {
         "avg": 108.6,
         "median": 40.9,
         "sampleSize": 70
       },
-      "flowEfficiencyPct": 38.2,
+      "flowEfficiencyPct": 6.9,
       "throughput7d": 12,
       "throughputWindowTotal": 70,
       "throughputAvgPerWeek": 8.8,
@@ -242,12 +224,12 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T13:56:01.807Z",
-          "weekEnd": "2026-05-27T13:56:01.807Z",
+          "weekStart": "2026-05-20T14:38:05.957Z",
+          "weekEnd": "2026-05-27T14:38:05.957Z",
           "throughput": 4,
-          "cycleTimeAvg": 25.5,
+          "cycleTimeAvg": 11.6,
           "leadTimeAvg": 81.6,
-          "flowEfficiencyPct": 31.3,
+          "flowEfficiencyPct": 14.2,
           "qualityLoopbackRatePct": 100,
           "qualityLoopbackCount": 4,
           "qualityLoopbackSampleSize": 4,
@@ -255,12 +237,12 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T13:56:01.807Z",
-          "weekEnd": "2026-06-03T13:56:01.807Z",
+          "weekStart": "2026-05-27T14:38:05.957Z",
+          "weekEnd": "2026-06-03T14:38:05.957Z",
           "throughput": 9,
-          "cycleTimeAvg": 29.4,
+          "cycleTimeAvg": 8.4,
           "leadTimeAvg": 53.5,
-          "flowEfficiencyPct": 55,
+          "flowEfficiencyPct": 15.7,
           "qualityLoopbackRatePct": 22.2,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 9,
@@ -268,12 +250,12 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T13:56:01.807Z",
-          "weekEnd": "2026-06-10T13:56:01.807Z",
+          "weekStart": "2026-06-03T14:38:05.957Z",
+          "weekEnd": "2026-06-10T14:38:05.957Z",
           "throughput": 5,
-          "cycleTimeAvg": 78.3,
+          "cycleTimeAvg": 3.6,
           "leadTimeAvg": 196.3,
-          "flowEfficiencyPct": 39.9,
+          "flowEfficiencyPct": 1.8,
           "qualityLoopbackRatePct": 20,
           "qualityLoopbackCount": 1,
           "qualityLoopbackSampleSize": 5,
@@ -281,12 +263,12 @@
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T13:56:01.807Z",
-          "weekEnd": "2026-06-17T13:56:01.807Z",
+          "weekStart": "2026-06-10T14:38:05.957Z",
+          "weekEnd": "2026-06-17T14:38:05.957Z",
           "throughput": 9,
-          "cycleTimeAvg": 30,
+          "cycleTimeAvg": 14,
           "leadTimeAvg": 106.5,
-          "flowEfficiencyPct": 28.2,
+          "flowEfficiencyPct": 13.1,
           "qualityLoopbackRatePct": 44.4,
           "qualityLoopbackCount": 4,
           "qualityLoopbackSampleSize": 9,
@@ -294,12 +276,12 @@
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T13:56:01.807Z",
-          "weekEnd": "2026-06-24T13:56:01.807Z",
+          "weekStart": "2026-06-17T14:38:05.957Z",
+          "weekEnd": "2026-06-24T14:38:05.957Z",
           "throughput": 9,
-          "cycleTimeAvg": 20.7,
+          "cycleTimeAvg": 8,
           "leadTimeAvg": 44.4,
-          "flowEfficiencyPct": 46.6,
+          "flowEfficiencyPct": 18,
           "qualityLoopbackRatePct": 33.3,
           "qualityLoopbackCount": 3,
           "qualityLoopbackSampleSize": 9,
@@ -307,12 +289,12 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T13:56:01.807Z",
-          "weekEnd": "2026-07-01T13:56:01.807Z",
+          "weekStart": "2026-06-24T14:38:05.957Z",
+          "weekEnd": "2026-07-01T14:38:05.957Z",
           "throughput": 11,
-          "cycleTimeAvg": 17.9,
+          "cycleTimeAvg": 5.5,
           "leadTimeAvg": 118.2,
-          "flowEfficiencyPct": 15.1,
+          "flowEfficiencyPct": 4.7,
           "qualityLoopbackRatePct": 63.6,
           "qualityLoopbackCount": 7,
           "qualityLoopbackSampleSize": 11,
@@ -320,12 +302,12 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T13:56:01.807Z",
-          "weekEnd": "2026-07-08T13:56:01.807Z",
+          "weekStart": "2026-07-01T14:38:05.957Z",
+          "weekEnd": "2026-07-08T14:38:05.957Z",
           "throughput": 11,
-          "cycleTimeAvg": 104,
+          "cycleTimeAvg": 2.8,
           "leadTimeAvg": 244.1,
-          "flowEfficiencyPct": 42.6,
+          "flowEfficiencyPct": 1.1,
           "qualityLoopbackRatePct": 18.2,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 11,
@@ -333,12 +315,12 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T13:56:01.807Z",
-          "weekEnd": "2026-07-15T13:56:01.807Z",
+          "weekStart": "2026-07-08T14:38:05.957Z",
+          "weekEnd": "2026-07-15T14:38:05.957Z",
           "throughput": 12,
-          "cycleTimeAvg": 18,
+          "cycleTimeAvg": 5.9,
           "leadTimeAvg": 38.9,
-          "flowEfficiencyPct": 46.3,
+          "flowEfficiencyPct": 15.2,
           "qualityLoopbackRatePct": 58.3,
           "qualityLoopbackCount": 7,
           "qualityLoopbackSampleSize": 12,
@@ -349,20 +331,39 @@
     {
       "key": "APCOM",
       "wipByStatus": {
-        "In QA": 2,
-        "Ready for QA": 8,
         "Backlog": 23,
-        "In Development": 4,
-        "To Do": 7,
         "Ready for Development": 14,
+        "To Do": 7,
+        "Ready for QA": 8,
+        "In Development": 4,
         "In Progress": 18,
-        "Estimate": 1
+        "In QA": 2,
+        "Other": 1
       },
       "wipTotal": 77,
-      "openBlockers": 0,
-      "internalBlockerCount": 0,
-      "externalBlockerCount": 0,
-      "blockedIssues": [],
+      "dependencies": [
+        {
+          "blockerKey": "APCOM-321",
+          "blockerSummary": "[Internal API][EIP] Permission-based change-type filtering on EmployeeChangeRequests endpoints",
+          "blockerStatus": "In Development",
+          "blockerProject": "APCOM",
+          "blockedKey": "CORE-1627",
+          "blockedSummary": "[QA Testing] Employee List Dashboard — Permission-based change-type filtering (post APCOM-321)",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "CORE"
+        },
+        {
+          "blockerKey": "APCOM-298",
+          "blockerSummary": "[Internal API] Team schedule visibility endpoint — GET /EmployeeSchedules/team",
+          "blockerStatus": "In QA",
+          "blockerProject": "APCOM",
+          "blockedKey": "EMP-892",
+          "blockedSummary": "Allow employees to see other employees schedules",
+          "blockedStatus": "Ready for QA",
+          "blockedProject": "EMP"
+        }
+      ],
+      "dependencyCount": 2,
       "oldestWipAgeDays": 2065.7,
       "agingWipCount": 75,
       "agingWipIssues": [
@@ -399,8 +400,8 @@
       ],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 16.2,
-        "median": 11,
+        "avg": 5.2,
+        "median": 1.9,
         "sampleSize": 94
       },
       "leadTimeDays": {
@@ -408,7 +409,7 @@
         "median": 21,
         "sampleSize": 98
       },
-      "flowEfficiencyPct": 24.1,
+      "flowEfficiencyPct": 7.7,
       "throughput7d": 8,
       "throughputWindowTotal": 98,
       "throughputAvgPerWeek": 12.3,
@@ -419,12 +420,12 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T13:56:04.623Z",
-          "weekEnd": "2026-05-27T13:56:04.623Z",
+          "weekStart": "2026-05-20T14:38:07.994Z",
+          "weekEnd": "2026-05-27T14:38:07.994Z",
           "throughput": 13,
-          "cycleTimeAvg": 13.4,
+          "cycleTimeAvg": 2.5,
           "leadTimeAvg": 32,
-          "flowEfficiencyPct": 41.9,
+          "flowEfficiencyPct": 7.8,
           "qualityLoopbackRatePct": 53.8,
           "qualityLoopbackCount": 7,
           "qualityLoopbackSampleSize": 13,
@@ -432,12 +433,12 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T13:56:04.623Z",
-          "weekEnd": "2026-06-03T13:56:04.623Z",
+          "weekStart": "2026-05-27T14:38:07.994Z",
+          "weekEnd": "2026-06-03T14:38:07.994Z",
           "throughput": 15,
-          "cycleTimeAvg": 12.5,
+          "cycleTimeAvg": 6.5,
           "leadTimeAvg": 125.4,
-          "flowEfficiencyPct": 10,
+          "flowEfficiencyPct": 5.2,
           "qualityLoopbackRatePct": 20,
           "qualityLoopbackCount": 3,
           "qualityLoopbackSampleSize": 15,
@@ -445,38 +446,38 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T13:56:04.623Z",
-          "weekEnd": "2026-06-10T13:56:04.623Z",
-          "throughput": 6,
-          "cycleTimeAvg": 26.8,
-          "leadTimeAvg": 36,
-          "flowEfficiencyPct": 74.4,
-          "qualityLoopbackRatePct": 33.3,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 6,
+          "weekStart": "2026-06-03T14:38:07.994Z",
+          "weekEnd": "2026-06-10T14:38:07.994Z",
+          "throughput": 7,
+          "cycleTimeAvg": 10.8,
+          "leadTimeAvg": 177.9,
+          "flowEfficiencyPct": 6.1,
+          "qualityLoopbackRatePct": 42.9,
+          "qualityLoopbackCount": 3,
+          "qualityLoopbackSampleSize": 7,
           "aiLeverageRatePct": 0
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T13:56:04.623Z",
-          "weekEnd": "2026-06-17T13:56:04.623Z",
-          "throughput": 11,
-          "cycleTimeAvg": 18.2,
-          "leadTimeAvg": 220.7,
-          "flowEfficiencyPct": 8.2,
-          "qualityLoopbackRatePct": 27.3,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 11,
+          "weekStart": "2026-06-10T14:38:07.994Z",
+          "weekEnd": "2026-06-17T14:38:07.994Z",
+          "throughput": 10,
+          "cycleTimeAvg": 6.8,
+          "leadTimeAvg": 139.9,
+          "flowEfficiencyPct": 4.9,
+          "qualityLoopbackRatePct": 20,
+          "qualityLoopbackCount": 2,
+          "qualityLoopbackSampleSize": 10,
           "aiLeverageRatePct": 0
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T13:56:04.623Z",
-          "weekEnd": "2026-06-24T13:56:04.623Z",
+          "weekStart": "2026-06-17T14:38:07.994Z",
+          "weekEnd": "2026-06-24T14:38:07.994Z",
           "throughput": 16,
-          "cycleTimeAvg": 12.4,
+          "cycleTimeAvg": 5,
           "leadTimeAvg": 21.8,
-          "flowEfficiencyPct": 56.9,
+          "flowEfficiencyPct": 22.9,
           "qualityLoopbackRatePct": 12.5,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 16,
@@ -484,12 +485,12 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T13:56:04.623Z",
-          "weekEnd": "2026-07-01T13:56:04.623Z",
+          "weekStart": "2026-06-24T14:38:07.994Z",
+          "weekEnd": "2026-07-01T14:38:07.994Z",
           "throughput": 22,
-          "cycleTimeAvg": 9.2,
+          "cycleTimeAvg": 2.7,
           "leadTimeAvg": 29.8,
-          "flowEfficiencyPct": 30.9,
+          "flowEfficiencyPct": 9.1,
           "qualityLoopbackRatePct": 27.3,
           "qualityLoopbackCount": 6,
           "qualityLoopbackSampleSize": 22,
@@ -497,12 +498,12 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T13:56:04.623Z",
-          "weekEnd": "2026-07-08T13:56:04.623Z",
+          "weekStart": "2026-07-01T14:38:07.994Z",
+          "weekEnd": "2026-07-08T14:38:07.994Z",
           "throughput": 7,
-          "cycleTimeAvg": 19.9,
+          "cycleTimeAvg": 4.3,
           "leadTimeAvg": 37.2,
-          "flowEfficiencyPct": 53.5,
+          "flowEfficiencyPct": 11.6,
           "qualityLoopbackRatePct": 57.1,
           "qualityLoopbackCount": 4,
           "qualityLoopbackSampleSize": 7,
@@ -510,12 +511,12 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T13:56:04.623Z",
-          "weekEnd": "2026-07-15T13:56:04.623Z",
+          "weekStart": "2026-07-08T14:38:07.994Z",
+          "weekEnd": "2026-07-15T14:38:07.994Z",
           "throughput": 8,
-          "cycleTimeAvg": 38.4,
+          "cycleTimeAvg": 8.2,
           "leadTimeAvg": 47.3,
-          "flowEfficiencyPct": 81.2,
+          "flowEfficiencyPct": 17.3,
           "qualityLoopbackRatePct": 87.5,
           "qualityLoopbackCount": 7,
           "qualityLoopbackSampleSize": 8,
@@ -526,148 +527,139 @@
     {
       "key": "EMP",
       "wipByStatus": {
-        "Estimate": 5,
-        "In Development": 2,
         "Backlog": 12,
-        "In Progress": 6,
         "Ready for Development": 2,
         "To Do": 2,
-        "Ready for QA": 1
+        "Ready for QA": 1,
+        "In Development": 2,
+        "In Progress": 6,
+        "In QA": 0,
+        "Other": 5
       },
       "wipTotal": 30,
-      "openBlockers": 8,
-      "internalBlockerCount": 11,
-      "externalBlockerCount": 1,
-      "blockedIssues": [
+      "dependencies": [
         {
-          "key": "EMP-934",
-          "summary": "Post-hire document handoff to legacy employee vault (copy-on-hire)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "EMP-851",
-              "summary": "Onboarding documents: CRUD + assignment/action model, copy-on-assign & company-doc picker",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EMP-851",
+          "blockerSummary": "Onboarding documents: CRUD + assignment/action model, copy-on-assign & company-doc picker",
+          "blockerStatus": "In Development",
+          "blockerProject": "EMP",
+          "blockedKey": "EMP-934",
+          "blockedSummary": "Post-hire document handoff to legacy employee vault (copy-on-hire)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "EMP"
         },
         {
-          "key": "EMP-892",
-          "summary": "Allow employees to see other employees schedules",
-          "status": "Ready for QA",
-          "blockedBy": [
-            {
-              "key": "APCOM-298",
-              "summary": "[Internal API] Team schedule visibility endpoint — GET /EmployeeSchedules/team",
-              "status": "In QA",
-              "scope": "external"
-            }
-          ]
+          "blockerKey": "APCOM-298",
+          "blockerSummary": "[Internal API] Team schedule visibility endpoint — GET /EmployeeSchedules/team",
+          "blockerStatus": "In QA",
+          "blockerProject": "APCOM",
+          "blockedKey": "EMP-892",
+          "blockedSummary": "Allow employees to see other employees schedules",
+          "blockedStatus": "Ready for QA",
+          "blockedProject": "EMP"
         },
         {
-          "key": "EMP-890",
-          "summary": "Feature 8: Required Forms attachment panel in template editor + migrate-in-flight handler",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "EMP-883",
-              "summary": "Foundation: Feature 8 schema + pdftk form engine (PdfFormEngineInterface) + form controllers",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EMP-883",
+          "blockerSummary": "Foundation: Feature 8 schema + pdftk form engine (PdfFormEngineInterface) + form controllers",
+          "blockerStatus": "Backlog",
+          "blockerProject": "EMP",
+          "blockedKey": "EMP-890",
+          "blockedSummary": "Feature 8: Required Forms attachment panel in template editor + migrate-in-flight handler",
+          "blockedStatus": "Backlog",
+          "blockedProject": "EMP"
         },
         {
-          "key": "EMP-889",
-          "summary": "Feature 8: New Hire Forms HR-menu admin app + Form Builder editor",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "EMP-882",
-              "summary": "Foundation: aps-ui PDF primitives + engine POC (POC done — pdftk/pdf-lib; see 2026-07-10 comment)",
-              "status": "Backlog",
-              "scope": "internal"
-            },
-            {
-              "key": "EMP-883",
-              "summary": "Foundation: Feature 8 schema + pdftk form engine (PdfFormEngineInterface) + form controllers",
-              "status": "Backlog",
-              "scope": "internal"
-            },
-            {
-              "key": "EMP-885",
-              "summary": "Foundation: HR menu ExtJS host page for New Hire Forms (Feature 8)",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EMP-882",
+          "blockerSummary": "Foundation: aps-ui PDF primitives + engine POC (POC done — pdftk/pdf-lib; see 2026-07-10 comment)",
+          "blockerStatus": "Backlog",
+          "blockerProject": "EMP",
+          "blockedKey": "EMP-889",
+          "blockedSummary": "Feature 8: New Hire Forms HR-menu admin app + Form Builder editor",
+          "blockedStatus": "Backlog",
+          "blockedProject": "EMP"
         },
         {
-          "key": "EMP-888",
-          "summary": "Feature 7: APS Hire (CareerPlug) Data Ingest — webhook + Pending Assignment tab + prefill mapping",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "EMP-884",
-              "summary": "Foundation: A_NEW_HIRE_FORMS permission + onboarding_replaces_eip_hires feature flag",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EMP-883",
+          "blockerSummary": "Foundation: Feature 8 schema + pdftk form engine (PdfFormEngineInterface) + form controllers",
+          "blockerStatus": "Backlog",
+          "blockerProject": "EMP",
+          "blockedKey": "EMP-889",
+          "blockedSummary": "Feature 8: New Hire Forms HR-menu admin app + Form Builder editor",
+          "blockedStatus": "Backlog",
+          "blockedProject": "EMP"
         },
         {
-          "key": "EMP-887",
-          "summary": "Feature: EE Step 7 — Documents (review + upload) + Fillable PDF Filler",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "EMP-882",
-              "summary": "Foundation: aps-ui PDF primitives + engine POC (POC done — pdftk/pdf-lib; see 2026-07-10 comment)",
-              "status": "Backlog",
-              "scope": "internal"
-            },
-            {
-              "key": "EMP-883",
-              "summary": "Foundation: Feature 8 schema + pdftk form engine (PdfFormEngineInterface) + form controllers",
-              "status": "Backlog",
-              "scope": "internal"
-            },
-            {
-              "key": "EMP-851",
-              "summary": "Onboarding documents: CRUD + assignment/action model, copy-on-assign & company-doc picker",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EMP-885",
+          "blockerSummary": "Foundation: HR menu ExtJS host page for New Hire Forms (Feature 8)",
+          "blockerStatus": "Backlog",
+          "blockerProject": "EMP",
+          "blockedKey": "EMP-889",
+          "blockedSummary": "Feature 8: New Hire Forms HR-menu admin app + Form Builder editor",
+          "blockedStatus": "Backlog",
+          "blockedProject": "EMP"
         },
         {
-          "key": "EMP-885",
-          "summary": "Foundation: HR menu ExtJS host page for New Hire Forms (Feature 8)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "EMP-884",
-              "summary": "Foundation: A_NEW_HIRE_FORMS permission + onboarding_replaces_eip_hires feature flag",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EMP-884",
+          "blockerSummary": "Foundation: A_NEW_HIRE_FORMS permission + onboarding_replaces_eip_hires feature flag",
+          "blockerStatus": "Backlog",
+          "blockerProject": "EMP",
+          "blockedKey": "EMP-888",
+          "blockedSummary": "Feature 7: APS Hire (CareerPlug) Data Ingest — webhook + Pending Assignment tab + prefill mapping",
+          "blockedStatus": "Backlog",
+          "blockedProject": "EMP"
         },
         {
-          "key": "EMP-883",
-          "summary": "Foundation: Feature 8 schema + pdftk form engine (PdfFormEngineInterface) + form controllers",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "EMP-882",
-              "summary": "Foundation: aps-ui PDF primitives + engine POC (POC done — pdftk/pdf-lib; see 2026-07-10 comment)",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EMP-882",
+          "blockerSummary": "Foundation: aps-ui PDF primitives + engine POC (POC done — pdftk/pdf-lib; see 2026-07-10 comment)",
+          "blockerStatus": "Backlog",
+          "blockerProject": "EMP",
+          "blockedKey": "EMP-887",
+          "blockedSummary": "Feature: EE Step 7 — Documents (review + upload) + Fillable PDF Filler",
+          "blockedStatus": "Backlog",
+          "blockedProject": "EMP"
+        },
+        {
+          "blockerKey": "EMP-883",
+          "blockerSummary": "Foundation: Feature 8 schema + pdftk form engine (PdfFormEngineInterface) + form controllers",
+          "blockerStatus": "Backlog",
+          "blockerProject": "EMP",
+          "blockedKey": "EMP-887",
+          "blockedSummary": "Feature: EE Step 7 — Documents (review + upload) + Fillable PDF Filler",
+          "blockedStatus": "Backlog",
+          "blockedProject": "EMP"
+        },
+        {
+          "blockerKey": "EMP-851",
+          "blockerSummary": "Onboarding documents: CRUD + assignment/action model, copy-on-assign & company-doc picker",
+          "blockerStatus": "In Development",
+          "blockerProject": "EMP",
+          "blockedKey": "EMP-887",
+          "blockedSummary": "Feature: EE Step 7 — Documents (review + upload) + Fillable PDF Filler",
+          "blockedStatus": "Backlog",
+          "blockedProject": "EMP"
+        },
+        {
+          "blockerKey": "EMP-884",
+          "blockerSummary": "Foundation: A_NEW_HIRE_FORMS permission + onboarding_replaces_eip_hires feature flag",
+          "blockerStatus": "Backlog",
+          "blockerProject": "EMP",
+          "blockedKey": "EMP-885",
+          "blockedSummary": "Foundation: HR menu ExtJS host page for New Hire Forms (Feature 8)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "EMP"
+        },
+        {
+          "blockerKey": "EMP-882",
+          "blockerSummary": "Foundation: aps-ui PDF primitives + engine POC (POC done — pdftk/pdf-lib; see 2026-07-10 comment)",
+          "blockerStatus": "Backlog",
+          "blockerProject": "EMP",
+          "blockedKey": "EMP-883",
+          "blockedSummary": "Foundation: Feature 8 schema + pdftk form engine (PdfFormEngineInterface) + form controllers",
+          "blockedStatus": "Backlog",
+          "blockedProject": "EMP"
         }
       ],
+      "dependencyCount": 12,
       "oldestWipAgeDays": 734,
       "agingWipCount": 21,
       "agingWipIssues": [
@@ -699,21 +691,21 @@
           "key": "EMP-825",
           "summary": "Q2 2026 Miscellaneous Employee updates",
           "status": "In Progress",
-          "ageDays": 114
+          "ageDays": 114.1
         }
       ],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 17,
-        "median": 7,
-        "sampleSize": 41
+        "avg": 4.6,
+        "median": 1.4,
+        "sampleSize": 38
       },
       "leadTimeDays": {
         "avg": 68.5,
         "median": 22,
         "sampleSize": 62
       },
-      "flowEfficiencyPct": 24.8,
+      "flowEfficiencyPct": 6.7,
       "throughput7d": 7,
       "throughputWindowTotal": 62,
       "throughputAvgPerWeek": 7.8,
@@ -724,12 +716,12 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T13:56:07.034Z",
-          "weekEnd": "2026-05-27T13:56:07.034Z",
+          "weekStart": "2026-05-20T14:38:09.683Z",
+          "weekEnd": "2026-05-27T14:38:09.683Z",
           "throughput": 7,
-          "cycleTimeAvg": 8.1,
+          "cycleTimeAvg": 3.9,
           "leadTimeAvg": 12.7,
-          "flowEfficiencyPct": 63.8,
+          "flowEfficiencyPct": 30.7,
           "qualityLoopbackRatePct": 28.6,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 7,
@@ -737,12 +729,12 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T13:56:07.034Z",
-          "weekEnd": "2026-06-03T13:56:07.034Z",
+          "weekStart": "2026-05-27T14:38:09.683Z",
+          "weekEnd": "2026-06-03T14:38:09.683Z",
           "throughput": 5,
-          "cycleTimeAvg": 21.5,
+          "cycleTimeAvg": 0.8,
           "leadTimeAvg": 44,
-          "flowEfficiencyPct": 48.9,
+          "flowEfficiencyPct": 1.8,
           "qualityLoopbackRatePct": 40,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 5,
@@ -750,12 +742,12 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T13:56:07.034Z",
-          "weekEnd": "2026-06-10T13:56:07.034Z",
+          "weekStart": "2026-06-03T14:38:09.683Z",
+          "weekEnd": "2026-06-10T14:38:09.683Z",
           "throughput": 6,
-          "cycleTimeAvg": 9.6,
+          "cycleTimeAvg": 3.8,
           "leadTimeAvg": 30.9,
-          "flowEfficiencyPct": 31.1,
+          "flowEfficiencyPct": 12.3,
           "qualityLoopbackRatePct": 16.7,
           "qualityLoopbackCount": 1,
           "qualityLoopbackSampleSize": 6,
@@ -763,12 +755,12 @@
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T13:56:07.034Z",
-          "weekEnd": "2026-06-17T13:56:07.034Z",
+          "weekStart": "2026-06-10T14:38:09.683Z",
+          "weekEnd": "2026-06-17T14:38:09.683Z",
           "throughput": 10,
-          "cycleTimeAvg": 14.8,
+          "cycleTimeAvg": 9.5,
           "leadTimeAvg": 129.3,
-          "flowEfficiencyPct": 11.4,
+          "flowEfficiencyPct": 7.3,
           "qualityLoopbackRatePct": 60,
           "qualityLoopbackCount": 6,
           "qualityLoopbackSampleSize": 10,
@@ -776,12 +768,12 @@
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T13:56:07.034Z",
-          "weekEnd": "2026-06-24T13:56:07.034Z",
+          "weekStart": "2026-06-17T14:38:09.683Z",
+          "weekEnd": "2026-06-24T14:38:09.683Z",
           "throughput": 11,
-          "cycleTimeAvg": 11.8,
+          "cycleTimeAvg": 3.5,
           "leadTimeAvg": 101.1,
-          "flowEfficiencyPct": 11.7,
+          "flowEfficiencyPct": 3.5,
           "qualityLoopbackRatePct": 45.5,
           "qualityLoopbackCount": 5,
           "qualityLoopbackSampleSize": 11,
@@ -789,38 +781,38 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T13:56:07.034Z",
-          "weekEnd": "2026-07-01T13:56:07.034Z",
-          "throughput": 15,
-          "cycleTimeAvg": 4.5,
-          "leadTimeAvg": 9.8,
-          "flowEfficiencyPct": 45.9,
-          "qualityLoopbackRatePct": 6.7,
+          "weekStart": "2026-06-24T14:38:09.683Z",
+          "weekEnd": "2026-07-01T14:38:09.683Z",
+          "throughput": 16,
+          "cycleTimeAvg": 2.9,
+          "leadTimeAvg": 13.6,
+          "flowEfficiencyPct": 21.3,
+          "qualityLoopbackRatePct": 6.3,
           "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 15,
+          "qualityLoopbackSampleSize": 16,
           "aiLeverageRatePct": 0
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T13:56:07.034Z",
-          "weekEnd": "2026-07-08T13:56:07.034Z",
-          "throughput": 1,
-          "cycleTimeAvg": 0.7,
-          "leadTimeAvg": 70.7,
-          "flowEfficiencyPct": 1,
-          "qualityLoopbackRatePct": 0,
+          "weekStart": "2026-07-01T14:38:09.683Z",
+          "weekEnd": "2026-07-08T14:38:09.683Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
           "qualityLoopbackCount": 0,
-          "qualityLoopbackSampleSize": 1,
-          "aiLeverageRatePct": 0
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T13:56:07.034Z",
-          "weekEnd": "2026-07-15T13:56:07.034Z",
+          "weekStart": "2026-07-08T14:38:09.683Z",
+          "weekEnd": "2026-07-15T14:38:09.683Z",
           "throughput": 7,
-          "cycleTimeAvg": 45.8,
+          "cycleTimeAvg": 3.4,
           "leadTimeAvg": 161.5,
-          "flowEfficiencyPct": 28.4,
+          "flowEfficiencyPct": 2.1,
           "qualityLoopbackRatePct": 28.6,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 7,
@@ -831,703 +823,597 @@
     {
       "key": "CORE",
       "wipByStatus": {
-        "Ready for Development": 32,
-        "Ready for QA": 22,
-        "In QA": 4,
         "Backlog": 112,
-        "In Development": 5,
+        "Ready for Development": 32,
         "To Do": 26,
-        "Estimate": 3,
-        "Ready for Code Review": 1,
-        "Ready for Acceptance": 2,
-        "In Progress": 1
+        "Ready for QA": 22,
+        "In Development": 4,
+        "In Progress": 1,
+        "In QA": 3,
+        "Other": 7
       },
-      "wipTotal": 208,
-      "openBlockers": 48,
-      "internalBlockerCount": 48,
-      "externalBlockerCount": 8,
-      "blockedIssues": [
+      "wipTotal": 207,
+      "dependencies": [
         {
-          "key": "CORE-1682",
-          "summary": "Run Payroll Batch React: Payroll Dashboard Tile Link-Wiring",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1682",
+          "blockedSummary": "Run Payroll Batch React: Payroll Dashboard Tile Link-Wiring",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1681",
-          "summary": "Run Payroll Batch React: Account Center Multi-Company Batch View/Review/Release",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            },
-            {
-              "key": "CORE-1676",
-              "summary": "Run Payroll Batch React: Gross-to-Net Review",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1681",
+          "blockedSummary": "Run Payroll Batch React: Account Center Multi-Company Batch View/Review/Release",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1680",
-          "summary": "Run Payroll Batch React: Remote Check Printing Variant",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            },
-            {
-              "key": "CORE-1670",
-              "summary": "Run Payroll Batch React: Step 1 — Enter Batch Details",
-              "status": "In Development",
-              "scope": "internal"
-            },
-            {
-              "key": "CORE-1675",
-              "summary": "Run Payroll Batch React: Step 6 — Batch Report and Submission",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1676",
+          "blockerSummary": "Run Payroll Batch React: Gross-to-Net Review",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1681",
+          "blockedSummary": "Run Payroll Batch React: Account Center Multi-Company Batch View/Review/Release",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1679",
-          "summary": "Run Payroll Batch React: Prepay / ATF Batch Wizard",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1680",
+          "blockedSummary": "Run Payroll Batch React: Remote Check Printing Variant",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1678",
-          "summary": "Run Payroll Batch React: Multi-User Batch Locking",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1670",
+          "blockerSummary": "Run Payroll Batch React: Step 1 — Enter Batch Details",
+          "blockerStatus": "In Development",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1680",
+          "blockedSummary": "Run Payroll Batch React: Remote Check Printing Variant",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1677",
-          "summary": "Run Payroll Batch React: Batch Overrides, Tax Override, Rate Override, Batch Utilities",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1675",
+          "blockerSummary": "Run Payroll Batch React: Step 6 — Batch Report and Submission",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1680",
+          "blockedSummary": "Run Payroll Batch React: Remote Check Printing Variant",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1676",
-          "summary": "Run Payroll Batch React: Gross-to-Net Review",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1679",
+          "blockedSummary": "Run Payroll Batch React: Prepay / ATF Batch Wizard",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1675",
-          "summary": "Run Payroll Batch React: Step 6 — Batch Report and Submission",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1678",
+          "blockedSummary": "Run Payroll Batch React: Multi-User Batch Locking",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1674",
-          "summary": "Run Payroll Batch React: Step 5 — Deductions (Conditional)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1677",
+          "blockedSummary": "Run Payroll Batch React: Batch Overrides, Tax Override, Rate Override, Batch Utilities",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1673",
-          "summary": "Run Payroll Batch React: Step 4 — Time Entry Grid",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1676",
+          "blockedSummary": "Run Payroll Batch React: Gross-to-Net Review",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1672",
-          "summary": "Run Payroll Batch React: Step 3 — Confirm Batch Details",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1675",
+          "blockedSummary": "Run Payroll Batch React: Step 6 — Batch Report and Submission",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1671",
-          "summary": "Run Payroll Batch React: Step 2 — Select Earnings and Deductions",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1674",
+          "blockedSummary": "Run Payroll Batch React: Step 5 — Deductions (Conditional)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1670",
-          "summary": "Run Payroll Batch React: Step 1 — Enter Batch Details",
-          "status": "In Development",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1673",
+          "blockedSummary": "Run Payroll Batch React: Step 4 — Time Entry Grid",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1669",
-          "summary": "Run Payroll Batch React: Batch List Home Screen",
-          "status": "Ready for QA",
-          "blockedBy": [
-            {
-              "key": "CORE-1668",
-              "summary": "Run Payroll Batch React: Foundation",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1672",
+          "blockedSummary": "Run Payroll Batch React: Step 3 — Confirm Batch Details",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1664",
-          "summary": "Report Builder React: Custom Report Query Builder (Page 61)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1662",
-              "summary": "Report Builder React: Foundation — feature flag, host registration, i18n skeleton",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1671",
+          "blockedSummary": "Run Payroll Batch React: Step 2 — Select Earnings and Deductions",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1663",
-          "summary": "Report Builder React: Standard Report Hub (Page 48)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1662",
-              "summary": "Report Builder React: Foundation — feature flag, host registration, i18n skeleton",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1670",
+          "blockedSummary": "Run Payroll Batch React: Step 1 — Enter Batch Details",
+          "blockedStatus": "In Development",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1660",
-          "summary": "Employee Self-Onboarding Form (ui/onboarding/)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1657",
-              "summary": "Foundation: ADD_EMPLOYEE_WIZARD feature flag, host wiring, and PhoneInput story",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1668",
+          "blockerSummary": "Run Payroll Batch React: Foundation",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1669",
+          "blockedSummary": "Run Payroll Batch React: Batch List Home Screen",
+          "blockedStatus": "Ready for QA",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1659",
-          "summary": "Employer-side Add Employee Wizard (React, 4-step full-page replacement)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1657",
-              "summary": "Foundation: ADD_EMPLOYEE_WIZARD feature flag, host wiring, and PhoneInput story",
-              "status": "Backlog",
-              "scope": "internal"
-            },
-            {
-              "key": "CORE-1658",
-              "summary": "SSN Duplicate Check backend endpoint (service/onboarding)",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1662",
+          "blockerSummary": "Report Builder React: Foundation — feature flag, host registration, i18n skeleton",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1664",
+          "blockedSummary": "Report Builder React: Custom Report Query Builder (Page 61)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1658",
-          "summary": "SSN Duplicate Check backend endpoint (service/onboarding)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1657",
-              "summary": "Foundation: ADD_EMPLOYEE_WIZARD feature flag, host wiring, and PhoneInput story",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1662",
+          "blockerSummary": "Report Builder React: Foundation — feature flag, host registration, i18n skeleton",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1663",
+          "blockedSummary": "Report Builder React: Standard Report Hub (Page 48)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1655",
-          "summary": "Integration Setup React: QuickBooks Settings Shell (Page 541)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1652",
-              "summary": "Integration Setup React: Foundation — feature flag, host registration, i18n skeleton",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1657",
+          "blockerSummary": "Foundation: ADD_EMPLOYEE_WIZARD feature flag, host wiring, and PhoneInput story",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1660",
+          "blockedSummary": "Employee Self-Onboarding Form (ui/onboarding/)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1654",
-          "summary": "Integration Setup React: Admin Settings Hub (Page 540)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1652",
-              "summary": "Integration Setup React: Foundation — feature flag, host registration, i18n skeleton",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1657",
+          "blockerSummary": "Foundation: ADD_EMPLOYEE_WIZARD feature flag, host wiring, and PhoneInput story",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1659",
+          "blockedSummary": "Employer-side Add Employee Wizard (React, 4-step full-page replacement)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1653",
-          "summary": "Integration Setup React: Integration Hub (Page 160)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1652",
-              "summary": "Integration Setup React: Foundation — feature flag, host registration, i18n skeleton",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1658",
+          "blockerSummary": "SSN Duplicate Check backend endpoint (service/onboarding)",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1659",
+          "blockedSummary": "Employer-side Add Employee Wizard (React, 4-step full-page replacement)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1649",
-          "summary": "Company Setup React: ESS Configuration",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1643",
-              "summary": "Company Setup React: Admin Console Shell",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1657",
+          "blockerSummary": "Foundation: ADD_EMPLOYEE_WIZARD feature flag, host wiring, and PhoneInput story",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1658",
+          "blockedSummary": "SSN Duplicate Check backend endpoint (service/onboarding)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1648",
-          "summary": "Company Setup React: Attendance Setup",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1643",
-              "summary": "Company Setup React: Admin Console Shell",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1652",
+          "blockerSummary": "Integration Setup React: Foundation — feature flag, host registration, i18n skeleton",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1655",
+          "blockedSummary": "Integration Setup React: QuickBooks Settings Shell (Page 541)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1647",
-          "summary": "Company Setup React: General Ledger Setup",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1643",
-              "summary": "Company Setup React: Admin Console Shell",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1652",
+          "blockerSummary": "Integration Setup React: Foundation — feature flag, host registration, i18n skeleton",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1654",
+          "blockedSummary": "Integration Setup React: Admin Settings Hub (Page 540)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1646",
-          "summary": "Company Setup React: Core Settings Pages",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1643",
-              "summary": "Company Setup React: Admin Console Shell",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1652",
+          "blockerSummary": "Integration Setup React: Foundation — feature flag, host registration, i18n skeleton",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1653",
+          "blockedSummary": "Integration Setup React: Integration Hub (Page 160)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1645",
-          "summary": "Company Setup React: Wire-In Nine Existing React Pages",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1643",
-              "summary": "Company Setup React: Admin Console Shell",
-              "status": "Backlog",
-              "scope": "internal"
-            },
-            {
-              "key": "CORE-1644",
-              "summary": "Company Setup React: Storybook Backfill — Eight Existing React Admin Pages",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1650",
+          "blockerSummary": "Company Setup React: Foundation — feature flag, host registration, i18n skeleton",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1643",
+          "blockedSummary": "Company Setup React: Admin Console Shell",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1644",
-          "summary": "Company Setup React: Storybook Backfill — Eight Existing React Admin Pages",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1650",
-              "summary": "Company Setup React: Foundation — feature flag, host registration, i18n skeleton",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1650",
+          "blockerSummary": "Company Setup React: Foundation — feature flag, host registration, i18n skeleton",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1644",
+          "blockedSummary": "Company Setup React: Storybook Backfill — Eight Existing React Admin Pages",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1643",
-          "summary": "Company Setup React: Admin Console Shell",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1650",
-              "summary": "Company Setup React: Foundation — feature flag, host registration, i18n skeleton",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1643",
+          "blockerSummary": "Company Setup React: Admin Console Shell",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1649",
+          "blockedSummary": "Company Setup React: ESS Configuration",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1633",
-          "summary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "BOA-1916",
-              "summary": "BOA - Gazelle | W-2 EFW2 mag-media update for new Box 12 codes (TP, TT, TA)",
-              "status": "Backlog",
-              "scope": "external"
-            },
-            {
-              "key": "BOA-1914",
-              "summary": "BOA - Gazelle | W-2 Box 12 Code TT — No Tax on Overtime Premium population",
-              "status": "Backlog",
-              "scope": "external"
-            },
-            {
-              "key": "BOA-1915",
-              "summary": "BOA - Gazelle | W-2 Box 14a/b — TTOC (Tipped Occupation Code) population",
-              "status": "Backlog",
-              "scope": "external"
-            },
-            {
-              "key": "BOA-1913",
-              "summary": "BOA - Gazelle | W-2 Box 12 Code TP — No Tax on Tips population",
-              "status": "Backlog",
-              "scope": "external"
-            }
-          ]
+          "blockerKey": "CORE-1643",
+          "blockerSummary": "Company Setup React: Admin Console Shell",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1648",
+          "blockedSummary": "Company Setup React: Attendance Setup",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1627",
-          "summary": "[QA Testing] Employee List Dashboard — Permission-based change-type filtering (post APCOM-321)",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "APCOM-321",
-              "summary": "[Internal API][EIP] Permission-based change-type filtering on EmployeeChangeRequests endpoints",
-              "status": "In Development",
-              "scope": "external"
-            }
-          ]
+          "blockerKey": "CORE-1643",
+          "blockerSummary": "Company Setup React: Admin Console Shell",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1647",
+          "blockedSummary": "Company Setup React: General Ledger Setup",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1606",
-          "summary": "EE Record React — Promote EMPLOYEE_RECORD_REACT flag to GA, remove legacy ExtJS page",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1605",
-              "summary": "EE Record React — TRS, OSHA, Assets, HR Training tabs (dynamic engine consumers)",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1643",
+          "blockerSummary": "Company Setup React: Admin Console Shell",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1646",
+          "blockedSummary": "Company Setup React: Core Settings Pages",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1605",
-          "summary": "EE Record React — TRS, OSHA, Assets, HR Training tabs (dynamic engine consumers)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1603",
-              "summary": "EE Record React — layout_dyn_* dynamic fields engine (DynamicFieldsEngine component)",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1643",
+          "blockerSummary": "Company Setup React: Admin Console Shell",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1645",
+          "blockedSummary": "Company Setup React: Wire-In Nine Existing React Pages",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1604",
-          "summary": "EE Record React — Custom Fields tab (first DynamicFieldsEngine consumer)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1603",
-              "summary": "EE Record React — layout_dyn_* dynamic fields engine (DynamicFieldsEngine component)",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1644",
+          "blockerSummary": "Company Setup React: Storybook Backfill — Eight Existing React Admin Pages",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1645",
+          "blockedSummary": "Company Setup React: Wire-In Nine Existing React Pages",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1603",
-          "summary": "EE Record React — layout_dyn_* dynamic fields engine (DynamicFieldsEngine component)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1596",
-              "summary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "BOA-1916",
+          "blockerSummary": "BOA - Gazelle | W-2 EFW2 mag-media update for new Box 12 codes (TP, TT, TA)",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "CORE-1633",
+          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1602",
-          "summary": "EE Record React — Documents tab + Termination wizard wiring (closes EXP-863)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1596",
-              "summary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "BOA-1914",
+          "blockerSummary": "BOA - Gazelle | W-2 Box 12 Code TT — No Tax on Overtime Premium population",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "CORE-1633",
+          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1601",
-          "summary": "EE Record React — Benefits, Time Profiles, and Leave Accruals tabs",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1596",
-              "summary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "BOA-1915",
+          "blockerSummary": "BOA - Gazelle | W-2 Box 14a/b — TTOC (Tipped Occupation Code) population",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "CORE-1633",
+          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1600",
-          "summary": "EE Record React — Deductions tab",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1596",
-              "summary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "BOA-1913",
+          "blockerSummary": "BOA - Gazelle | W-2 Box 12 Code TP — No Tax on Tips population",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "CORE-1633",
+          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1599",
-          "summary": "EE Record React — Pay tab (multi-tier permission gating + effective-dating)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1596",
-              "summary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "APCOM-321",
+          "blockerSummary": "[Internal API][EIP] Permission-based change-type filtering on EmployeeChangeRequests endpoints",
+          "blockerStatus": "In Development",
+          "blockerProject": "APCOM",
+          "blockedKey": "CORE-1627",
+          "blockedSummary": "[QA Testing] Employee List Dashboard — Permission-based change-type filtering (post APCOM-321)",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1598",
-          "summary": "EE Record React — Employment tab (effective-dating reference implementation)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1596",
-              "summary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1605",
+          "blockerSummary": "EE Record React — TRS, OSHA, Assets, HR Training tabs (dynamic engine consumers)",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1606",
+          "blockedSummary": "EE Record React — Promote EMPLOYEE_RECORD_REACT flag to GA, remove legacy ExtJS page",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1597",
-          "summary": "EE Record React — Identity, Demographics, and Notes tabs",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "CORE-1596",
-              "summary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1603",
+          "blockerSummary": "EE Record React — layout_dyn_* dynamic fields engine (DynamicFieldsEngine component)",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1605",
+          "blockedSummary": "EE Record React — TRS, OSHA, Assets, HR Training tabs (dynamic engine consumers)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1586",
-          "summary": "Year End 2026: Tax Settings in Online",
-          "status": "Estimate",
-          "blockedBy": [
-            {
-              "key": "BOA-1912",
-              "summary": "Year-End 2026: Terminated Clients Before Year-End",
-              "status": "Ready for Acceptance",
-              "scope": "external"
-            }
-          ]
+          "blockerKey": "CORE-1603",
+          "blockerSummary": "EE Record React — layout_dyn_* dynamic fields engine (DynamicFieldsEngine component)",
+          "blockerStatus": "Backlog",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1604",
+          "blockedSummary": "EE Record React — Custom Fields tab (first DynamicFieldsEngine consumer)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1543",
-          "summary": "Fringe Benefits - Prepay Checks",
-          "status": "Ready for QA",
-          "blockedBy": [
-            {
-              "key": "CORE-1542",
-              "summary": "Fringe Benefits - Batch",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1596",
+          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
+          "blockerStatus": "In Development",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1603",
+          "blockedSummary": "EE Record React — layout_dyn_* dynamic fields engine (DynamicFieldsEngine component)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1525",
-          "summary": "Year-End 2026: Terminated Clients Before Year-End",
-          "status": "Estimate",
-          "blockedBy": [
-            {
-              "key": "BOA-1912",
-              "summary": "Year-End 2026: Terminated Clients Before Year-End",
-              "status": "Ready for Acceptance",
-              "scope": "external"
-            }
-          ]
+          "blockerKey": "CORE-1596",
+          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
+          "blockerStatus": "In Development",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1602",
+          "blockedSummary": "EE Record React — Documents tab + Termination wizard wiring (closes EXP-863)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-1520",
-          "summary": "Payroll Comparison Report : System Admins",
-          "status": "In QA",
-          "blockedBy": [
-            {
-              "key": "CORE-1519",
-              "summary": "Payroll Comparison Report Updates",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1596",
+          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
+          "blockerStatus": "In Development",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1601",
+          "blockedSummary": "EE Record React — Benefits, Time Profiles, and Leave Accruals tabs",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-908",
-          "summary": "Employees tied to Inactive Department - Payroll Warning",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "CORE-1547",
-              "summary": "Stopping Payroll Errors - Move to Step 5 of Batch",
-              "status": "Ready for QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1596",
+          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
+          "blockerStatus": "In Development",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1600",
+          "blockedSummary": "EE Record React — Deductions tab",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-857",
-          "summary": "Restrictions for EE name, EE address",
-          "status": "Ready for QA",
-          "blockedBy": [
-            {
-              "key": "SI-726",
-              "summary": "Employee Console> Employee Approvals not showing eip_detail error message for invalid characters. ",
-              "status": "In Progress",
-              "scope": "external"
-            }
-          ]
+          "blockerKey": "CORE-1596",
+          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
+          "blockerStatus": "In Development",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1599",
+          "blockedSummary": "EE Record React — Pay tab (multi-tier permission gating + effective-dating)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
         },
         {
-          "key": "CORE-715",
-          "summary": "Prepay checks using dollar type incomes not calculating amounts",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "CORE-1546",
-              "summary": "Gross-Up Payroll Enhancements - Multiple Incomes",
-              "status": "In QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "CORE-1596",
+          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
+          "blockerStatus": "In Development",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1598",
+          "blockedSummary": "EE Record React — Employment tab (effective-dating reference implementation)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
+        },
+        {
+          "blockerKey": "CORE-1596",
+          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
+          "blockerStatus": "In Development",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1597",
+          "blockedSummary": "EE Record React — Identity, Demographics, and Notes tabs",
+          "blockedStatus": "Backlog",
+          "blockedProject": "CORE"
+        },
+        {
+          "blockerKey": "BOA-1912",
+          "blockerSummary": "Year-End 2026: Terminated Clients Before Year-End",
+          "blockerStatus": "Ready for Acceptance",
+          "blockerProject": "BOA",
+          "blockedKey": "CORE-1586",
+          "blockedSummary": "Year End 2026: Tax Settings in Online",
+          "blockedStatus": "Estimate",
+          "blockedProject": "CORE"
+        },
+        {
+          "blockerKey": "CORE-1547",
+          "blockerSummary": "Stopping Payroll Errors - Move to Step 5 of Batch",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-908",
+          "blockedSummary": "Employees tied to Inactive Department - Payroll Warning",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "CORE"
+        },
+        {
+          "blockerKey": "CORE-1546",
+          "blockerSummary": "Gross-Up Payroll Enhancements - Multiple Incomes",
+          "blockerStatus": "In QA",
+          "blockerProject": "CORE",
+          "blockedKey": "BOA-1850",
+          "blockedSummary": "BOA - Lioness | Allow multiple incomes on gross-up batches",
+          "blockedStatus": "Ready for Acceptance",
+          "blockedProject": "BOA"
+        },
+        {
+          "blockerKey": "CORE-1546",
+          "blockerSummary": "Gross-Up Payroll Enhancements - Multiple Incomes",
+          "blockerStatus": "In QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-715",
+          "blockedSummary": "Prepay checks using dollar type incomes not calculating amounts",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "CORE"
+        },
+        {
+          "blockerKey": "CORE-1542",
+          "blockerSummary": "Fringe Benefits - Batch",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1543",
+          "blockedSummary": "Fringe Benefits - Prepay Checks",
+          "blockedStatus": "Ready for QA",
+          "blockedProject": "CORE"
+        },
+        {
+          "blockerKey": "BOA-1912",
+          "blockerSummary": "Year-End 2026: Terminated Clients Before Year-End",
+          "blockerStatus": "Ready for Acceptance",
+          "blockerProject": "BOA",
+          "blockedKey": "CORE-1525",
+          "blockedSummary": "Year-End 2026: Terminated Clients Before Year-End",
+          "blockedStatus": "Estimate",
+          "blockedProject": "CORE"
+        },
+        {
+          "blockerKey": "CORE-1519",
+          "blockerSummary": "Payroll Comparison Report Updates",
+          "blockerStatus": "Ready for QA",
+          "blockerProject": "CORE",
+          "blockedKey": "CORE-1520",
+          "blockedSummary": "Payroll Comparison Report : System Admins",
+          "blockedStatus": "In QA",
+          "blockedProject": "CORE"
+        },
+        {
+          "blockerKey": "SI-726",
+          "blockerSummary": "Employee Console> Employee Approvals not showing eip_detail error message for invalid characters. ",
+          "blockerStatus": "In Progress",
+          "blockerProject": "SI",
+          "blockedKey": "CORE-857",
+          "blockedSummary": "Restrictions for EE name, EE address",
+          "blockedStatus": "Ready for QA",
+          "blockedProject": "CORE"
         }
       ],
-      "oldestWipAgeDays": 2272.6,
-      "agingWipCount": 181,
+      "dependencyCount": 57,
+      "oldestWipAgeDays": 2272.7,
+      "agingWipCount": 180,
       "agingWipIssues": [
         {
           "key": "CORE-71",
           "summary": "FE to systematically update Gazelle when provider changes in Online.  Affects clients using EB for Cobra.",
           "status": "Backlog",
-          "ageDays": 2272.6
+          "ageDays": 2272.7
         },
         {
           "key": "CORE-166",
@@ -1556,28 +1442,28 @@
       ],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 23.3,
-        "median": 10.1,
-        "sampleSize": 76
+        "avg": 5.6,
+        "median": 2.9,
+        "sampleSize": 69
       },
       "leadTimeDays": {
-        "avg": 193.6,
-        "median": 71.5,
-        "sampleSize": 110
+        "avg": 196.1,
+        "median": 72.9,
+        "sampleSize": 111
       },
-      "flowEfficiencyPct": 12,
-      "throughput7d": 16,
-      "throughputWindowTotal": 110,
-      "throughputAvgPerWeek": 13.8,
-      "qualityLoopbackRatePct": 22.7,
-      "qualityLoopbackCount": 25,
-      "qualityLoopbackSampleSize": 110,
+      "flowEfficiencyPct": 2.9,
+      "throughput7d": 17,
+      "throughputWindowTotal": 111,
+      "throughputAvgPerWeek": 13.9,
+      "qualityLoopbackRatePct": 23.4,
+      "qualityLoopbackCount": 26,
+      "qualityLoopbackSampleSize": 111,
       "aiLeverageRatePct": 0.9,
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T13:56:08.054Z",
-          "weekEnd": "2026-05-27T13:56:08.054Z",
+          "weekStart": "2026-05-20T14:38:11.088Z",
+          "weekEnd": "2026-05-27T14:38:11.088Z",
           "throughput": 0,
           "cycleTimeAvg": null,
           "leadTimeAvg": null,
@@ -1589,12 +1475,12 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T13:56:08.054Z",
-          "weekEnd": "2026-06-03T13:56:08.054Z",
+          "weekStart": "2026-05-27T14:38:11.088Z",
+          "weekEnd": "2026-06-03T14:38:11.088Z",
           "throughput": 5,
-          "cycleTimeAvg": 42,
+          "cycleTimeAvg": 10.2,
           "leadTimeAvg": 65,
-          "flowEfficiencyPct": 64.6,
+          "flowEfficiencyPct": 15.7,
           "qualityLoopbackRatePct": 40,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 5,
@@ -1602,12 +1488,12 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T13:56:08.054Z",
-          "weekEnd": "2026-06-10T13:56:08.054Z",
+          "weekStart": "2026-06-03T14:38:11.088Z",
+          "weekEnd": "2026-06-10T14:38:11.088Z",
           "throughput": 11,
-          "cycleTimeAvg": 62.2,
+          "cycleTimeAvg": 5.1,
           "leadTimeAvg": 72.1,
-          "flowEfficiencyPct": 86.3,
+          "flowEfficiencyPct": 7.1,
           "qualityLoopbackRatePct": 36.4,
           "qualityLoopbackCount": 4,
           "qualityLoopbackSampleSize": 11,
@@ -1615,38 +1501,38 @@
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T13:56:08.054Z",
-          "weekEnd": "2026-06-17T13:56:08.054Z",
-          "throughput": 28,
-          "cycleTimeAvg": 19.3,
-          "leadTimeAvg": 131.8,
-          "flowEfficiencyPct": 14.6,
-          "qualityLoopbackRatePct": 14.3,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 28,
+          "weekStart": "2026-06-10T14:38:11.088Z",
+          "weekEnd": "2026-06-17T14:38:11.088Z",
+          "throughput": 34,
+          "cycleTimeAvg": 3.6,
+          "leadTimeAvg": 120.3,
+          "flowEfficiencyPct": 3,
+          "qualityLoopbackRatePct": 14.7,
+          "qualityLoopbackCount": 5,
+          "qualityLoopbackSampleSize": 34,
           "aiLeverageRatePct": 0
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T13:56:08.054Z",
-          "weekEnd": "2026-06-24T13:56:08.054Z",
-          "throughput": 24,
-          "cycleTimeAvg": 17.2,
-          "leadTimeAvg": 117.2,
-          "flowEfficiencyPct": 14.7,
-          "qualityLoopbackRatePct": 25,
-          "qualityLoopbackCount": 6,
-          "qualityLoopbackSampleSize": 24,
+          "weekStart": "2026-06-17T14:38:11.088Z",
+          "weekEnd": "2026-06-24T14:38:11.088Z",
+          "throughput": 18,
+          "cycleTimeAvg": 4.7,
+          "leadTimeAvg": 133.9,
+          "flowEfficiencyPct": 3.5,
+          "qualityLoopbackRatePct": 27.8,
+          "qualityLoopbackCount": 5,
+          "qualityLoopbackSampleSize": 18,
           "aiLeverageRatePct": 0
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T13:56:08.054Z",
-          "weekEnd": "2026-07-01T13:56:08.054Z",
+          "weekStart": "2026-06-24T14:38:11.088Z",
+          "weekEnd": "2026-07-01T14:38:11.088Z",
           "throughput": 23,
-          "cycleTimeAvg": 9.8,
+          "cycleTimeAvg": 3.8,
           "leadTimeAvg": 407,
-          "flowEfficiencyPct": 2.4,
+          "flowEfficiencyPct": 0.9,
           "qualityLoopbackRatePct": 17.4,
           "qualityLoopbackCount": 4,
           "qualityLoopbackSampleSize": 23,
@@ -1654,12 +1540,12 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T13:56:08.054Z",
-          "weekEnd": "2026-07-08T13:56:08.054Z",
+          "weekStart": "2026-07-01T14:38:11.088Z",
+          "weekEnd": "2026-07-08T14:38:11.088Z",
           "throughput": 3,
-          "cycleTimeAvg": 4.6,
+          "cycleTimeAvg": 0.9,
           "leadTimeAvg": 338.3,
-          "flowEfficiencyPct": 1.4,
+          "flowEfficiencyPct": 0.3,
           "qualityLoopbackRatePct": 33.3,
           "qualityLoopbackCount": 1,
           "qualityLoopbackSampleSize": 3,
@@ -1667,15 +1553,15 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T13:56:08.054Z",
-          "weekEnd": "2026-07-15T13:56:08.054Z",
-          "throughput": 16,
-          "cycleTimeAvg": 18.9,
-          "leadTimeAvg": 206.5,
-          "flowEfficiencyPct": 9.2,
-          "qualityLoopbackRatePct": 25,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 16,
+          "weekStart": "2026-07-08T14:38:11.088Z",
+          "weekEnd": "2026-07-15T14:38:11.088Z",
+          "throughput": 17,
+          "cycleTimeAvg": 8.7,
+          "leadTimeAvg": 221.6,
+          "flowEfficiencyPct": 3.9,
+          "qualityLoopbackRatePct": 29.4,
+          "qualityLoopbackCount": 5,
+          "qualityLoopbackSampleSize": 17,
           "aiLeverageRatePct": 0
         }
       ]
@@ -1683,187 +1569,149 @@
     {
       "key": "MOBILE",
       "wipByStatus": {
-        "Estimate": 2,
         "Backlog": 29,
-        "Design Review": 1,
+        "Ready for Development": 5,
         "To Do": 20,
-        "Ready for QA": 1,
-        "Ready for Development": 4,
-        "In QA": 2,
-        "Ready for Acceptance": 3,
-        "Acceptance": 1,
-        "Ready for Code Review": 2,
+        "Ready for QA": 0,
         "In Development": 2,
-        "In Progress": 11
+        "In Progress": 11,
+        "In QA": 2,
+        "Other": 9
       },
       "wipTotal": 78,
-      "openBlockers": 12,
-      "internalBlockerCount": 12,
-      "externalBlockerCount": 1,
-      "blockedIssues": [
+      "dependencies": [
         {
-          "key": "MOBILE-1060",
-          "summary": "Mobile: Storybook [W7] — generic/progressBar story (BLOCKED: wave-2)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "MOBILE-1061",
-              "summary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "MOBILE-1061",
+          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
+          "blockerStatus": "Backlog",
+          "blockerProject": "MOBILE",
+          "blockedKey": "MOBILE-1054",
+          "blockedSummary": "Mobile: Storybook [W1] — generic/textInput story (BLOCKED: wave-2)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "MOBILE"
         },
         {
-          "key": "MOBILE-1059",
-          "summary": "Mobile: Storybook [W6] — generic/pagerView story (BLOCKED: wave-2)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "MOBILE-1061",
-              "summary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "MOBILE-1061",
+          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
+          "blockerStatus": "Backlog",
+          "blockerProject": "MOBILE",
+          "blockedKey": "MOBILE-1056",
+          "blockedSummary": "Mobile: Storybook [W3] — generic/dateSelector story (BLOCKED: wave-2)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "MOBILE"
         },
         {
-          "key": "MOBILE-1058",
-          "summary": "Mobile: Storybook [W5] — generic/textInputWithInlineError story (BLOCKED: wave-2, suspected)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "MOBILE-1061",
-              "summary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "MOBILE-1061",
+          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
+          "blockerStatus": "Backlog",
+          "blockerProject": "MOBILE",
+          "blockedKey": "MOBILE-1057",
+          "blockedSummary": "Mobile: Storybook [W4] — generic/textInputWIthNumber story (BLOCKED: wave-2)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "MOBILE"
         },
         {
-          "key": "MOBILE-1057",
-          "summary": "Mobile: Storybook [W4] — generic/textInputWIthNumber story (BLOCKED: wave-2)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "MOBILE-1061",
-              "summary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "MOBILE-1061",
+          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
+          "blockerStatus": "Backlog",
+          "blockerProject": "MOBILE",
+          "blockedKey": "MOBILE-1058",
+          "blockedSummary": "Mobile: Storybook [W5] — generic/textInputWithInlineError story (BLOCKED: wave-2, suspected)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "MOBILE"
         },
         {
-          "key": "MOBILE-1056",
-          "summary": "Mobile: Storybook [W3] — generic/dateSelector story (BLOCKED: wave-2)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "MOBILE-1061",
-              "summary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "MOBILE-1061",
+          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
+          "blockerStatus": "Backlog",
+          "blockerProject": "MOBILE",
+          "blockedKey": "MOBILE-1059",
+          "blockedSummary": "Mobile: Storybook [W6] — generic/pagerView story (BLOCKED: wave-2)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "MOBILE"
         },
         {
-          "key": "MOBILE-1054",
-          "summary": "Mobile: Storybook [W1] — generic/textInput story (BLOCKED: wave-2)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "MOBILE-1061",
-              "summary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "MOBILE-1061",
+          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
+          "blockerStatus": "Backlog",
+          "blockerProject": "MOBILE",
+          "blockedKey": "MOBILE-1060",
+          "blockedSummary": "Mobile: Storybook [W7] — generic/progressBar story (BLOCKED: wave-2)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "MOBILE"
         },
         {
-          "key": "MOBILE-1027",
-          "summary": "Mobile: Storybook [FC5] — cards/newsfeedPostCard story",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "MOBILE-1023",
-              "summary": "Mobile: Storybook [FC1] — cards/payCard story (exemplar, loading/empty/error via props)",
-              "status": "Ready for Acceptance",
-              "scope": "internal"
-            },
-            {
-              "key": "MOBILE-1061",
-              "summary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "MOBILE-1061",
+          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
+          "blockerStatus": "Backlog",
+          "blockerProject": "MOBILE",
+          "blockedKey": "MOBILE-1027",
+          "blockedSummary": "Mobile: Storybook [FC5] — cards/newsfeedPostCard story",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "MOBILE"
         },
         {
-          "key": "MOBILE-1026",
-          "summary": "Mobile: Storybook [FC4] — cards/employeeTimeOffCard story",
-          "status": "In QA",
-          "blockedBy": [
-            {
-              "key": "MOBILE-1023",
-              "summary": "Mobile: Storybook [FC1] — cards/payCard story (exemplar, loading/empty/error via props)",
-              "status": "Ready for Acceptance",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "MOBILE-1023",
+          "blockerSummary": "Mobile: Storybook [FC1] — cards/payCard story (exemplar, loading/empty/error via props)",
+          "blockerStatus": "Ready for Acceptance",
+          "blockerProject": "MOBILE",
+          "blockedKey": "MOBILE-1027",
+          "blockedSummary": "Mobile: Storybook [FC5] — cards/newsfeedPostCard story",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "MOBILE"
         },
         {
-          "key": "MOBILE-1025",
-          "summary": "Mobile: Storybook [FC3] — cards/directDepositCard story",
-          "status": "Ready for Acceptance",
-          "blockedBy": [
-            {
-              "key": "MOBILE-1023",
-              "summary": "Mobile: Storybook [FC1] — cards/payCard story (exemplar, loading/empty/error via props)",
-              "status": "Ready for Acceptance",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "MOBILE-1023",
+          "blockerSummary": "Mobile: Storybook [FC1] — cards/payCard story (exemplar, loading/empty/error via props)",
+          "blockerStatus": "Ready for Acceptance",
+          "blockerProject": "MOBILE",
+          "blockedKey": "MOBILE-1026",
+          "blockedSummary": "Mobile: Storybook [FC4] — cards/employeeTimeOffCard story",
+          "blockedStatus": "In QA",
+          "blockedProject": "MOBILE"
         },
         {
-          "key": "MOBILE-1024",
-          "summary": "Mobile: Storybook [FC2] — cards/accrualBalanceCard story",
-          "status": "Ready for Acceptance",
-          "blockedBy": [
-            {
-              "key": "MOBILE-1023",
-              "summary": "Mobile: Storybook [FC1] — cards/payCard story (exemplar, loading/empty/error via props)",
-              "status": "Ready for Acceptance",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "MOBILE-1023",
+          "blockerSummary": "Mobile: Storybook [FC1] — cards/payCard story (exemplar, loading/empty/error via props)",
+          "blockerStatus": "Ready for Acceptance",
+          "blockerProject": "MOBILE",
+          "blockedKey": "MOBILE-1025",
+          "blockedSummary": "Mobile: Storybook [FC3] — cards/directDepositCard story",
+          "blockedStatus": "Ready for Acceptance",
+          "blockedProject": "MOBILE"
         },
         {
-          "key": "MOBILE-974",
-          "summary": "Cross-platform calculation parity QA (fixture-set verification)",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "INV-935",
-              "summary": "APS-Online: migrate MileageCalcMap to Routes API New + Places API New",
-              "status": "In Development",
-              "scope": "external"
-            }
-          ]
+          "blockerKey": "MOBILE-1023",
+          "blockerSummary": "Mobile: Storybook [FC1] — cards/payCard story (exemplar, loading/empty/error via props)",
+          "blockerStatus": "Ready for Acceptance",
+          "blockerProject": "MOBILE",
+          "blockedKey": "MOBILE-1024",
+          "blockedSummary": "Mobile: Storybook [FC2] — cards/accrualBalanceCard story",
+          "blockedStatus": "Ready for Acceptance",
+          "blockedProject": "MOBILE"
         },
         {
-          "key": "MOBILE-945",
-          "summary": "Reduce Buddy Punching on Tablet",
-          "status": "To Do",
-          "blockedBy": [
-            {
-              "key": "MOBILE-983",
-              "summary": "Tablet: Offline punching",
-              "status": "To Do",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "MOBILE-983",
+          "blockerSummary": "Tablet: Offline punching",
+          "blockerStatus": "To Do",
+          "blockerProject": "MOBILE",
+          "blockedKey": "MOBILE-945",
+          "blockedSummary": "Reduce Buddy Punching on Tablet",
+          "blockedStatus": "To Do",
+          "blockedProject": "MOBILE"
+        },
+        {
+          "blockerKey": "INV-935",
+          "blockerSummary": "APS-Online: migrate MileageCalcMap to Routes API New + Places API New",
+          "blockerStatus": "In Development",
+          "blockerProject": "INV",
+          "blockedKey": "MOBILE-974",
+          "blockedSummary": "Cross-platform calculation parity QA (fixture-set verification)",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "MOBILE"
         }
       ],
+      "dependencyCount": 13,
       "oldestWipAgeDays": 734,
       "agingWipCount": 49,
       "agingWipIssues": [
@@ -1883,33 +1731,33 @@
           "key": "MOBILE-211",
           "summary": "Expense Reimbursements - Mobile",
           "status": "In Progress",
-          "ageDays": 608.7
+          "ageDays": 608.8
         },
         {
           "key": "MOBILE-252",
           "summary": "Shift Trading - Mobile",
           "status": "To Do",
-          "ageDays": 589.7
+          "ageDays": 589.8
         },
         {
           "key": "MOBILE-251",
           "summary": "Employee Availability - Mobile",
           "status": "To Do",
-          "ageDays": 589.7
+          "ageDays": 589.8
         }
       ],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 23.8,
-        "median": 11,
-        "sampleSize": 59
+        "avg": 5.2,
+        "median": 2.1,
+        "sampleSize": 53
       },
       "leadTimeDays": {
         "avg": 36.2,
         "median": 22.3,
         "sampleSize": 66
       },
-      "flowEfficiencyPct": 65.7,
+      "flowEfficiencyPct": 14.4,
       "throughput7d": 10,
       "throughputWindowTotal": 66,
       "throughputAvgPerWeek": 8.3,
@@ -1920,12 +1768,12 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T13:56:11.298Z",
-          "weekEnd": "2026-05-27T13:56:11.298Z",
+          "weekStart": "2026-05-20T14:38:14.090Z",
+          "weekEnd": "2026-05-27T14:38:14.090Z",
           "throughput": 6,
-          "cycleTimeAvg": 74.3,
+          "cycleTimeAvg": 10.8,
           "leadTimeAvg": 69.5,
-          "flowEfficiencyPct": 106.9,
+          "flowEfficiencyPct": 15.5,
           "qualityLoopbackRatePct": 33.3,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 6,
@@ -1933,12 +1781,12 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T13:56:11.298Z",
-          "weekEnd": "2026-06-03T13:56:11.298Z",
+          "weekStart": "2026-05-27T14:38:14.090Z",
+          "weekEnd": "2026-06-03T14:38:14.090Z",
           "throughput": 8,
-          "cycleTimeAvg": 17.5,
+          "cycleTimeAvg": 6,
           "leadTimeAvg": 18.1,
-          "flowEfficiencyPct": 96.7,
+          "flowEfficiencyPct": 33.1,
           "qualityLoopbackRatePct": 37.5,
           "qualityLoopbackCount": 3,
           "qualityLoopbackSampleSize": 8,
@@ -1946,12 +1794,12 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T13:56:11.298Z",
-          "weekEnd": "2026-06-10T13:56:11.298Z",
+          "weekStart": "2026-06-03T14:38:14.090Z",
+          "weekEnd": "2026-06-10T14:38:14.090Z",
           "throughput": 6,
-          "cycleTimeAvg": 12.3,
+          "cycleTimeAvg": 3.8,
           "leadTimeAvg": 17.6,
-          "flowEfficiencyPct": 69.9,
+          "flowEfficiencyPct": 21.6,
           "qualityLoopbackRatePct": 16.7,
           "qualityLoopbackCount": 1,
           "qualityLoopbackSampleSize": 6,
@@ -1959,12 +1807,12 @@
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T13:56:11.298Z",
-          "weekEnd": "2026-06-17T13:56:11.298Z",
+          "weekStart": "2026-06-10T14:38:14.090Z",
+          "weekEnd": "2026-06-17T14:38:14.090Z",
           "throughput": 13,
-          "cycleTimeAvg": 14.3,
+          "cycleTimeAvg": 7.3,
           "leadTimeAvg": 21.3,
-          "flowEfficiencyPct": 67.1,
+          "flowEfficiencyPct": 34.3,
           "qualityLoopbackRatePct": 30.8,
           "qualityLoopbackCount": 4,
           "qualityLoopbackSampleSize": 13,
@@ -1972,12 +1820,12 @@
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T13:56:11.298Z",
-          "weekEnd": "2026-06-24T13:56:11.298Z",
+          "weekStart": "2026-06-17T14:38:14.090Z",
+          "weekEnd": "2026-06-24T14:38:14.090Z",
           "throughput": 5,
-          "cycleTimeAvg": 3.2,
+          "cycleTimeAvg": 0,
           "leadTimeAvg": 9.3,
-          "flowEfficiencyPct": 34.4,
+          "flowEfficiencyPct": 0,
           "qualityLoopbackRatePct": 0,
           "qualityLoopbackCount": 0,
           "qualityLoopbackSampleSize": 5,
@@ -1985,12 +1833,12 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T13:56:11.298Z",
-          "weekEnd": "2026-07-01T13:56:11.298Z",
+          "weekStart": "2026-06-24T14:38:14.090Z",
+          "weekEnd": "2026-07-01T14:38:14.090Z",
           "throughput": 11,
-          "cycleTimeAvg": 59.6,
+          "cycleTimeAvg": 6.5,
           "leadTimeAvg": 61.8,
-          "flowEfficiencyPct": 96.4,
+          "flowEfficiencyPct": 10.5,
           "qualityLoopbackRatePct": 36.4,
           "qualityLoopbackCount": 4,
           "qualityLoopbackSampleSize": 11,
@@ -1998,12 +1846,12 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T13:56:11.298Z",
-          "weekEnd": "2026-07-08T13:56:11.298Z",
+          "weekStart": "2026-07-01T14:38:14.090Z",
+          "weekEnd": "2026-07-08T14:38:14.090Z",
           "throughput": 7,
-          "cycleTimeAvg": 12.2,
+          "cycleTimeAvg": 8.8,
           "leadTimeAvg": 56.2,
-          "flowEfficiencyPct": 21.7,
+          "flowEfficiencyPct": 15.7,
           "qualityLoopbackRatePct": 28.6,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 7,
@@ -2011,12 +1859,12 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T13:56:11.298Z",
-          "weekEnd": "2026-07-15T13:56:11.298Z",
+          "weekStart": "2026-07-08T14:38:14.090Z",
+          "weekEnd": "2026-07-15T14:38:14.090Z",
           "throughput": 10,
-          "cycleTimeAvg": 11.3,
+          "cycleTimeAvg": 1.1,
           "leadTimeAvg": 32.6,
-          "flowEfficiencyPct": 34.7,
+          "flowEfficiencyPct": 3.4,
           "qualityLoopbackRatePct": 10,
           "qualityLoopbackCount": 1,
           "qualityLoopbackSampleSize": 10,
@@ -2027,149 +1875,199 @@
     {
       "key": "BOA",
       "wipByStatus": {
-        "Ready for Acceptance": 11,
-        "In Progress": 11,
-        "Ready for QA": 9,
         "Backlog": 107,
         "Ready for Development": 26,
         "To Do": 11,
-        "Ready for Code Review": 1,
-        "In Development": 1
+        "Ready for QA": 8,
+        "In Development": 1,
+        "In Progress": 11,
+        "In QA": 1,
+        "Other": 12
       },
       "wipTotal": 177,
-      "openBlockers": 8,
-      "internalBlockerCount": 11,
-      "externalBlockerCount": 1,
-      "blockedIssues": [
+      "dependencies": [
         {
-          "key": "BOA-1911",
-          "summary": "BOA - Gazelle | Form 941-X XML e-file + doc-vault imaging",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "BOA-924",
-              "summary": "BOA - Gazelle | Form 941X processing",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "BOA-1916",
+          "blockerSummary": "BOA - Gazelle | W-2 EFW2 mag-media update for new Box 12 codes (TP, TT, TA)",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "CORE-1633",
+          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "CORE"
         },
         {
-          "key": "BOA-1909",
-          "summary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "BOA-1842",
-              "summary": "BOA - Gazelle | FedEx API — OAuth2 Bearer Token Client with Refresh",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "BOA-1915",
+          "blockerSummary": "BOA - Gazelle | W-2 Box 14a/b — TTOC (Tipped Occupation Code) population",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "CORE-1633",
+          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "CORE"
         },
         {
-          "key": "BOA-1850",
-          "summary": "BOA - Lioness | Allow multiple incomes on gross-up batches",
-          "status": "Ready for Acceptance",
-          "blockedBy": [
-            {
-              "key": "CORE-1546",
-              "summary": "Gross-Up Payroll Enhancements - Multiple Incomes",
-              "status": "In QA",
-              "scope": "external"
-            }
-          ]
+          "blockerKey": "BOA-1914",
+          "blockerSummary": "BOA - Gazelle | W-2 Box 12 Code TT — No Tax on Overtime Premium population",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "CORE-1633",
+          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "CORE"
         },
         {
-          "key": "BOA-1846",
-          "summary": "BOA - Gazelle | FedEx Ship — Label Cancellation (Pre-Tender Void)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "BOA-1845",
-              "summary": "BOA - Gazelle | FedEx Ship — Label Storage and Reprint UI",
-              "status": "Backlog",
-              "scope": "internal"
-            },
-            {
-              "key": "BOA-1909",
-              "summary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "BOA-1913",
+          "blockerSummary": "BOA - Gazelle | W-2 Box 12 Code TP — No Tax on Tips population",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "CORE-1633",
+          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "CORE"
         },
         {
-          "key": "BOA-1845",
-          "summary": "BOA - Gazelle | FedEx Ship — Label Storage and Reprint UI",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "BOA-1909",
-              "summary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
-              "status": "Backlog",
-              "scope": "internal"
-            },
-            {
-              "key": "BOA-1910",
-              "summary": "BOA - Gazelle | FedEx Ship — Raw ZPL print path to Zebra ZP505",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "BOA-1912",
+          "blockerSummary": "Year-End 2026: Terminated Clients Before Year-End",
+          "blockerStatus": "Ready for Acceptance",
+          "blockerProject": "BOA",
+          "blockedKey": "CORE-1525",
+          "blockedSummary": "Year-End 2026: Terminated Clients Before Year-End",
+          "blockedStatus": "Estimate",
+          "blockedProject": "CORE"
         },
         {
-          "key": "BOA-1844",
-          "summary": "BOA - Gazelle | FedEx Ship — Split Shipment (per-location packets)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "BOA-1843",
-              "summary": "BOA - Gazelle | FedEx Ship — Auto Label Generation at Packet Print (Single Shipment)",
-              "status": "Backlog",
-              "scope": "internal"
-            },
-            {
-              "key": "BOA-1909",
-              "summary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "BOA-1912",
+          "blockerSummary": "Year-End 2026: Terminated Clients Before Year-End",
+          "blockerStatus": "Ready for Acceptance",
+          "blockerProject": "BOA",
+          "blockedKey": "CORE-1586",
+          "blockedSummary": "Year End 2026: Tax Settings in Online",
+          "blockedStatus": "Estimate",
+          "blockedProject": "CORE"
         },
         {
-          "key": "BOA-1843",
-          "summary": "BOA - Gazelle | FedEx Ship — Auto Label Generation at Packet Print (Single Shipment)",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "BOA-1909",
-              "summary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
-              "status": "Backlog",
-              "scope": "internal"
-            },
-            {
-              "key": "BOA-1910",
-              "summary": "BOA - Gazelle | FedEx Ship — Raw ZPL print path to Zebra ZP505",
-              "status": "Backlog",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "BOA-924",
+          "blockerSummary": "BOA - Gazelle | Form 941X processing",
+          "blockerStatus": "In Development",
+          "blockerProject": "BOA",
+          "blockedKey": "BOA-1911",
+          "blockedSummary": "BOA - Gazelle | Form 941-X XML e-file + doc-vault imaging",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "BOA"
         },
         {
-          "key": "BOA-1771",
-          "summary": "Move finalization logic into a C# service",
-          "status": "Backlog",
-          "blockedBy": [
-            {
-              "key": "BOA-160",
-              "summary": "Move manual finalization to the auto-finalizer and change processor queue to only print",
-              "status": "Ready for Acceptance",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "BOA-1910",
+          "blockerSummary": "BOA - Gazelle | FedEx Ship — Raw ZPL print path to Zebra ZP505",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "BOA-1843",
+          "blockedSummary": "BOA - Gazelle | FedEx Ship — Auto Label Generation at Packet Print (Single Shipment)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "BOA"
+        },
+        {
+          "blockerKey": "BOA-1910",
+          "blockerSummary": "BOA - Gazelle | FedEx Ship — Raw ZPL print path to Zebra ZP505",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "BOA-1845",
+          "blockedSummary": "BOA - Gazelle | FedEx Ship — Label Storage and Reprint UI",
+          "blockedStatus": "Backlog",
+          "blockedProject": "BOA"
+        },
+        {
+          "blockerKey": "BOA-1842",
+          "blockerSummary": "BOA - Gazelle | FedEx API — OAuth2 Bearer Token Client with Refresh",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "BOA-1909",
+          "blockedSummary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
+          "blockedStatus": "Backlog",
+          "blockedProject": "BOA"
+        },
+        {
+          "blockerKey": "BOA-1909",
+          "blockerSummary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "BOA-1843",
+          "blockedSummary": "BOA - Gazelle | FedEx Ship — Auto Label Generation at Packet Print (Single Shipment)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "BOA"
+        },
+        {
+          "blockerKey": "BOA-1909",
+          "blockerSummary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "BOA-1845",
+          "blockedSummary": "BOA - Gazelle | FedEx Ship — Label Storage and Reprint UI",
+          "blockedStatus": "Backlog",
+          "blockedProject": "BOA"
+        },
+        {
+          "blockerKey": "BOA-1909",
+          "blockerSummary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "BOA-1844",
+          "blockedSummary": "BOA - Gazelle | FedEx Ship — Split Shipment (per-location packets)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "BOA"
+        },
+        {
+          "blockerKey": "BOA-1909",
+          "blockerSummary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "BOA-1846",
+          "blockedSummary": "BOA - Gazelle | FedEx Ship — Label Cancellation (Pre-Tender Void)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "BOA"
+        },
+        {
+          "blockerKey": "CORE-1546",
+          "blockerSummary": "Gross-Up Payroll Enhancements - Multiple Incomes",
+          "blockerStatus": "In QA",
+          "blockerProject": "CORE",
+          "blockedKey": "BOA-1850",
+          "blockedSummary": "BOA - Lioness | Allow multiple incomes on gross-up batches",
+          "blockedStatus": "Ready for Acceptance",
+          "blockedProject": "BOA"
+        },
+        {
+          "blockerKey": "BOA-1845",
+          "blockerSummary": "BOA - Gazelle | FedEx Ship — Label Storage and Reprint UI",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "BOA-1846",
+          "blockedSummary": "BOA - Gazelle | FedEx Ship — Label Cancellation (Pre-Tender Void)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "BOA"
+        },
+        {
+          "blockerKey": "BOA-1843",
+          "blockerSummary": "BOA - Gazelle | FedEx Ship — Auto Label Generation at Packet Print (Single Shipment)",
+          "blockerStatus": "Backlog",
+          "blockerProject": "BOA",
+          "blockedKey": "BOA-1844",
+          "blockedSummary": "BOA - Gazelle | FedEx Ship — Split Shipment (per-location packets)",
+          "blockedStatus": "Backlog",
+          "blockedProject": "BOA"
+        },
+        {
+          "blockerKey": "BOA-160",
+          "blockerSummary": "Move manual finalization to the auto-finalizer and change processor queue to only print",
+          "blockerStatus": "Ready for Acceptance",
+          "blockerProject": "BOA",
+          "blockedKey": "BOA-1771",
+          "blockedSummary": "Move finalization logic into a C# service",
+          "blockedStatus": "Backlog",
+          "blockedProject": "BOA"
         }
       ],
+      "dependencyCount": 18,
       "oldestWipAgeDays": 2645.7,
       "agingWipCount": 172,
       "agingWipIssues": [
@@ -2206,16 +2104,16 @@
       ],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 42.7,
-        "median": 7.8,
-        "sampleSize": 57
+        "avg": 24.2,
+        "median": 3.4,
+        "sampleSize": 54
       },
       "leadTimeDays": {
         "avg": 82.7,
         "median": 14.6,
         "sampleSize": 64
       },
-      "flowEfficiencyPct": 51.6,
+      "flowEfficiencyPct": 29.3,
       "throughput7d": 6,
       "throughputWindowTotal": 64,
       "throughputAvgPerWeek": 8,
@@ -2226,12 +2124,12 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T13:56:12.433Z",
-          "weekEnd": "2026-05-27T13:56:12.433Z",
+          "weekStart": "2026-05-20T14:38:15.389Z",
+          "weekEnd": "2026-05-27T14:38:15.389Z",
           "throughput": 2,
-          "cycleTimeAvg": 9.5,
+          "cycleTimeAvg": 6.7,
           "leadTimeAvg": 10.1,
-          "flowEfficiencyPct": 94.1,
+          "flowEfficiencyPct": 66.3,
           "qualityLoopbackRatePct": 50,
           "qualityLoopbackCount": 1,
           "qualityLoopbackSampleSize": 2,
@@ -2239,12 +2137,12 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T13:56:12.433Z",
-          "weekEnd": "2026-06-03T13:56:12.433Z",
+          "weekStart": "2026-05-27T14:38:15.389Z",
+          "weekEnd": "2026-06-03T14:38:15.389Z",
           "throughput": 8,
-          "cycleTimeAvg": 95.4,
+          "cycleTimeAvg": 15.6,
           "leadTimeAvg": 103.6,
-          "flowEfficiencyPct": 92.1,
+          "flowEfficiencyPct": 15.1,
           "qualityLoopbackRatePct": 37.5,
           "qualityLoopbackCount": 3,
           "qualityLoopbackSampleSize": 8,
@@ -2252,12 +2150,12 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T13:56:12.433Z",
-          "weekEnd": "2026-06-10T13:56:12.433Z",
+          "weekStart": "2026-06-03T14:38:15.389Z",
+          "weekEnd": "2026-06-10T14:38:15.389Z",
           "throughput": 13,
-          "cycleTimeAvg": 14.9,
+          "cycleTimeAvg": 2.8,
           "leadTimeAvg": 23.3,
-          "flowEfficiencyPct": 63.9,
+          "flowEfficiencyPct": 12,
           "qualityLoopbackRatePct": 7.7,
           "qualityLoopbackCount": 1,
           "qualityLoopbackSampleSize": 13,
@@ -2265,51 +2163,51 @@
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T13:56:12.433Z",
-          "weekEnd": "2026-06-17T13:56:12.433Z",
-          "throughput": 10,
-          "cycleTimeAvg": 12.9,
-          "leadTimeAvg": 24.8,
-          "flowEfficiencyPct": 52,
-          "qualityLoopbackRatePct": 50,
+          "weekStart": "2026-06-10T14:38:15.389Z",
+          "weekEnd": "2026-06-17T14:38:15.389Z",
+          "throughput": 14,
+          "cycleTimeAvg": 5.4,
+          "leadTimeAvg": 21.5,
+          "flowEfficiencyPct": 25.1,
+          "qualityLoopbackRatePct": 35.7,
           "qualityLoopbackCount": 5,
-          "qualityLoopbackSampleSize": 10,
+          "qualityLoopbackSampleSize": 14,
           "aiLeverageRatePct": 0
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T13:56:12.433Z",
-          "weekEnd": "2026-06-24T13:56:12.433Z",
-          "throughput": 12,
-          "cycleTimeAvg": 4.8,
-          "leadTimeAvg": 42.4,
-          "flowEfficiencyPct": 11.3,
-          "qualityLoopbackRatePct": 8.3,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 12,
+          "weekStart": "2026-06-17T14:38:15.389Z",
+          "weekEnd": "2026-06-24T14:38:15.389Z",
+          "throughput": 10,
+          "cycleTimeAvg": 1,
+          "leadTimeAvg": 47.7,
+          "flowEfficiencyPct": 2.1,
+          "qualityLoopbackRatePct": 20,
+          "qualityLoopbackCount": 2,
+          "qualityLoopbackSampleSize": 10,
           "aiLeverageRatePct": 0
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T13:56:12.433Z",
-          "weekEnd": "2026-07-01T13:56:12.433Z",
-          "throughput": 11,
-          "cycleTimeAvg": 9.8,
-          "leadTimeAvg": 24.9,
-          "flowEfficiencyPct": 39.4,
-          "qualityLoopbackRatePct": 9.1,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 11,
+          "weekStart": "2026-06-24T14:38:15.389Z",
+          "weekEnd": "2026-07-01T14:38:15.389Z",
+          "throughput": 9,
+          "cycleTimeAvg": 4.4,
+          "leadTimeAvg": 28,
+          "flowEfficiencyPct": 15.7,
+          "qualityLoopbackRatePct": 0,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 9,
           "aiLeverageRatePct": 0
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T13:56:12.433Z",
-          "weekEnd": "2026-07-08T13:56:12.433Z",
+          "weekStart": "2026-07-01T14:38:15.389Z",
+          "weekEnd": "2026-07-08T14:38:15.389Z",
           "throughput": 2,
-          "cycleTimeAvg": 34.4,
+          "cycleTimeAvg": 25.9,
           "leadTimeAvg": 126.3,
-          "flowEfficiencyPct": 27.2,
+          "flowEfficiencyPct": 20.5,
           "qualityLoopbackRatePct": 0,
           "qualityLoopbackCount": 0,
           "qualityLoopbackSampleSize": 2,
@@ -2317,12 +2215,12 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T13:56:12.433Z",
-          "weekEnd": "2026-07-15T13:56:12.433Z",
+          "weekStart": "2026-07-08T14:38:15.389Z",
+          "weekEnd": "2026-07-15T14:38:15.389Z",
           "throughput": 6,
-          "cycleTimeAvg": 197.9,
+          "cycleTimeAvg": 325.5,
           "leadTimeAvg": 476.1,
-          "flowEfficiencyPct": 41.6,
+          "flowEfficiencyPct": 68.4,
           "qualityLoopbackRatePct": 33.3,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 6,
@@ -2333,152 +2231,139 @@
     {
       "key": "EXP",
       "wipByStatus": {
-        "Backlog": 21,
+        "Backlog": 17,
         "Ready for Development": 4,
-        "Estimate": 5,
-        "In Development": 2,
-        "Ready for QA": 1,
         "To Do": 24,
-        "Ready for Acceptance": 2,
-        "Acceptance": 2,
+        "Ready for QA": 1,
+        "In Development": 2,
         "In Progress": 7,
-        "Design Review": 1,
-        "In QA": 1
+        "In QA": 1,
+        "Other": 14
       },
       "wipTotal": 70,
-      "openBlockers": 8,
-      "internalBlockerCount": 12,
-      "externalBlockerCount": 0,
-      "blockedIssues": [
+      "dependencies": [
         {
-          "key": "EXP-961",
-          "summary": "Cleanup (deferred): retire legacy ExtJS comp-change view + fully retire ONLINE_WFP_BUDGETING flag",
-          "status": "Estimate",
-          "blockedBy": [
-            {
-              "key": "EXP-956",
-              "summary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
-              "status": "In Development",
-              "scope": "internal"
-            },
-            {
-              "key": "EXP-957",
-              "summary": "Compensation Change Requests Panel (default panel)",
-              "status": "Ready for Development",
-              "scope": "internal"
-            },
-            {
-              "key": "EXP-958",
-              "summary": "Out of Range Panel",
-              "status": "Ready for Development",
-              "scope": "internal"
-            },
-            {
-              "key": "EXP-959",
-              "summary": "Pay Range Positioning Panel (Labor Cost Variance insight)",
-              "status": "Estimate",
-              "scope": "internal"
-            },
-            {
-              "key": "EXP-960",
-              "summary": "Pay Equity Flight Risk Panel",
-              "status": "Estimate",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EXP-956",
+          "blockerSummary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
+          "blockerStatus": "In Development",
+          "blockerProject": "EXP",
+          "blockedKey": "EXP-961",
+          "blockedSummary": "Cleanup (deferred): retire legacy ExtJS comp-change view + fully retire ONLINE_WFP_BUDGETING flag",
+          "blockedStatus": "Estimate",
+          "blockedProject": "EXP"
         },
         {
-          "key": "EXP-960",
-          "summary": "Pay Equity Flight Risk Panel",
-          "status": "Estimate",
-          "blockedBy": [
-            {
-              "key": "EXP-956",
-              "summary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EXP-957",
+          "blockerSummary": "Compensation Change Requests Panel (default panel)",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "EXP",
+          "blockedKey": "EXP-961",
+          "blockedSummary": "Cleanup (deferred): retire legacy ExtJS comp-change view + fully retire ONLINE_WFP_BUDGETING flag",
+          "blockedStatus": "Estimate",
+          "blockedProject": "EXP"
         },
         {
-          "key": "EXP-959",
-          "summary": "Pay Range Positioning Panel (Labor Cost Variance insight)",
-          "status": "Estimate",
-          "blockedBy": [
-            {
-              "key": "EXP-956",
-              "summary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EXP-958",
+          "blockerSummary": "Out of Range Panel",
+          "blockerStatus": "Ready for Development",
+          "blockerProject": "EXP",
+          "blockedKey": "EXP-961",
+          "blockedSummary": "Cleanup (deferred): retire legacy ExtJS comp-change view + fully retire ONLINE_WFP_BUDGETING flag",
+          "blockedStatus": "Estimate",
+          "blockedProject": "EXP"
         },
         {
-          "key": "EXP-958",
-          "summary": "Out of Range Panel",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "EXP-956",
-              "summary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EXP-959",
+          "blockerSummary": "Pay Range Positioning Panel (Labor Cost Variance insight)",
+          "blockerStatus": "Estimate",
+          "blockerProject": "EXP",
+          "blockedKey": "EXP-961",
+          "blockedSummary": "Cleanup (deferred): retire legacy ExtJS comp-change view + fully retire ONLINE_WFP_BUDGETING flag",
+          "blockedStatus": "Estimate",
+          "blockedProject": "EXP"
         },
         {
-          "key": "EXP-957",
-          "summary": "Compensation Change Requests Panel (default panel)",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "EXP-956",
-              "summary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
-              "status": "In Development",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EXP-960",
+          "blockerSummary": "Pay Equity Flight Risk Panel",
+          "blockerStatus": "Estimate",
+          "blockerProject": "EXP",
+          "blockedKey": "EXP-961",
+          "blockedSummary": "Cleanup (deferred): retire legacy ExtJS comp-change view + fully retire ONLINE_WFP_BUDGETING flag",
+          "blockedStatus": "Estimate",
+          "blockedProject": "EXP"
         },
         {
-          "key": "EXP-945",
-          "summary": "Add Employee profile Avatar to the New Hires insight - Headcount Dashboard",
-          "status": "Ready for Acceptance",
-          "blockedBy": [
-            {
-              "key": "EXP-942",
-              "summary": "Add Employee profile Avatar to Position Level Grid - Pos Mgmt - Position Count ",
-              "status": "Acceptance",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EXP-956",
+          "blockerSummary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
+          "blockerStatus": "In Development",
+          "blockerProject": "EXP",
+          "blockedKey": "EXP-960",
+          "blockedSummary": "Pay Equity Flight Risk Panel",
+          "blockedStatus": "Estimate",
+          "blockedProject": "EXP"
         },
         {
-          "key": "EXP-944",
-          "summary": "Add Employee profile Avatar to Position Level Grid - Pos Mgmt - Headcount",
-          "status": "Ready for Acceptance",
-          "blockedBy": [
-            {
-              "key": "EXP-942",
-              "summary": "Add Employee profile Avatar to Position Level Grid - Pos Mgmt - Position Count ",
-              "status": "Acceptance",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EXP-956",
+          "blockerSummary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
+          "blockerStatus": "In Development",
+          "blockerProject": "EXP",
+          "blockedKey": "EXP-959",
+          "blockedSummary": "Pay Range Positioning Panel (Labor Cost Variance insight)",
+          "blockedStatus": "Estimate",
+          "blockedProject": "EXP"
         },
         {
-          "key": "EXP-943",
-          "summary": "Add Employee profile Avatar to Position Level Grid - Pos Mgmt - Discrepancies",
-          "status": "Acceptance",
-          "blockedBy": [
-            {
-              "key": "EXP-942",
-              "summary": "Add Employee profile Avatar to Position Level Grid - Pos Mgmt - Position Count ",
-              "status": "Acceptance",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "EXP-956",
+          "blockerSummary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
+          "blockerStatus": "In Development",
+          "blockerProject": "EXP",
+          "blockedKey": "EXP-958",
+          "blockedSummary": "Out of Range Panel",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "EXP"
+        },
+        {
+          "blockerKey": "EXP-956",
+          "blockerSummary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
+          "blockerStatus": "In Development",
+          "blockerProject": "EXP",
+          "blockedKey": "EXP-957",
+          "blockedSummary": "Compensation Change Requests Panel (default panel)",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "EXP"
+        },
+        {
+          "blockerKey": "EXP-942",
+          "blockerSummary": "Add Employee profile Avatar to Position Level Grid - Pos Mgmt - Position Count ",
+          "blockerStatus": "Acceptance",
+          "blockerProject": "EXP",
+          "blockedKey": "EXP-945",
+          "blockedSummary": "Add Employee profile Avatar to the New Hires insight - Headcount Dashboard",
+          "blockedStatus": "Ready for Acceptance",
+          "blockedProject": "EXP"
+        },
+        {
+          "blockerKey": "EXP-942",
+          "blockerSummary": "Add Employee profile Avatar to Position Level Grid - Pos Mgmt - Position Count ",
+          "blockerStatus": "Acceptance",
+          "blockerProject": "EXP",
+          "blockedKey": "EXP-944",
+          "blockedSummary": "Add Employee profile Avatar to Position Level Grid - Pos Mgmt - Headcount",
+          "blockedStatus": "Ready for Acceptance",
+          "blockedProject": "EXP"
+        },
+        {
+          "blockerKey": "EXP-942",
+          "blockerSummary": "Add Employee profile Avatar to Position Level Grid - Pos Mgmt - Position Count ",
+          "blockerStatus": "Acceptance",
+          "blockerProject": "EXP",
+          "blockedKey": "EXP-943",
+          "blockedSummary": "Add Employee profile Avatar to Position Level Grid - Pos Mgmt - Discrepancies",
+          "blockedStatus": "Acceptance",
+          "blockedProject": "EXP"
         }
       ],
+      "dependencyCount": 12,
       "oldestWipAgeDays": 1121.9,
       "agingWipCount": 58,
       "agingWipIssues": [
@@ -2492,7 +2377,7 @@
           "key": "EXP-354",
           "summary": "Workforce Planning",
           "status": "In Progress",
-          "ageDays": 741.7
+          "ageDays": 741.8
         },
         {
           "key": "EXP-359",
@@ -2515,45 +2400,45 @@
       ],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 14.3,
-        "median": 13.3,
-        "sampleSize": 54
+        "avg": 7.2,
+        "median": 6.2,
+        "sampleSize": 52
       },
       "leadTimeDays": {
-        "avg": 43.6,
+        "avg": 44.3,
         "median": 32.8,
-        "sampleSize": 57
+        "sampleSize": 56
       },
-      "flowEfficiencyPct": 32.8,
+      "flowEfficiencyPct": 16.3,
       "throughput7d": 7,
-      "throughputWindowTotal": 57,
-      "throughputAvgPerWeek": 7.1,
-      "qualityLoopbackRatePct": 54.4,
+      "throughputWindowTotal": 56,
+      "throughputAvgPerWeek": 7,
+      "qualityLoopbackRatePct": 55.4,
       "qualityLoopbackCount": 31,
-      "qualityLoopbackSampleSize": 57,
-      "aiLeverageRatePct": 5.3,
+      "qualityLoopbackSampleSize": 56,
+      "aiLeverageRatePct": 5.4,
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T13:56:14.324Z",
-          "weekEnd": "2026-05-27T13:56:14.324Z",
-          "throughput": 3,
-          "cycleTimeAvg": 8.2,
-          "leadTimeAvg": 21.5,
-          "flowEfficiencyPct": 38.1,
-          "qualityLoopbackRatePct": 66.7,
+          "weekStart": "2026-05-20T14:38:16.935Z",
+          "weekEnd": "2026-05-27T14:38:16.935Z",
+          "throughput": 2,
+          "cycleTimeAvg": 7.5,
+          "leadTimeAvg": 31.4,
+          "flowEfficiencyPct": 23.9,
+          "qualityLoopbackRatePct": 100,
           "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 3,
+          "qualityLoopbackSampleSize": 2,
           "aiLeverageRatePct": 0
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T13:56:14.324Z",
-          "weekEnd": "2026-06-03T13:56:14.324Z",
+          "weekStart": "2026-05-27T14:38:16.935Z",
+          "weekEnd": "2026-06-03T14:38:16.935Z",
           "throughput": 12,
-          "cycleTimeAvg": 16.6,
+          "cycleTimeAvg": 9.3,
           "leadTimeAvg": 42.6,
-          "flowEfficiencyPct": 39,
+          "flowEfficiencyPct": 21.8,
           "qualityLoopbackRatePct": 41.7,
           "qualityLoopbackCount": 5,
           "qualityLoopbackSampleSize": 12,
@@ -2561,38 +2446,38 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T13:56:14.324Z",
-          "weekEnd": "2026-06-10T13:56:14.324Z",
-          "throughput": 8,
-          "cycleTimeAvg": 12.6,
-          "leadTimeAvg": 28.1,
-          "flowEfficiencyPct": 44.8,
-          "qualityLoopbackRatePct": 62.5,
+          "weekStart": "2026-06-03T14:38:16.935Z",
+          "weekEnd": "2026-06-10T14:38:16.935Z",
+          "throughput": 9,
+          "cycleTimeAvg": 6.1,
+          "leadTimeAvg": 29.9,
+          "flowEfficiencyPct": 20.4,
+          "qualityLoopbackRatePct": 55.6,
           "qualityLoopbackCount": 5,
-          "qualityLoopbackSampleSize": 8,
-          "aiLeverageRatePct": 12.5
+          "qualityLoopbackSampleSize": 9,
+          "aiLeverageRatePct": 11.1
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T13:56:14.324Z",
-          "weekEnd": "2026-06-17T13:56:14.324Z",
-          "throughput": 5,
-          "cycleTimeAvg": 15.5,
-          "leadTimeAvg": 33,
-          "flowEfficiencyPct": 47,
-          "qualityLoopbackRatePct": 60,
+          "weekStart": "2026-06-10T14:38:16.935Z",
+          "weekEnd": "2026-06-17T14:38:16.935Z",
+          "throughput": 4,
+          "cycleTimeAvg": 5.9,
+          "leadTimeAvg": 30.3,
+          "flowEfficiencyPct": 19.5,
+          "qualityLoopbackRatePct": 75,
           "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 5,
+          "qualityLoopbackSampleSize": 4,
           "aiLeverageRatePct": 0
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T13:56:14.324Z",
-          "weekEnd": "2026-06-24T13:56:14.324Z",
+          "weekStart": "2026-06-17T14:38:16.935Z",
+          "weekEnd": "2026-06-24T14:38:16.935Z",
           "throughput": 4,
-          "cycleTimeAvg": 10.1,
+          "cycleTimeAvg": 4.4,
           "leadTimeAvg": 19.7,
-          "flowEfficiencyPct": 51.3,
+          "flowEfficiencyPct": 22.3,
           "qualityLoopbackRatePct": 50,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 4,
@@ -2600,12 +2485,12 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T13:56:14.324Z",
-          "weekEnd": "2026-07-01T13:56:14.324Z",
+          "weekStart": "2026-06-24T14:38:16.935Z",
+          "weekEnd": "2026-07-01T14:38:16.935Z",
           "throughput": 8,
-          "cycleTimeAvg": 13.7,
+          "cycleTimeAvg": 8.3,
           "leadTimeAvg": 109.7,
-          "flowEfficiencyPct": 12.5,
+          "flowEfficiencyPct": 7.6,
           "qualityLoopbackRatePct": 75,
           "qualityLoopbackCount": 6,
           "qualityLoopbackSampleSize": 8,
@@ -2613,12 +2498,12 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T13:56:14.324Z",
-          "weekEnd": "2026-07-08T13:56:14.324Z",
+          "weekStart": "2026-07-01T14:38:16.935Z",
+          "weekEnd": "2026-07-08T14:38:16.935Z",
           "throughput": 10,
-          "cycleTimeAvg": 16,
+          "cycleTimeAvg": 7.9,
           "leadTimeAvg": 32.4,
-          "flowEfficiencyPct": 49.4,
+          "flowEfficiencyPct": 24.4,
           "qualityLoopbackRatePct": 40,
           "qualityLoopbackCount": 4,
           "qualityLoopbackSampleSize": 10,
@@ -2626,12 +2511,12 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T13:56:14.324Z",
-          "weekEnd": "2026-07-15T13:56:14.324Z",
+          "weekStart": "2026-07-08T14:38:16.935Z",
+          "weekEnd": "2026-07-15T14:38:16.935Z",
           "throughput": 7,
-          "cycleTimeAvg": 14.9,
+          "cycleTimeAvg": 4.9,
           "leadTimeAvg": 33.9,
-          "flowEfficiencyPct": 44,
+          "flowEfficiencyPct": 14.5,
           "qualityLoopbackRatePct": 57.1,
           "qualityLoopbackCount": 4,
           "qualityLoopbackSampleSize": 7,
@@ -2642,88 +2527,77 @@
     {
       "key": "HR",
       "wipByStatus": {
-        "In Development": 3,
-        "Ready for Development": 2,
-        "In QA": 2,
-        "Estimate": 3,
         "Backlog": 18,
+        "Ready for Development": 2,
         "To Do": 18,
-        "In Progress": 8,
         "Ready for QA": 2,
-        "Acceptance": 1
+        "In Development": 3,
+        "In Progress": 8,
+        "In QA": 2,
+        "Other": 4
       },
       "wipTotal": 57,
-      "openBlockers": 4,
-      "internalBlockerCount": 4,
-      "externalBlockerCount": 1,
-      "blockedIssues": [
+      "dependencies": [
         {
-          "key": "HR-385",
-          "summary": "Online - Require Reassignment Reason (Org Setting Enforcement)",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "HR-368",
-              "summary": "Performance Reviews - Expanded Performance Management Settings (Defaults & Required Fields)",
-              "status": "Estimate",
-              "scope": "internal"
-            },
-            {
-              "key": "HR-382",
-              "summary": "Online - Reassign Reviewer Reason (Capture)",
-              "status": "Estimate",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "HR-368",
+          "blockerSummary": "Performance Reviews - Expanded Performance Management Settings (Defaults & Required Fields)",
+          "blockerStatus": "Estimate",
+          "blockerProject": "HR",
+          "blockedKey": "HR-385",
+          "blockedSummary": "Online - Require Reassignment Reason (Org Setting Enforcement)",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "HR"
         },
         {
-          "key": "HR-382",
-          "summary": "Online - Reassign Reviewer Reason (Capture)",
-          "status": "Estimate",
-          "blockedBy": [
-            {
-              "key": "HR-365",
-              "summary": "Online - HR Edit In-Flight Review (Reassign, Reschedule, Archive)",
-              "status": "In QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "HR-382",
+          "blockerSummary": "Online - Reassign Reviewer Reason (Capture)",
+          "blockerStatus": "Estimate",
+          "blockerProject": "HR",
+          "blockedKey": "HR-385",
+          "blockedSummary": "Online - Require Reassignment Reason (Org Setting Enforcement)",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "HR"
         },
         {
-          "key": "HR-368",
-          "summary": "Performance Reviews - Expanded Performance Management Settings (Defaults & Required Fields)",
-          "status": "Estimate",
-          "blockedBy": [
-            {
-              "key": "HR-365",
-              "summary": "Online - HR Edit In-Flight Review (Reassign, Reschedule, Archive)",
-              "status": "In QA",
-              "scope": "internal"
-            }
-          ]
+          "blockerKey": "HR-365",
+          "blockerSummary": "Online - HR Edit In-Flight Review (Reassign, Reschedule, Archive)",
+          "blockerStatus": "In QA",
+          "blockerProject": "HR",
+          "blockedKey": "HR-382",
+          "blockedSummary": "Online - Reassign Reviewer Reason (Capture)",
+          "blockedStatus": "Estimate",
+          "blockedProject": "HR"
         },
         {
-          "key": "HR-367",
-          "summary": "Performance Reviews - Export Completed Review to PDF",
-          "status": "Ready for Development",
-          "blockedBy": [
-            {
-              "key": "ARCH-580",
-              "summary": "Implement internal PDF generation service (Gotenberg)",
-              "status": "Ready for Code Review",
-              "scope": "external"
-            }
-          ]
+          "blockerKey": "HR-365",
+          "blockerSummary": "Online - HR Edit In-Flight Review (Reassign, Reschedule, Archive)",
+          "blockerStatus": "In QA",
+          "blockerProject": "HR",
+          "blockedKey": "HR-368",
+          "blockedSummary": "Performance Reviews - Expanded Performance Management Settings (Defaults & Required Fields)",
+          "blockedStatus": "Estimate",
+          "blockedProject": "HR"
+        },
+        {
+          "blockerKey": "ARCH-580",
+          "blockerSummary": "Implement internal PDF generation service (Gotenberg)",
+          "blockerStatus": "Ready for Code Review",
+          "blockerProject": "ARCH",
+          "blockedKey": "HR-367",
+          "blockedSummary": "Performance Reviews - Export Completed Review to PDF",
+          "blockedStatus": "Ready for Development",
+          "blockedProject": "HR"
         }
       ],
-      "oldestWipAgeDays": 702,
+      "dependencyCount": 5,
+      "oldestWipAgeDays": 702.1,
       "agingWipCount": 55,
       "agingWipIssues": [
         {
           "key": "HR-44",
           "summary": "Benefits Admin Enhancements",
           "status": "In Progress",
-          "ageDays": 702
+          "ageDays": 702.1
         },
         {
           "key": "HR-88",
@@ -2735,34 +2609,34 @@
           "key": "HR-107",
           "summary": "Benefits - Performance Improvement",
           "status": "In Progress",
-          "ageDays": 599.8
+          "ageDays": 599.9
         },
         {
           "key": "HR-106",
           "summary": "Performance Management Revamp",
           "status": "In Progress",
-          "ageDays": 599.8
+          "ageDays": 599.9
         },
         {
           "key": "HR-105",
           "summary": "Benefits Admin - 2026",
           "status": "In Progress",
-          "ageDays": 599.8
+          "ageDays": 599.9
         }
       ],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 19.8,
-        "median": 21.6,
-        "sampleSize": 29
+        "avg": 6.1,
+        "median": 4.7,
+        "sampleSize": 26
       },
       "leadTimeDays": {
         "avg": 82.9,
         "median": 36.7,
         "sampleSize": 32
       },
-      "flowEfficiencyPct": 23.9,
-      "throughput7d": 4,
+      "flowEfficiencyPct": 7.4,
+      "throughput7d": 3,
       "throughputWindowTotal": 32,
       "throughputAvgPerWeek": 4,
       "qualityLoopbackRatePct": 56.3,
@@ -2772,12 +2646,12 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T13:56:15.652Z",
-          "weekEnd": "2026-05-27T13:56:15.652Z",
+          "weekStart": "2026-05-20T14:38:18.127Z",
+          "weekEnd": "2026-05-27T14:38:18.127Z",
           "throughput": 3,
-          "cycleTimeAvg": 22.4,
+          "cycleTimeAvg": 4.7,
           "leadTimeAvg": 32.1,
-          "flowEfficiencyPct": 69.8,
+          "flowEfficiencyPct": 14.6,
           "qualityLoopbackRatePct": 66.7,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 3,
@@ -2785,12 +2659,12 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T13:56:15.652Z",
-          "weekEnd": "2026-06-03T13:56:15.652Z",
+          "weekStart": "2026-05-27T14:38:18.127Z",
+          "weekEnd": "2026-06-03T14:38:18.127Z",
           "throughput": 3,
-          "cycleTimeAvg": 28.9,
+          "cycleTimeAvg": 3,
           "leadTimeAvg": 224,
-          "flowEfficiencyPct": 12.9,
+          "flowEfficiencyPct": 1.3,
           "qualityLoopbackRatePct": 66.7,
           "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 3,
@@ -2798,38 +2672,38 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T13:56:15.652Z",
-          "weekEnd": "2026-06-10T13:56:15.652Z",
-          "throughput": 4,
-          "cycleTimeAvg": 17.2,
-          "leadTimeAvg": 102.8,
-          "flowEfficiencyPct": 16.7,
-          "qualityLoopbackRatePct": 75,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 4,
-          "aiLeverageRatePct": 0
-        },
-        {
-          "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T13:56:15.652Z",
-          "weekEnd": "2026-06-17T13:56:15.652Z",
+          "weekStart": "2026-06-03T14:38:18.127Z",
+          "weekEnd": "2026-06-10T14:38:18.127Z",
           "throughput": 5,
-          "cycleTimeAvg": 18.3,
-          "leadTimeAvg": 27.4,
-          "flowEfficiencyPct": 66.8,
+          "cycleTimeAvg": 4.8,
+          "leadTimeAvg": 85,
+          "flowEfficiencyPct": 5.6,
           "qualityLoopbackRatePct": 60,
           "qualityLoopbackCount": 3,
           "qualityLoopbackSampleSize": 5,
           "aiLeverageRatePct": 0
         },
         {
+          "label": "Jun 10–Jun 17",
+          "weekStart": "2026-06-10T14:38:18.127Z",
+          "weekEnd": "2026-06-17T14:38:18.127Z",
+          "throughput": 4,
+          "cycleTimeAvg": 5.3,
+          "leadTimeAvg": 30.8,
+          "flowEfficiencyPct": 17.2,
+          "qualityLoopbackRatePct": 75,
+          "qualityLoopbackCount": 3,
+          "qualityLoopbackSampleSize": 4,
+          "aiLeverageRatePct": 0
+        },
+        {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T13:56:15.652Z",
-          "weekEnd": "2026-06-24T13:56:15.652Z",
+          "weekStart": "2026-06-17T14:38:18.127Z",
+          "weekEnd": "2026-06-24T14:38:18.127Z",
           "throughput": 6,
-          "cycleTimeAvg": 23.4,
+          "cycleTimeAvg": 8.5,
           "leadTimeAvg": 120.7,
-          "flowEfficiencyPct": 19.4,
+          "flowEfficiencyPct": 7,
           "qualityLoopbackRatePct": 16.7,
           "qualityLoopbackCount": 1,
           "qualityLoopbackSampleSize": 6,
@@ -2837,12 +2711,12 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T13:56:15.652Z",
-          "weekEnd": "2026-07-01T13:56:15.652Z",
+          "weekStart": "2026-06-24T14:38:18.127Z",
+          "weekEnd": "2026-07-01T14:38:18.127Z",
           "throughput": 6,
-          "cycleTimeAvg": 16.4,
+          "cycleTimeAvg": 8.4,
           "leadTimeAvg": 70.8,
-          "flowEfficiencyPct": 23.2,
+          "flowEfficiencyPct": 11.9,
           "qualityLoopbackRatePct": 83.3,
           "qualityLoopbackCount": 5,
           "qualityLoopbackSampleSize": 6,
@@ -2850,28 +2724,28 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T13:56:15.652Z",
-          "weekEnd": "2026-07-08T13:56:15.652Z",
-          "throughput": 1,
-          "cycleTimeAvg": 0.3,
-          "leadTimeAvg": 5,
-          "flowEfficiencyPct": 6,
+          "weekStart": "2026-07-01T14:38:18.127Z",
+          "weekEnd": "2026-07-08T14:38:18.127Z",
+          "throughput": 2,
+          "cycleTimeAvg": 0.1,
+          "leadTimeAvg": 26.4,
+          "flowEfficiencyPct": 0.4,
           "qualityLoopbackRatePct": 0,
           "qualityLoopbackCount": 0,
-          "qualityLoopbackSampleSize": 1,
+          "qualityLoopbackSampleSize": 2,
           "aiLeverageRatePct": 0
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T13:56:15.652Z",
-          "weekEnd": "2026-07-15T13:56:15.652Z",
-          "throughput": 4,
-          "cycleTimeAvg": 22.2,
-          "leadTimeAvg": 45.4,
-          "flowEfficiencyPct": 48.9,
-          "qualityLoopbackRatePct": 50,
+          "weekStart": "2026-07-08T14:38:18.127Z",
+          "weekEnd": "2026-07-15T14:38:18.127Z",
+          "throughput": 3,
+          "cycleTimeAvg": 10.9,
+          "leadTimeAvg": 44.6,
+          "flowEfficiencyPct": 24.4,
+          "qualityLoopbackRatePct": 66.7,
           "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 4,
+          "qualityLoopbackSampleSize": 3,
           "aiLeverageRatePct": 0
         }
       ]
