@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,6 +45,16 @@
     .tab-content.active { display: block; }
     .project-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-bottom: 24px; }
     .project-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; }
+    /* Project Portfolio tab: fixed 4-column grid (not auto-fill) so all 8
+       project cards are the same size, with more room per card than the
+       generic .project-grid used elsewhere (WIP tab, Overview). */
+    .portfolio-grid { grid-template-columns: repeat(4, 1fr); grid-auto-rows: 1fr; gap: 20px; }
+    .portfolio-grid .project-card { padding: 24px 26px; display: flex; flex-direction: column; justify-content: space-between; }
+    .portfolio-grid .project-name { font-size: 18px; }
+    .portfolio-grid .p-stat-val { font-size: 26px; }
+    .portfolio-grid .p-stat-lbl { font-size: 11px; }
+    .portfolio-grid .project-stat-row { gap: 22px; }
+    @media (max-width: 1100px) { .portfolio-grid { grid-template-columns: repeat(2, 1fr); } }
     .project-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; }
     .project-name { font-weight: 700; font-size: 15px; }
     .project-key { font-size: 11px; color: var(--muted); background: var(--surface2); padding: 2px 8px; border-radius: 6px; }
@@ -65,6 +74,24 @@
     .deps-chip b { display: block; font-size: 18px; text-transform: none; letter-spacing: 0; margin-bottom: 2px; }
     .deps-chip.blue b { color: var(--blue); } .deps-chip.purple b { color: var(--purple); } .deps-chip.yellow b { color: var(--yellow); }
     .deps-chip.red b { color: var(--red); }
+    .epic-row { margin-bottom: 14px; }
+    .epic-row:last-child { margin-bottom: 0; }
+    .epic-row-header { display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; margin-bottom: 4px; gap: 10px; }
+    .epic-row-header .epic-key { font-weight: 700; }
+    .epic-row-header .epic-summary { color: var(--muted); margin-left: 6px; }
+    .epic-row-header .epic-pct { font-weight: 700; white-space: nowrap; }
+    .epic-bar-track { background: var(--surface2); border-radius: 6px; height: 8px; overflow: hidden; }
+    .epic-bar-fill { background: var(--accent); height: 100%; border-radius: 6px; }
+    .epic-project-heading { font-size: 13px; font-weight: 700; margin: 16px 0 8px; }
+    .epic-project-heading:first-child { margin-top: 0; }
+    .caret { cursor: pointer; font-size: 12px; color: var(--muted); user-select: none; display: inline-block; }
+    .caret:hover { color: var(--text); }
+    .filter-row { margin-bottom: 12px; }
+    .filter-row input {
+      background: var(--surface2); color: var(--text); border: 1px solid var(--border); border-radius: 8px;
+      padding: 7px 12px; font-size: 12px; width: 280px; max-width: 100%;
+    }
+    .filter-row input:focus { outline: none; border-color: var(--accent); }
     .overview-filter-row { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; }
     .overview-filter-row label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); }
     #printBtn {
@@ -149,14 +176,19 @@
       <canvas id="loopbackChart"></canvas>
     </div>
     <div class="chart-card">
-      <h3 id="depsTitle">Dependencies</h3>
+      <h3 id="depsTitle">Dependencies <span class="caret" onclick="toggleCollapse('depsBody', this)">▾</span></h3>
       <p id="depsSub">Ticket-to-ticket dependencies, from Jira's "Blocks" linked work items</p>
-      <div class="deps-summary" id="depsSummary"></div>
-      <table class="flow-table" id="depsTable">
-        <thead><tr><th>Blocker</th><th>Status</th><th></th><th>Blocked</th><th>Status</th></tr></thead>
-        <tbody></tbody>
-      </table>
-      <p id="depsEmpty" style="display:none;margin-top:8px">No open dependencies right now 🎉</p>
+      <div id="depsBody">
+        <div class="filter-row">
+          <input type="text" id="depsFilterInput" placeholder="Filter by blocker (e.g. INV or INV-935)" oninput="onDepsFilterChange()" />
+        </div>
+        <div class="deps-summary" id="depsSummary"></div>
+        <table class="flow-table" id="depsTable">
+          <thead><tr><th>Blocker</th><th>Status</th><th></th><th>Blocked</th><th>Status</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <p id="depsEmpty" style="display:none;margin-top:8px">No open dependencies right now 🎉</p>
+      </div>
     </div>
   </div>
 
@@ -168,11 +200,13 @@
       <canvas id="cycleAllChart"></canvas>
     </div>
     <div class="chart-card" style="margin-bottom:20px">
-      <h3>Detail</h3>
-      <table class="flow-table" id="cycleTable">
-        <thead><tr><th>Project</th><th>Cycle Avg (d)</th><th>Cycle Median (d)</th><th>Lead Avg (d)</th><th>Lead Median (d)</th><th>Sample Size</th></tr></thead>
-        <tbody></tbody>
-      </table>
+      <h3>Detail <span class="caret" onclick="toggleCollapse('detailBody', this)">▾</span></h3>
+      <div id="detailBody">
+        <table class="flow-table" id="cycleTable">
+          <thead><tr><th>Project</th><th>Cycle Avg (d)</th><th>Cycle Median (d)</th><th>Lead Avg (d)</th><th>Lead Median (d)</th><th>Sample Size</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </div>
   </div>
 
@@ -186,20 +220,27 @@
       <div class="project-grid" id="wipGrid"></div>
     </div>
     <div class="chart-card">
-      <h3 id="agingTitle">Aging WIP</h3>
+      <h3 id="agingTitle">Aging WIP <span class="caret" onclick="toggleCollapse('agingBody', this)">▾</span></h3>
       <p id="agingSub">Open issues ranked by age (days since created) — surfaces what's been sitting the longest before it quietly drags the cycle-time average up. Age is a proxy for "time in flight," not time in the current column.</p>
-      <div class="deps-summary" id="agingSummary"></div>
-      <table class="flow-table" id="agingTable">
-        <thead><tr><th id="agingProjectCol">Project</th><th>Issue</th><th>Status</th><th>Age (days)</th></tr></thead>
-        <tbody></tbody>
-      </table>
-      <p id="agingEmpty" style="display:none;margin-top:8px">No open issues right now</p>
+      <div id="agingBody">
+        <div class="deps-summary" id="agingSummary"></div>
+        <table class="flow-table" id="agingTable">
+          <thead><tr><th id="agingProjectCol">Project</th><th>Issue</th><th>Status</th><th>Age (days)</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <p id="agingEmpty" style="display:none;margin-top:8px">No open issues right now</p>
+      </div>
     </div>
   </div>
 
   <!-- PORTFOLIO -->
   <div id="tab-portfolio" class="tab-content">
-    <div class="project-grid" id="portfolioGrid"></div>
+    <div class="project-grid portfolio-grid" id="portfolioGrid"></div>
+    <div class="chart-card" id="portfolioEpicsCard" style="margin-top:20px;display:none">
+      <h3 id="epicsTitle">Epic Completion</h3>
+      <p id="epicsSub">% of each Epic's child work items (Stories/Tasks/Bugs) that are Done, via Jira's parent/child hierarchy</p>
+      <div id="epicsList"></div>
+    </div>
   </div>
 
   <!-- FIVE SIGNALS -->
@@ -240,6 +281,15 @@ function showTab(name, event) {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   document.getElementById('tab-' + name).classList.add('active');
   event.currentTarget.classList.add('active');
+}
+
+// Generic collapse/expand toggle for a section body, driven by a caret span
+// next to its heading (used by Dependencies, Detail, and Aging WIP).
+function toggleCollapse(bodyId, caretEl) {
+  const body = document.getElementById(bodyId);
+  const isHidden = body.style.display === 'none';
+  body.style.display = isHidden ? '' : 'none';
+  caretEl.textContent = isHidden ? '▾' : '▸';
 }
 
 const COLORS = ['#38bdf8','#6c63ff','#22c55e','#f59e0b','#a78bfa','#ef4444','#14b8a6','#eab308'];
@@ -357,6 +407,9 @@ function renderAllProjects(projects) {
   // Dependencies — combined across all projects
   renderDependencies(projects.flatMap(p => p.dependencies || []));
 
+  // Epics only show for a single selected project, not the All Projects view.
+  document.getElementById('portfolioEpicsCard').style.display = 'none';
+
   // Aging WIP — cross-project, so show the Project column
   renderAgingWip(projects.flatMap(p => (p.agingWipIssues || []).map(w => ({ ...w, project: p.key }))), true);
   {
@@ -456,23 +509,78 @@ function dedupeDependencies(rows) {
   return out;
 }
 
-function renderDependencies(rows) {
-  const deduped = dedupeDependencies(rows);
+// Full (deduped, unfiltered) dependency rows for whichever view is currently
+// rendered -- kept around so the blocker filter can re-slice them without a
+// fresh fetch every time the user types.
+let LAST_DEPENDENCY_ROWS = [];
+
+function applyDepsFilter(rows) {
+  const input = document.getElementById('depsFilterInput');
+  const q = (input && input.value || '').trim().toLowerCase();
+  if (!q) return rows;
+  return rows.filter(d =>
+    d.blockerKey.toLowerCase().includes(q) ||
+    (d.blockerProject || '').toLowerCase().includes(q) ||
+    (d.blockerSummary || '').toLowerCase().includes(q)
+  );
+}
+
+function onDepsFilterChange() {
+  renderDepsTable(applyDepsFilter(LAST_DEPENDENCY_ROWS));
+}
+
+function renderDepsTable(rows) {
   const tbody = document.querySelector('#depsTable tbody');
   const empty = document.getElementById('depsEmpty');
-  if (!deduped.length) {
+  if (!rows.length) {
     tbody.innerHTML = '';
     document.getElementById('depsTable').style.display = 'none';
     empty.style.display = 'block';
   } else {
     document.getElementById('depsTable').style.display = '';
     empty.style.display = 'none';
-    tbody.innerHTML = deduped.map(d => `
+    tbody.innerHTML = rows.map(d => `
       <tr><td>${d.blockerKey}</td><td>${d.blockerStatus || '—'}</td><td style="color:var(--muted)">blocks →</td><td>${d.blockedKey}</td><td>${d.blockedStatus || '—'}</td></tr>
     `).join('');
   }
-  document.getElementById('depsSummary').innerHTML = `<div class="deps-chip blue"><b>${deduped.length}</b>Dependencies</div>`;
+  document.getElementById('depsSummary').innerHTML = `<div class="deps-chip blue"><b>${rows.length}</b>Dependencies</div>`;
+}
+
+function renderDependencies(rows) {
+  const deduped = dedupeDependencies(rows);
+  LAST_DEPENDENCY_ROWS = deduped;
+  renderDepsTable(applyDepsFilter(deduped));
   return deduped;
+}
+
+// Epics: renders a progress bar per Epic showing % of its child work items
+// (Stories/Tasks/Bugs, via Jira's parent field) that are Done. In the
+// all-projects view, epics are grouped under a heading per project.
+function epicRows(epics) {
+  if (!epics || !epics.length) {
+    return '<p style="color:var(--muted);margin-bottom:14px">No epics found</p>';
+  }
+  return epics.map(e => `
+    <div class="epic-row">
+      <div class="epic-row-header">
+        <span><span class="epic-key">${e.key}</span><span class="epic-summary">${e.summary || ''}</span></span>
+        <span class="epic-pct">${fmt(e.percentDone,'%')}${e.childTotal !== null && e.childTotal !== undefined ? ` (${e.childDone}/${e.childTotal})` : ''}</span>
+      </div>
+      <div class="epic-bar-track"><div class="epic-bar-fill" style="width:${e.percentDone ?? 0}%;background:${e.epicDone ? 'var(--green)' : 'var(--accent)'}"></div></div>
+    </div>
+  `).join('');
+}
+
+function renderEpics(data, groupByProject) {
+  const container = document.getElementById('epicsList');
+  if (groupByProject) {
+    container.innerHTML = data.map(p => `
+      <div class="epic-project-heading">${p.key}</div>
+      ${epicRows(p.epics || [])}
+    `).join('');
+  } else {
+    container.innerHTML = epicRows(data);
+  }
 }
 
 // Aging WIP: renders the oldest-first table of currently open issues. showProject
@@ -548,6 +656,10 @@ function renderSingleProject(p) {
   });
 
   renderDependencies(p.dependencies || []);
+
+  // Epics: only shown in single-project view, on the Project Portfolio tab.
+  document.getElementById('portfolioEpicsCard').style.display = '';
+  renderEpics(p.epics || [], false);
 
   renderAgingWip((p.agingWipIssues || []).map(w => ({ ...w, project: p.key })), false);
   renderAgingSummary(p.oldestWipAgeDays ?? null, p.agingWipCount || 0);
