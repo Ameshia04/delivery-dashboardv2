@@ -269,39 +269,30 @@ function weekLabel(startMs, endMs) {
   return `${fmt(startMs)}–${fmt(endMs)}`;
 }
 
-/** Each project's Epics, with % of child work items (Stories/Tasks/Bugs under
- * that Epic via the "parent" field) that are Done. Verified against a real
- * example (INV-651): parent = INV-651 returns its 10 child work items, 5 of
- * which are Done -- 50%, matching Jira's own "Child work items" progress bar.
- * Epics that are themselves already Done/Won't Do are reported at 100% without
- * an extra query, since their child breakdown won't change anymore -- this
- * keeps the number of API calls down for projects with a lot of closed Epics. */
+/** Each project's active (not-yet-Done) Epics, with % of child work items
+ * (Stories/Tasks/Bugs under that Epic via the "parent" field) that are Done.
+ * Verified against a real example (INV-651): parent = INV-651 returns its 10
+ * child work items, 5 of which are Done -- 50%, matching Jira's own "Child
+ * work items" progress bar. Completed/Won't Do Epics are excluded entirely
+ * (filtered at the JQL level, so they're never fetched) since the dashboard
+ * only wants to surface Epics still in flight. */
 async function analyzeEpics(key) {
-  const epics = await searchAll(`project = ${key} AND issuetype = Epic`, ["summary", "status"]);
+  const epics = await searchAll(`project = ${key} AND issuetype = Epic AND statusCategory != Done`, ["summary", "status"]);
   const results = [];
   for (const epic of epics) {
-    const epicDone = epic.fields.status.statusCategory && epic.fields.status.statusCategory.key === "done";
-    let childTotal = null;
-    let childDone = null;
-    let percentDone = epicDone ? 100 : null;
-    if (!epicDone) {
-      const children = await searchAll(`parent = ${epic.key}`, ["status"]);
-      childTotal = children.length;
-      childDone = children.filter((c) => c.fields.status.statusCategory && c.fields.status.statusCategory.key === "done").length;
-      percentDone = childTotal ? round1((childDone / childTotal) * 100) : 0;
-    }
+    const children = await searchAll(`parent = ${epic.key}`, ["status"]);
+    const childTotal = children.length;
+    const childDone = children.filter((c) => c.fields.status.statusCategory && c.fields.status.statusCategory.key === "done").length;
+    const percentDone = childTotal ? round1((childDone / childTotal) * 100) : 0;
     results.push({
       key: epic.key,
       summary: epic.fields.summary,
       status: epic.fields.status.name,
-      epicDone,
       childTotal,
       childDone,
       percentDone,
     });
   }
-  // Active (not-yet-done) Epics first, so the list leads with what's still in flight.
-  results.sort((a, b) => (a.epicDone === b.epicDone ? 0 : a.epicDone ? 1 : -1));
   return results;
 }
 
