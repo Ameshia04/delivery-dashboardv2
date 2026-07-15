@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T15:23:31.584Z",
+  "generatedAt": "2026-07-15T15:46:38.801Z",
   "windowDays": 56,
   "groupingNote": "Metrics are grouped by real Jira project (no Pod/DM field exists yet). Update PROJECTS + grouping in fetch-jira-data.js once Pods/DMs are tracked in Jira.",
   "projects": [
@@ -10,7 +10,6 @@
           "key": "INV-964",
           "summary": "Automated Mapping Generation",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 1,
           "percentDone": 33.3
@@ -19,7 +18,6 @@
           "key": "INV-958",
           "summary": "[Exp Mgmt] Backend Migration to PHP",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -28,7 +26,6 @@
           "key": "INV-939",
           "summary": "Company Enhancements",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 0,
           "percentDone": 0
@@ -37,7 +34,6 @@
           "key": "INV-934",
           "summary": "Expense Itinerary in Mobile — APS-Online MileageCalcMap migration (Strategy 1)",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 0,
           "percentDone": 0
@@ -46,7 +42,6 @@
           "key": "INV-910",
           "summary": "INV Q2 2026 bugs",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -55,7 +50,6 @@
           "key": "INV-900",
           "summary": "EFTPS Integration",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -64,7 +58,6 @@
           "key": "INV-857",
           "summary": "Company Users Management",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 4,
           "childDone": 0,
           "percentDone": 0
@@ -73,7 +66,6 @@
           "key": "INV-856",
           "summary": "Tristate/Kotapay Integration",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 4,
           "childDone": 0,
           "percentDone": 0
@@ -82,7 +74,6 @@
           "key": "INV-838",
           "summary": "[Exp Mgmt] Enhancements & Bugfixes - 2026",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 8,
           "childDone": 8,
           "percentDone": 100
@@ -91,7 +82,6 @@
           "key": "INV-789",
           "summary": "[VAR App] Additional Insights",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 0,
           "percentDone": 0
@@ -100,7 +90,6 @@
           "key": "INV-788",
           "summary": "5. Additional Enhancements",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 8,
           "childDone": 8,
           "percentDone": 100
@@ -109,7 +98,6 @@
           "key": "INV-784",
           "summary": "3. Document Templates & Automation Rules",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 12,
           "childDone": 11,
           "percentDone": 91.7
@@ -118,7 +106,6 @@
           "key": "INV-730",
           "summary": "2. Company Accounts Management",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 9,
           "childDone": 9,
           "percentDone": 100
@@ -127,7 +114,6 @@
           "key": "INV-653",
           "summary": "Project Management & GuideCX integration",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 7,
           "childDone": 0,
           "percentDone": 0
@@ -136,7 +122,6 @@
           "key": "INV-651",
           "summary": "3. Onboarding Packet Management",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 10,
           "childDone": 5,
           "percentDone": 50
@@ -145,7 +130,6 @@
           "key": "INV-618",
           "summary": "0. Architecture & Core Components",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 43,
           "childDone": 41,
           "percentDone": 95.3
@@ -154,7 +138,6 @@
           "key": "INV-604",
           "summary": "4. Due Diligence & Project Management",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 20,
           "childDone": 8,
           "percentDone": 40
@@ -163,7 +146,6 @@
           "key": "INV-526",
           "summary": "Departments allocations",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 10,
           "childDone": 6,
           "percentDone": 60
@@ -172,7 +154,6 @@
           "key": "INV-436",
           "summary": "Expense Management in ReactJS - eSS/mSS",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -181,7 +162,6 @@
           "key": "INV-427",
           "summary": "Expense Management in ReactJS - Online",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 6,
           "childDone": 3,
           "percentDone": 50
@@ -190,7 +170,6 @@
           "key": "INV-412",
           "summary": "Tracking Implementation",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -199,7 +178,6 @@
           "key": "INV-315",
           "summary": "[Shift Trading] Enhancements & Bugfixes - Insights",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 5,
           "childDone": 3,
           "percentDone": 60
@@ -208,7 +186,6 @@
           "key": "INV-116",
           "summary": "[Expense Mgmt] Enhancements & Bugfixes - Insights",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 17,
           "childDone": 8,
           "percentDone": 47.1
@@ -217,7 +194,6 @@
           "key": "INV-74",
           "summary": "Corporate card management",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -226,7 +202,6 @@
           "key": "INV-71",
           "summary": "Manage multiple expense policies",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 0,
           "percentDone": 0
@@ -235,460 +210,9 @@
           "key": "INV-70",
           "summary": "Multi-level validation for Expense Management",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 0,
           "percentDone": 0
-        },
-        {
-          "key": "INV-877",
-          "summary": "[Shift Trading] Enhancements & Bugfixes - 2026",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-755",
-          "summary": "3. Documents Management",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-724",
-          "summary": "1. APS Users, Teams & Roles",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-714",
-          "summary": "Automatic distance calculation for mileage expenses",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-654",
-          "summary": "2. Onboarding Forms",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-652",
-          "summary": "4. Company Setup",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-650",
-          "summary": "1. Partner Accounts & Users Management",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-630",
-          "summary": "User Experience",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-617",
-          "summary": "Company setup",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-616",
-          "summary": "Initial Input & Quality Checks",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-615",
-          "summary": "Project Management",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-602",
-          "summary": "Documents & Signature Management",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-529",
-          "summary": "Extend the proxy feature to managers",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-507",
-          "summary": "Redevelop pages in ReactJS (Q2-Q3 2025)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-504",
-          "summary": "Enhancements and additional components",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-483",
-          "summary": "Expense Management - New Online UI integration",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-474",
-          "summary": "Post MVP enhancements (Q2/Q3 2025)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-437",
-          "summary": "Automated testing and Deployment",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-411",
-          "summary": "Tracking implementation",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-367",
-          "summary": "POC - Online admin pages in ReactJS",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-366",
-          "summary": "Create standard components on Storybook",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-323",
-          "summary": "Reporting and Analytics",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-314",
-          "summary": "Bugs and Improvements - MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-242",
-          "summary": "Enable employees to hand off shifts",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-231",
-          "summary": "Enable employees to swap shifts",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-223",
-          "summary": "Update employees' schedules with trade changes",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-219",
-          "summary": "Enable managers to review trade requests & finalize MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-215",
-          "summary": "Enable employees to pick up shifts",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-213",
-          "summary": "Enable employees to release shifts and monitor their shift requests",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-203",
-          "summary": "Expenses management (Core)",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-153",
-          "summary": "Online Proxy",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-117",
-          "summary": "Expense categories/policy - enhancements",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-102",
-          "summary": "Expense Management - Payroll integration",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-101",
-          "summary": "Templates management",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-98",
-          "summary": "Alerts implementation",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-92",
-          "summary": "Admin - Category Management",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-78",
-          "summary": "Admin Review",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-73",
-          "summary": "Integrate AI to automate expense processing",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-72",
-          "summary": "Automated review and warnings",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-56",
-          "summary": "Status update (Admin)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-43",
-          "summary": "Other administration settings",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-33",
-          "summary": "Default categories",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-28",
-          "summary": "Project - Expense Report",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-8",
-          "summary": "Reports management",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-7",
-          "summary": "Expenses management",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-6",
-          "summary": "Expense categories",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-5",
-          "summary": "Reporting and analytics",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-4",
-          "summary": "Expense policy",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-3",
-          "summary": "Manager's validation",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-1",
-          "summary": "Innovation - Roadmap",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
         }
       ],
       "wipByStatus": {
@@ -866,20 +390,20 @@
         }
       ],
       "dependencyCount": 16,
-      "oldestWipAgeDays": 869.7,
+      "oldestWipAgeDays": 869.8,
       "agingWipCount": 112,
       "agingWipIssues": [
         {
           "key": "INV-30",
           "summary": "Copy an expense",
           "status": "Backlog",
-          "ageDays": 869.7
+          "ageDays": 869.8
         },
         {
           "key": "INV-29",
           "summary": "Copy an Expense Report",
           "status": "Backlog",
-          "ageDays": 869.7
+          "ageDays": 869.8
         },
         {
           "key": "INV-44",
@@ -891,7 +415,7 @@
           "key": "INV-47",
           "summary": "Get automated warnings for unusual expenses (amounts...)",
           "status": "Backlog",
-          "ageDays": 865.8
+          "ageDays": 865.9
         },
         {
           "key": "INV-66",
@@ -922,8 +446,8 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T15:22:33.417Z",
-          "weekEnd": "2026-05-27T15:22:33.417Z",
+          "weekStart": "2026-05-20T15:45:33.959Z",
+          "weekEnd": "2026-05-27T15:45:33.959Z",
           "throughput": 4,
           "cycleTimeAvg": 17.7,
           "leadTimeAvg": 63.1,
@@ -935,8 +459,8 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T15:22:33.417Z",
-          "weekEnd": "2026-06-03T15:22:33.417Z",
+          "weekStart": "2026-05-27T15:45:33.959Z",
+          "weekEnd": "2026-06-03T15:45:33.959Z",
           "throughput": 11,
           "cycleTimeAvg": 55.7,
           "leadTimeAvg": 111.2,
@@ -948,8 +472,8 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T15:22:33.417Z",
-          "weekEnd": "2026-06-10T15:22:33.417Z",
+          "weekStart": "2026-06-03T15:45:33.959Z",
+          "weekEnd": "2026-06-10T15:45:33.959Z",
           "throughput": 2,
           "cycleTimeAvg": 7.1,
           "leadTimeAvg": 110.5,
@@ -961,34 +485,34 @@
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T15:22:33.417Z",
-          "weekEnd": "2026-06-17T15:22:33.417Z",
-          "throughput": 10,
-          "cycleTimeAvg": 25.3,
-          "leadTimeAvg": 102,
-          "flowEfficiencyPct": 24.8,
-          "qualityLoopbackRatePct": 40,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 10,
+          "weekStart": "2026-06-10T15:45:33.959Z",
+          "weekEnd": "2026-06-17T15:45:33.959Z",
+          "throughput": 11,
+          "cycleTimeAvg": 26.5,
+          "leadTimeAvg": 98.5,
+          "flowEfficiencyPct": 26.9,
+          "qualityLoopbackRatePct": 45.5,
+          "qualityLoopbackCount": 5,
+          "qualityLoopbackSampleSize": 11,
           "aiLeverageRatePct": 0
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T15:22:33.417Z",
-          "weekEnd": "2026-06-24T15:22:33.417Z",
-          "throughput": 8,
-          "cycleTimeAvg": 18.4,
-          "leadTimeAvg": 42.3,
-          "flowEfficiencyPct": 43.5,
-          "qualityLoopbackRatePct": 37.5,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 8,
+          "weekStart": "2026-06-17T15:45:33.959Z",
+          "weekEnd": "2026-06-24T15:45:33.959Z",
+          "throughput": 7,
+          "cycleTimeAvg": 12.5,
+          "leadTimeAvg": 39.2,
+          "flowEfficiencyPct": 31.9,
+          "qualityLoopbackRatePct": 28.6,
+          "qualityLoopbackCount": 2,
+          "qualityLoopbackSampleSize": 7,
           "aiLeverageRatePct": 0
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T15:22:33.417Z",
-          "weekEnd": "2026-07-01T15:22:33.417Z",
+          "weekStart": "2026-06-24T15:45:33.959Z",
+          "weekEnd": "2026-07-01T15:45:33.959Z",
           "throughput": 11,
           "cycleTimeAvg": 17.9,
           "leadTimeAvg": 118.2,
@@ -1000,8 +524,8 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T15:22:33.417Z",
-          "weekEnd": "2026-07-08T15:22:33.417Z",
+          "weekStart": "2026-07-01T15:45:33.959Z",
+          "weekEnd": "2026-07-08T15:45:33.959Z",
           "throughput": 11,
           "cycleTimeAvg": 104,
           "leadTimeAvg": 244.1,
@@ -1013,8 +537,8 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T15:22:33.417Z",
-          "weekEnd": "2026-07-15T15:22:33.417Z",
+          "weekStart": "2026-07-08T15:45:33.959Z",
+          "weekEnd": "2026-07-15T15:45:33.959Z",
           "throughput": 12,
           "cycleTimeAvg": 14,
           "leadTimeAvg": 38.9,
@@ -1033,7 +557,6 @@
           "key": "APCOM-310",
           "summary": "Salesforce CDC Integration",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 4,
           "childDone": 0,
           "percentDone": 0
@@ -1042,7 +565,6 @@
           "key": "APCOM-307",
           "summary": "Meerkat Q3 2026",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 0,
           "percentDone": 0
@@ -1051,7 +573,6 @@
           "key": "APCOM-297",
           "summary": "APCOM: Production Bug Backlog Q3 2026",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 7,
           "childDone": 5,
           "percentDone": 71.4
@@ -1060,7 +581,6 @@
           "key": "APCOM-275",
           "summary": "Auto-generate API Documentation",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 9,
           "childDone": 9,
           "percentDone": 100
@@ -1069,7 +589,6 @@
           "key": "APCOM-272",
           "summary": "Intacct Modernization",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 30,
           "childDone": 14,
           "percentDone": 46.7
@@ -1078,7 +597,6 @@
           "key": "APCOM-222",
           "summary": "DailyPay Enhancements",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -1087,7 +605,6 @@
           "key": "APCOM-209",
           "summary": "Account Summary — Internal APS View",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -1096,7 +613,6 @@
           "key": "APCOM-192",
           "summary": "Mass Updates",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 1,
           "percentDone": 100
@@ -1105,7 +621,6 @@
           "key": "APCOM-186",
           "summary": "ESS Paystub Rendering Parity with DocVault",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 6,
           "childDone": 3,
           "percentDone": 50
@@ -1114,7 +629,6 @@
           "key": "APCOM-172",
           "summary": "APCOM Q2 2026 bugs",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 14,
           "childDone": 14,
           "percentDone": 100
@@ -1123,7 +637,6 @@
           "key": "APCOM-139",
           "summary": "EIP - Improvements",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 1,
           "percentDone": 33.3
@@ -1132,7 +645,6 @@
           "key": "APCOM-127",
           "summary": "Account Summary - Feature Usage",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 45,
           "childDone": 42,
           "percentDone": 93.3
@@ -1141,7 +653,6 @@
           "key": "APCOM-108",
           "summary": "General Ledger Endpoint",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 2,
           "childDone": 2,
           "percentDone": 100
@@ -1150,7 +661,6 @@
           "key": "APCOM-87",
           "summary": "Meerkat Q2 2026",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 11,
           "childDone": 9,
           "percentDone": 81.8
@@ -1159,7 +669,6 @@
           "key": "APCOM-86",
           "summary": "Meerkat AI",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 1,
           "percentDone": 100
@@ -1168,7 +677,6 @@
           "key": "APCOM-85",
           "summary": "Time-off Request Endpoint",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 2,
           "childDone": 2,
           "percentDone": 100
@@ -1177,7 +685,6 @@
           "key": "APCOM-84",
           "summary": "Webhooks System",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 11,
           "childDone": 8,
           "percentDone": 72.7
@@ -1186,7 +693,6 @@
           "key": "APCOM-73",
           "summary": "NetSuite GL Integration",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 8,
           "childDone": 1,
           "percentDone": 12.5
@@ -1195,7 +701,6 @@
           "key": "APCOM-68",
           "summary": "Refactoring Token Management",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 10,
           "childDone": 10,
           "percentDone": 100
@@ -1204,7 +709,6 @@
           "key": "APCOM-66",
           "summary": "Shift Trading v1",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 18,
           "childDone": 18,
           "percentDone": 100
@@ -1213,7 +717,6 @@
           "key": "APCOM-65",
           "summary": "Expense Management Updates",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 2,
           "childDone": 1,
           "percentDone": 50
@@ -1222,7 +725,6 @@
           "key": "APCOM-64",
           "summary": "Intacct - Improvements",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 26,
           "childDone": 22,
           "percentDone": 84.6
@@ -1231,7 +733,6 @@
           "key": "APCOM-57",
           "summary": "R365 Overhaul",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 4,
           "childDone": 2,
           "percentDone": 50
@@ -1240,73 +741,9 @@
           "key": "APCOM-55",
           "summary": "Employee Navigator 2.0",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 12,
           "childDone": 11,
           "percentDone": 91.7
-        },
-        {
-          "key": "APCOM-106",
-          "summary": "Meerkat Q1 2026",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-71",
-          "summary": "Notification Center - Task Widget",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-69",
-          "summary": "Sunset API V1 - PHP Rest API",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-67",
-          "summary": "DailyPay",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-59",
-          "summary": "Intacct Improvements",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-58",
-          "summary": "APCOM: Production Bug Backlog Q1 2026",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-54",
-          "summary": "Claude Setup",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
         }
       ],
       "wipByStatus": {
@@ -1314,11 +751,11 @@
         "To Do": 7,
         "Ready for Development": 14,
         "In Development": 21,
-        "Ready for Code Review": 0,
+        "Ready for Code Review": 1,
         "In QA": 2,
         "Acceptance": 0,
         "Done": 25,
-        "Other": 10
+        "Other": 9
       },
       "wipTotal": 102,
       "dependencies": [
@@ -1379,13 +816,13 @@
           "key": "APCOM-31",
           "summary": "Partner API",
           "status": "To Do",
-          "ageDays": 609.9
+          "ageDays": 610
         },
         {
           "key": "APCOM-2",
           "summary": "More user info pushed to ZD in thesync.",
           "status": "Backlog",
-          "ageDays": 574.9
+          "ageDays": 575
         }
       ],
       "windowDays": 56,
@@ -1410,8 +847,8 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T15:22:42.906Z",
-          "weekEnd": "2026-05-27T15:22:42.906Z",
+          "weekStart": "2026-05-20T15:45:45.909Z",
+          "weekEnd": "2026-05-27T15:45:45.909Z",
           "throughput": 12,
           "cycleTimeAvg": 13.4,
           "leadTimeAvg": 32.4,
@@ -1423,8 +860,8 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T15:22:42.906Z",
-          "weekEnd": "2026-06-03T15:22:42.906Z",
+          "weekStart": "2026-05-27T15:45:45.909Z",
+          "weekEnd": "2026-06-03T15:45:45.909Z",
           "throughput": 15,
           "cycleTimeAvg": 12.5,
           "leadTimeAvg": 125.4,
@@ -1436,8 +873,8 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T15:22:42.906Z",
-          "weekEnd": "2026-06-10T15:22:42.906Z",
+          "weekStart": "2026-06-03T15:45:45.909Z",
+          "weekEnd": "2026-06-10T15:45:45.909Z",
           "throughput": 7,
           "cycleTimeAvg": 26,
           "leadTimeAvg": 177.9,
@@ -1449,8 +886,8 @@
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T15:22:42.906Z",
-          "weekEnd": "2026-06-17T15:22:42.906Z",
+          "weekStart": "2026-06-10T15:45:45.909Z",
+          "weekEnd": "2026-06-17T15:45:45.909Z",
           "throughput": 10,
           "cycleTimeAvg": 13.7,
           "leadTimeAvg": 139.9,
@@ -1462,8 +899,8 @@
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T15:22:42.906Z",
-          "weekEnd": "2026-06-24T15:22:42.906Z",
+          "weekStart": "2026-06-17T15:45:45.909Z",
+          "weekEnd": "2026-06-24T15:45:45.909Z",
           "throughput": 16,
           "cycleTimeAvg": 12.4,
           "leadTimeAvg": 21.8,
@@ -1475,8 +912,8 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T15:22:42.906Z",
-          "weekEnd": "2026-07-01T15:22:42.906Z",
+          "weekStart": "2026-06-24T15:45:45.909Z",
+          "weekEnd": "2026-07-01T15:45:45.909Z",
           "throughput": 22,
           "cycleTimeAvg": 9.2,
           "leadTimeAvg": 29.8,
@@ -1488,8 +925,8 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T15:22:42.906Z",
-          "weekEnd": "2026-07-08T15:22:42.906Z",
+          "weekStart": "2026-07-01T15:45:45.909Z",
+          "weekEnd": "2026-07-08T15:45:45.909Z",
           "throughput": 7,
           "cycleTimeAvg": 19.9,
           "leadTimeAvg": 37.2,
@@ -1501,8 +938,8 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T15:22:42.906Z",
-          "weekEnd": "2026-07-15T15:22:42.906Z",
+          "weekStart": "2026-07-08T15:45:45.909Z",
+          "weekEnd": "2026-07-15T15:45:45.909Z",
           "throughput": 8,
           "cycleTimeAvg": 38.4,
           "leadTimeAvg": 47.3,
@@ -1521,7 +958,6 @@
           "key": "EMP-933",
           "summary": "Require Mobile clock in",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 0,
           "percentDone": 0
@@ -1530,7 +966,6 @@
           "key": "EMP-925",
           "summary": "Custom PDF Forms",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -1539,7 +974,6 @@
           "key": "EMP-905",
           "summary": "EMP:Production Bug Backlog Q3 2026",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 4,
           "childDone": 2,
           "percentDone": 50
@@ -1548,7 +982,6 @@
           "key": "EMP-866",
           "summary": "Schedule Templates: updates after MVP",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 4,
           "childDone": 2,
           "percentDone": 50
@@ -1557,7 +990,6 @@
           "key": "EMP-825",
           "summary": "Q2 2026 Miscellaneous Employee updates",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 8,
           "childDone": 7,
           "percentDone": 87.5
@@ -1566,514 +998,9 @@
           "key": "EMP-762",
           "summary": "Employee onboarding",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 43,
           "childDone": 29,
           "percentDone": 67.4
-        },
-        {
-          "key": "EMP-912",
-          "summary": "EE Record React — Dynamic Fields Engine & Release",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-911",
-          "summary": "EE Record React — Foundation & Core Tabs",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-831",
-          "summary": "EMP Q2 2026 Production Bugs",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-783",
-          "summary": "Q1 2026 MISC EMP Updates",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-770",
-          "summary": "Punch Change Requests",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-749",
-          "summary": "Q1 2026 MISC Bugs",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-738",
-          "summary": "Q1 26 - Misc Schedule Updates",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-725",
-          "summary": "Employee Access options",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-707",
-          "summary": "EMP Q4 2025 MISC Bugs",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-705",
-          "summary": "[ESS] Update component masking functions",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-632",
-          "summary": "Q3 2025 EMP BUG",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-631",
-          "summary": "Q3 2025 EMP MISC",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-568",
-          "summary": "Availability After MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-547",
-          "summary": "Q22025 General Enhancement",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-546",
-          "summary": "Q22025 EMP BUGS",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-541",
-          "summary": "2024 Maintenance - EMP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-527",
-          "summary": "Scheduling update: Templates",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-486",
-          "summary": "Q12025 EMP Bugs",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-444",
-          "summary": "Mobile Punch Activity shown in eSS for Managers",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-440",
-          "summary": "Q42024 EMP Bugs",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-430",
-          "summary": "Scheduling: Bugs after MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-421",
-          "summary": "End of year 2024",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-401",
-          "summary": "Scheduling: Availability, Update the TOR",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-377",
-          "summary": "Employee Schedule View",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-353",
-          "summary": "Q324 EMP BUG",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-302",
-          "summary": "Q224 EMP MISC",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-301",
-          "summary": "Q224 EMP BUG",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-288",
-          "summary": "Scheduling: Enhancements after MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-236",
-          "summary": "Mobile - Voluntary Self Identification",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-235",
-          "summary": "eSS - Voluntary Self Identification",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-225",
-          "summary": "Q124 EMP MISC",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-224",
-          "summary": "Q124 EMP BUG",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-188",
-          "summary": "/",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-185",
-          "summary": "ESS Security Enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-169",
-          "summary": "Q423 EMP Bug",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-168",
-          "summary": " Q423 EMP MISC",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-143",
-          "summary": "NativeBase Regression",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-126",
-          "summary": "Employee Miscellaneous Quarter 3 2023",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-123",
-          "summary": "EMP Break/Fix tickets Q323",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-116",
-          "summary": "Scheduling: Shift Swapping",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-115",
-          "summary": "Scheduling: Availability",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-114",
-          "summary": "Scheduling: User Interface - MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-31",
-          "summary": "New Handreader Repo/Service (Parrot) for new punch devices",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-30",
-          "summary": "Support Benefit Enrollment in the App",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-29",
-          "summary": "[ESSMobile] MSS - Events",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-28",
-          "summary": "Support Push Notifications in the App",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-27",
-          "summary": "Styling update and Additions to the mobile app",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-26",
-          "summary": "[ESS Desktop] ESS slowing down on Monday Morning",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-25",
-          "summary": "Stronger Password Requirements for eSELFSERVE",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-24",
-          "summary": "Parrot Wrap-up",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-23",
-          "summary": "[ESS Mobile] NativeBase v3 Theme update - Employee Side",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-22",
-          "summary": "[ESSMobile] React Native Upgrade to 0.71",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-21",
-          "summary": "Direct Linking: Daily Digest (formally Universal linking/Deep linking)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-20",
-          "summary": "Update ESS Desktop and Mobile to use the Notification system",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-19",
-          "summary": "[ESS Mobile] NativeBase v3 Theme update - Manager Side",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EMP-18",
-          "summary": "Facelift - post go live",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
         }
       ],
       "wipByStatus": {
@@ -2234,7 +1161,7 @@
           "key": "EMP-472",
           "summary": "Scheduling Redesign - Post-MVP",
           "status": "In Progress",
-          "ageDays": 611
+          "ageDays": 611.1
         },
         {
           "key": "EMP-509",
@@ -2277,8 +1204,8 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T15:22:51.842Z",
-          "weekEnd": "2026-05-27T15:22:51.842Z",
+          "weekStart": "2026-05-20T15:45:56.147Z",
+          "weekEnd": "2026-05-27T15:45:56.147Z",
           "throughput": 7,
           "cycleTimeAvg": 8.1,
           "leadTimeAvg": 12.7,
@@ -2290,34 +1217,34 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T15:22:51.842Z",
-          "weekEnd": "2026-06-03T15:22:51.842Z",
-          "throughput": 5,
-          "cycleTimeAvg": 9.1,
-          "leadTimeAvg": 44,
-          "flowEfficiencyPct": 20.7,
-          "qualityLoopbackRatePct": 40,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 5,
-          "aiLeverageRatePct": 0
-        },
-        {
-          "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T15:22:51.842Z",
-          "weekEnd": "2026-06-10T15:22:51.842Z",
+          "weekStart": "2026-05-27T15:45:56.147Z",
+          "weekEnd": "2026-06-03T15:45:56.147Z",
           "throughput": 6,
-          "cycleTimeAvg": 9.6,
-          "leadTimeAvg": 30.9,
-          "flowEfficiencyPct": 31.1,
-          "qualityLoopbackRatePct": 16.7,
-          "qualityLoopbackCount": 1,
+          "cycleTimeAvg": 9.8,
+          "leadTimeAvg": 39.3,
+          "flowEfficiencyPct": 24.9,
+          "qualityLoopbackRatePct": 33.3,
+          "qualityLoopbackCount": 2,
           "qualityLoopbackSampleSize": 6,
           "aiLeverageRatePct": 0
         },
         {
+          "label": "Jun 3–Jun 10",
+          "weekStart": "2026-06-03T15:45:56.147Z",
+          "weekEnd": "2026-06-10T15:45:56.147Z",
+          "throughput": 5,
+          "cycleTimeAvg": 8.8,
+          "leadTimeAvg": 33.9,
+          "flowEfficiencyPct": 26,
+          "qualityLoopbackRatePct": 20,
+          "qualityLoopbackCount": 1,
+          "qualityLoopbackSampleSize": 5,
+          "aiLeverageRatePct": 0
+        },
+        {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T15:22:51.842Z",
-          "weekEnd": "2026-06-17T15:22:51.842Z",
+          "weekStart": "2026-06-10T15:45:56.147Z",
+          "weekEnd": "2026-06-17T15:45:56.147Z",
           "throughput": 10,
           "cycleTimeAvg": 14.8,
           "leadTimeAvg": 129.3,
@@ -2329,8 +1256,8 @@
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T15:22:51.842Z",
-          "weekEnd": "2026-06-24T15:22:51.842Z",
+          "weekStart": "2026-06-17T15:45:56.147Z",
+          "weekEnd": "2026-06-24T15:45:56.147Z",
           "throughput": 11,
           "cycleTimeAvg": 11.8,
           "leadTimeAvg": 101.1,
@@ -2342,8 +1269,8 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T15:22:51.842Z",
-          "weekEnd": "2026-07-01T15:22:51.842Z",
+          "weekStart": "2026-06-24T15:45:56.147Z",
+          "weekEnd": "2026-07-01T15:45:56.147Z",
           "throughput": 16,
           "cycleTimeAvg": 3.8,
           "leadTimeAvg": 13.6,
@@ -2355,8 +1282,8 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T15:22:51.842Z",
-          "weekEnd": "2026-07-08T15:22:51.842Z",
+          "weekStart": "2026-07-01T15:45:56.147Z",
+          "weekEnd": "2026-07-08T15:45:56.147Z",
           "throughput": 0,
           "cycleTimeAvg": null,
           "leadTimeAvg": null,
@@ -2368,8 +1295,8 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T15:22:51.842Z",
-          "weekEnd": "2026-07-15T15:22:51.842Z",
+          "weekStart": "2026-07-08T15:45:56.147Z",
+          "weekEnd": "2026-07-15T15:45:56.147Z",
           "throughput": 7,
           "cycleTimeAvg": 45.8,
           "leadTimeAvg": 161.5,
@@ -2388,7 +1315,6 @@
           "key": "CORE-1667",
           "summary": "React Conversion: Run Payroll Batch",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 15,
           "childDone": 0,
           "percentDone": 0
@@ -2397,7 +1323,6 @@
           "key": "CORE-1661",
           "summary": "React Conversion: Report Builder",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 0,
           "percentDone": 0
@@ -2406,7 +1331,6 @@
           "key": "CORE-1656",
           "summary": "React Conversion — Add Employee Wizard",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 4,
           "childDone": 0,
           "percentDone": 0
@@ -2415,7 +1339,6 @@
           "key": "CORE-1651",
           "summary": "React Conversion: Integration Setup",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 4,
           "childDone": 0,
           "percentDone": 0
@@ -2424,7 +1347,6 @@
           "key": "CORE-1635",
           "summary": "React Conversion: Company Setup",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 8,
           "childDone": 0,
           "percentDone": 0
@@ -2433,7 +1355,6 @@
           "key": "CORE-1594",
           "summary": "React Conversion: Employee Record",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 11,
           "childDone": 0,
           "percentDone": 0
@@ -2442,7 +1363,6 @@
           "key": "CORE-1573",
           "summary": "CORE: Production Bug Backlog Q3 2026",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 13,
           "childDone": 5,
           "percentDone": 38.5
@@ -2451,7 +1371,6 @@
           "key": "CORE-1528",
           "summary": "Secure 2.0 Compliance",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 15,
           "childDone": 4,
           "percentDone": 26.7
@@ -2460,7 +1379,6 @@
           "key": "CORE-1469",
           "summary": "Q2 Misc Enhancements",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 14,
           "childDone": 7,
           "percentDone": 50
@@ -2469,7 +1387,6 @@
           "key": "CORE-1468",
           "summary": "NACHA Compliance - PreNotes",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 5,
           "childDone": 5,
           "percentDone": 100
@@ -2478,7 +1395,6 @@
           "key": "CORE-1447",
           "summary": "Payroll Comparison Tools",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 1,
           "percentDone": 33.3
@@ -2487,7 +1403,6 @@
           "key": "CORE-1434",
           "summary": "React Conversion: Report Manager",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 1,
           "percentDone": 33.3
@@ -2496,7 +1411,6 @@
           "key": "CORE-1411",
           "summary": "CORE Q2 2026 Backlog Bugs",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 127,
           "childDone": 76,
           "percentDone": 59.8
@@ -2505,7 +1419,6 @@
           "key": "CORE-1407",
           "summary": "CORE Testing Documentation",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -2514,7 +1427,6 @@
           "key": "CORE-1364",
           "summary": "Proactive Payroll - MVP+",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 11,
           "childDone": 10,
           "percentDone": 90.9
@@ -2523,7 +1435,6 @@
           "key": "CORE-1336",
           "summary": "CORE Year End 2026",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 15,
           "childDone": 6,
           "percentDone": 40
@@ -2532,7 +1443,6 @@
           "key": "CORE-1253",
           "summary": "Employee List Dashboard Revamp",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 15,
           "childDone": 13,
           "percentDone": 86.7
@@ -2541,7 +1451,6 @@
           "key": "CORE-1249",
           "summary": "Mass Updates - Phase 3 - Effective Dating",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 4,
           "childDone": 2,
           "percentDone": 50
@@ -2550,7 +1459,6 @@
           "key": "CORE-1101",
           "summary": "Effective Dating - Phase 2 - Additional Fields",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 15,
           "childDone": 12,
           "percentDone": 80
@@ -2559,7 +1467,6 @@
           "key": "CORE-804",
           "summary": "Money Service Admin - Phase 2 - Direct Deposit Returns",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 5,
           "childDone": 1,
           "percentDone": 20
@@ -2568,7 +1475,6 @@
           "key": "CORE-539",
           "summary": "Pronoun Integration in Online",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 2,
           "childDone": 1,
           "percentDone": 50
@@ -2577,7 +1483,6 @@
           "key": "CORE-446",
           "summary": "Expedited Payroll ",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 7,
           "childDone": 3,
           "percentDone": 42.9
@@ -2586,7 +1491,6 @@
           "key": "CORE-439",
           "summary": "Preferred name Integration in Online",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 16,
           "childDone": 8,
           "percentDone": 50
@@ -2595,7 +1499,6 @@
           "key": "CORE-194",
           "summary": "Active for Payroll - Post-MVP",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 7,
           "childDone": 0,
           "percentDone": 0
@@ -2604,883 +1507,9 @@
           "key": "CORE-34",
           "summary": "Support State of CA RROP (DLSE)",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 9,
           "childDone": 5,
           "percentDone": 55.6
-        },
-        {
-          "key": "CORE-1642",
-          "summary": "Company Setup React: ESS Configuration",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1641",
-          "summary": "Company Setup React: Attendance Setup",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1640",
-          "summary": "Company Setup React: General Ledger Setup",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1639",
-          "summary": "Company Setup React: Core Settings Pages",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1638",
-          "summary": "Company Setup React: Wire-In Nine Existing React Pages",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1637",
-          "summary": "Company Setup React: Storybook Backfill — Existing React Admin Pages",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1636",
-          "summary": "Company Setup React: Admin Console Shell",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1595",
-          "summary": "EE Record React — Dynamic Fields Engine & Release",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1499",
-          "summary": "CORE: Production Bug Backlog Q2 2026",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1437",
-          "summary": "Global Reporting Phase 2: Employee Reports",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1422",
-          "summary": "React Conversion: Money Service Admin Dashboard",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1410",
-          "summary": "Q1 Misc Enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1129",
-          "summary": "Money Service Admin - MVP+ - State Checks (Net Check Reconciliation)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1108",
-          "summary": "Year End 2025",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1092",
-          "summary": "Proactive Payroll - MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1091",
-          "summary": "Won't Do",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1069",
-          "summary": "CORE Backlog Bugs",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1066",
-          "summary": "Backdated Check Dates - MVP",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1053",
-          "summary": "untitled",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-988",
-          "summary": "2024 Maintenance - CORE",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-949",
-          "summary": "Global Reporting - MVP ",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-912",
-          "summary": "Q1 CORE Items",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-856",
-          "summary": "After the Fact Payroll - MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-826",
-          "summary": "Q4 CORE Items",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-781",
-          "summary": "PosterElite - Physical Poster Ordering",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-676",
-          "summary": "Q3 2024",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-644",
-          "summary": "Money Service Admin - MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-628",
-          "summary": "Voiding Checks - MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-624",
-          "summary": "Mass Updates - Phase 2",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-603",
-          "summary": "Effective Dating - MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-596",
-          "summary": "Year End 2024",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-551",
-          "summary": "Auto Reduce Salary Hours",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-400",
-          "summary": "Q2 2024 - Reporting enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-399",
-          "summary": "Q2 2024 - Payroll Enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-398",
-          "summary": "Q2 2024 - Employee enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-397",
-          "summary": "Q2 2024 - Admin enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-385",
-          "summary": "On-demand payment",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-384",
-          "summary": "User Centric Batch calculation",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-383",
-          "summary": "Search Bar - Overlay (v2)",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-382",
-          "summary": "Search Bar - Overlay (v2)",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-381",
-          "summary": "Search Bar - Pages (v1)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-379",
-          "summary": "SSN Visibility on payroll records",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-378",
-          "summary": "2024 Year End",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-372",
-          "summary": "Expenses management (MVP)",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-370",
-          "summary": "Search Bar - Employee (MVP)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-369",
-          "summary": "H2 2024 - Employee enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-368",
-          "summary": "Q1 2024 - Employee enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-367",
-          "summary": "H2 2024 - Admin enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-366",
-          "summary": "H2 2024 - Payroll Enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-365",
-          "summary": "H2 2024 - Reporting enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-364",
-          "summary": "Q1 2024 - Reporting enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-363",
-          "summary": "Payroll Batch - Deductions Override",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-360",
-          "summary": "Q1 2024 - Payroll Enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-359",
-          "summary": "Q1 2024 - Admin enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-357",
-          "summary": "New User Levels in APS OnLine",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-343",
-          "summary": "Reports Improvements",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-332",
-          "summary": "Bonus",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-327",
-          "summary": "Employee Self Identification",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-320",
-          "summary": "Core - Roadmap",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-317",
-          "summary": "Q4-23 Payroll Enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-316",
-          "summary": "Bug - Reports",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-315",
-          "summary": "Bug - Employee",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-314",
-          "summary": "Bug - Payroll",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-281",
-          "summary": "EIP Records - Effective Dating field",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-246",
-          "summary": "Deduction Wizard - Templated MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-68",
-          "summary": "Support Effective Date Pay Changes",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-67",
-          "summary": "Voiding Checks in Online",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-66",
-          "summary": "Certified Payroll Reporting",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-65",
-          "summary": "Online Payroll Recall",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-64",
-          "summary": "Batch Testing",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-63",
-          "summary": "Support retro Pay calculation",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-62",
-          "summary": "Selenium Testing",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-61",
-          "summary": "3rd Party Sick Pay in Online",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-60",
-          "summary": "Old Work (Cleanup)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-59",
-          "summary": "Better Direct Deposit and Prepay Support",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-58",
-          "summary": "Ability to Calculate OT for multiple EINs",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-57",
-          "summary": "ability to add net pay in a payroll batch & gross-up calculator",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-56",
-          "summary": "Core Payroll Batch update - percent allocation for Payroll on an income level",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-55",
-          "summary": "Core Payroll Batch update - update the payroll wizard",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-54",
-          "summary": "Adding Deductions to OnLine",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-53",
-          "summary": "General Ledger Refactor - Re-implement History Processing",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-52",
-          "summary": "Adding Incomes in OnLine",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-51",
-          "summary": "Benefit Enhancements - 2022",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-49",
-          "summary": "Q3 '23 Payroll Tech Debt",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-48",
-          "summary": "Add Deduction Type - $ per Units",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-47",
-          "summary": "Active for Payroll - Status Changes",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-46",
-          "summary": "Expedited Payroll Batches - MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-45",
-          "summary": "Active for Payroll - Batch Changes",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-44",
-          "summary": "Pausing Incomes/Deductions in the Batch",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-43",
-          "summary": "Improve data structure for Incomes and Deductions",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-41",
-          "summary": "Voluntary self identification - Preferred name integration in eSS",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-39",
-          "summary": "Fixing Regular Rate of Pay (RROP) - Supporting FLSA",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-38",
-          "summary": "Get rid of CLR Stored Procedures",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-36",
-          "summary": "Front-end changes to support Multi-Jurisdictional Tax Processing",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-35",
-          "summary": "CA Lunch/Break Solution",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-32",
-          "summary": "Batch Deletion ",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-31",
-          "summary": "Active for Payroll",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
         }
       ],
       "wipByStatus": {
@@ -4117,7 +2146,7 @@
           "key": "CORE-167",
           "summary": "Allow users to change the frequency on the Scheduled Earnings Interface",
           "status": "Backlog",
-          "ageDays": 1862.8
+          "ageDays": 1862.9
         },
         {
           "key": "CORE-34",
@@ -4154,8 +2183,8 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T15:22:55.027Z",
-          "weekEnd": "2026-05-27T15:22:55.027Z",
+          "weekStart": "2026-05-20T15:45:59.717Z",
+          "weekEnd": "2026-05-27T15:45:59.717Z",
           "throughput": 0,
           "cycleTimeAvg": null,
           "leadTimeAvg": null,
@@ -4167,8 +2196,8 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T15:22:55.027Z",
-          "weekEnd": "2026-06-03T15:22:55.027Z",
+          "weekStart": "2026-05-27T15:45:59.717Z",
+          "weekEnd": "2026-06-03T15:45:59.717Z",
           "throughput": 5,
           "cycleTimeAvg": 27.5,
           "leadTimeAvg": 65,
@@ -4180,8 +2209,8 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T15:22:55.027Z",
-          "weekEnd": "2026-06-10T15:22:55.027Z",
+          "weekStart": "2026-06-03T15:45:59.717Z",
+          "weekEnd": "2026-06-10T15:45:59.717Z",
           "throughput": 11,
           "cycleTimeAvg": 14.4,
           "leadTimeAvg": 72.1,
@@ -4193,8 +2222,8 @@
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T15:22:55.027Z",
-          "weekEnd": "2026-06-17T15:22:55.027Z",
+          "weekStart": "2026-06-10T15:45:59.717Z",
+          "weekEnd": "2026-06-17T15:45:59.717Z",
           "throughput": 34,
           "cycleTimeAvg": 12.8,
           "leadTimeAvg": 120.3,
@@ -4206,8 +2235,8 @@
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T15:22:55.027Z",
-          "weekEnd": "2026-06-24T15:22:55.027Z",
+          "weekStart": "2026-06-17T15:45:59.717Z",
+          "weekEnd": "2026-06-24T15:45:59.717Z",
           "throughput": 18,
           "cycleTimeAvg": 22.3,
           "leadTimeAvg": 133.9,
@@ -4219,8 +2248,8 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T15:22:55.027Z",
-          "weekEnd": "2026-07-01T15:22:55.027Z",
+          "weekStart": "2026-06-24T15:45:59.717Z",
+          "weekEnd": "2026-07-01T15:45:59.717Z",
           "throughput": 23,
           "cycleTimeAvg": 9.8,
           "leadTimeAvg": 407,
@@ -4232,8 +2261,8 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T15:22:55.027Z",
-          "weekEnd": "2026-07-08T15:22:55.027Z",
+          "weekStart": "2026-07-01T15:45:59.717Z",
+          "weekEnd": "2026-07-08T15:45:59.717Z",
           "throughput": 3,
           "cycleTimeAvg": 4.6,
           "leadTimeAvg": 338.3,
@@ -4245,8 +2274,8 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T15:22:55.027Z",
-          "weekEnd": "2026-07-15T15:22:55.027Z",
+          "weekStart": "2026-07-08T15:45:59.717Z",
+          "weekEnd": "2026-07-15T15:45:59.717Z",
           "throughput": 17,
           "cycleTimeAvg": 18.9,
           "leadTimeAvg": 221.6,
@@ -4265,7 +2294,6 @@
           "key": "MOBILE-1036",
           "summary": "Q3 Bugs and Improvements for Mobile",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 2,
           "childDone": 0,
           "percentDone": 0
@@ -4274,7 +2302,6 @@
           "key": "MOBILE-1029",
           "summary": "Mobile Team - Q3 2026 Production Bugs",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 2,
           "percentDone": 66.7
@@ -4283,7 +2310,6 @@
           "key": "MOBILE-990",
           "summary": "Tablet: RNW Storybook for Tablet App",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 1,
           "percentDone": 100
@@ -4292,7 +2318,6 @@
           "key": "MOBILE-989",
           "summary": "Mobile: RNW Storybook work for the Mobile App",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 50,
           "childDone": 18,
           "percentDone": 36
@@ -4301,7 +2326,6 @@
           "key": "MOBILE-987",
           "summary": "Mobile: Having the mobile app work on screen readers",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 2,
           "childDone": 2,
           "percentDone": 100
@@ -4310,7 +2334,6 @@
           "key": "MOBILE-983",
           "summary": "Tablet: Offline punching",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -4319,7 +2342,6 @@
           "key": "MOBILE-945",
           "summary": "Reduce Buddy Punching on Tablet",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 4,
           "childDone": 3,
           "percentDone": 75
@@ -4328,7 +2350,6 @@
           "key": "MOBILE-889",
           "summary": "Mobile Team - Q2 2026 Production Bugs",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 9,
           "childDone": 9,
           "percentDone": 100
@@ -4337,7 +2358,6 @@
           "key": "MOBILE-871",
           "summary": "Mobile: Dark Mode - Bugs and Improvements before MVP",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 9,
           "childDone": 9,
           "percentDone": 100
@@ -4346,7 +2366,6 @@
           "key": "MOBILE-845",
           "summary": "Tech Debt 2026 - Mobile Team",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 6,
           "childDone": 6,
           "percentDone": 100
@@ -4355,7 +2374,6 @@
           "key": "MOBILE-843",
           "summary": "Mobile - Q226 Bugs/Enhancements",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 12,
           "childDone": 11,
           "percentDone": 91.7
@@ -4364,7 +2382,6 @@
           "key": "MOBILE-842",
           "summary": "Tablet - Q226  Bugs/Enhancements",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 4,
           "childDone": 4,
           "percentDone": 100
@@ -4373,7 +2390,6 @@
           "key": "MOBILE-827",
           "summary": "Expense Management - Bugs",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 7,
           "childDone": 7,
           "percentDone": 100
@@ -4382,7 +2398,6 @@
           "key": "MOBILE-816",
           "summary": "Expense Management - Itinerary in Mobile",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 11,
           "childDone": 8,
           "percentDone": 72.7
@@ -4391,7 +2406,6 @@
           "key": "MOBILE-799",
           "summary": "DailyPay Bugs and Improvements AFTER MVP",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 9,
           "childDone": 9,
           "percentDone": 100
@@ -4400,7 +2414,6 @@
           "key": "MOBILE-783",
           "summary": "Increasing the app store Ratings",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 12,
           "childDone": 11,
           "percentDone": 91.7
@@ -4409,7 +2422,6 @@
           "key": "MOBILE-782",
           "summary": "New Tablet app Bugs/Improvements ",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 11,
           "childDone": 11,
           "percentDone": 100
@@ -4418,7 +2430,6 @@
           "key": "MOBILE-769",
           "summary": "Shift Trading for Mobile App",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 8,
           "childDone": 5,
           "percentDone": 62.5
@@ -4427,7 +2438,6 @@
           "key": "MOBILE-751",
           "summary": "Having Dark Mode added to the Mobile App",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 76,
           "childDone": 76,
           "percentDone": 100
@@ -4436,342 +2446,17 @@
           "key": "MOBILE-750",
           "summary": "Integrating Frist Dollar into the Mobile app",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
-        },
-        {
-          "key": "MOBILE-739",
-          "summary": "Mobile - Q1 2026 Bugs and Improvements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-716",
-          "summary": "DailyPay Bugs/Improvements before MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-714",
-          "summary": "Increasing the positive App Reviews",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-660",
-          "summary": "Android SDK Upgrade",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-659",
-          "summary": "New Mobile - Cleanup & Improvement Efforts (Q4)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-587",
-          "summary": "DailyPay Mobile eSS - Pay/Info Section & Error States",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-586",
-          "summary": "DailyPay Mobile eSS - Dashboard/Transfer Process",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-585",
-          "summary": "DailyPay Mobile eSS - TimeSheet/Time Clock Integration",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-562",
-          "summary": "New Mobile - Cleanup & Improvement Efforts (Q3)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-550",
-          "summary": "DailyPay Mobile eSS - Menu/New User Sign Up",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-447",
-          "summary": "Tablet App - Time Clock - Scheduling",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-446",
-          "summary": "Tablet App - Time Clock - Punching",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-445",
-          "summary": "Tablet App - Time Clock - Dimensions",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-444",
-          "summary": "Tablet App - Time Clock - Additional Pay Items",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-443",
-          "summary": "Tablet App - Time Clock - Clock Rules",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-435",
-          "summary": "New Mobile - Cleanup & Improvement Efforts (Q2)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-376",
-          "summary": "New Mobile - Cleanup & Improvement Efforts (Q1)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-356",
-          "summary": "Expense Management - Managers",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-229",
-          "summary": "Tablet App - Initial Setup & Components",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-212",
-          "summary": "Expense Management - Employees",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-202",
-          "summary": "Tablet App - Time Clock - Departments",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-200",
-          "summary": "Tablet App - Linking & Login Redesign",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-173",
-          "summary": "New Mobile - Cleanup & Improvements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-164",
-          "summary": "Q424 MOBILE BUGS & IMPROVEMENTS",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-148",
-          "summary": "Q324 NEW MOBILE BUGS & IMPROVEMENTS",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-142",
-          "summary": "Q324 OLD MOBILE BUGS & FIXES",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-130",
-          "summary": "Building More Components",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-116",
-          "summary": "Manager Features Redesign",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-99",
-          "summary": "Mobile - Testing & QA Build Items",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-83",
-          "summary": "Mobile - Mixpanel Integration",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-79",
-          "summary": "Mobile - Time Off Redesign",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-78",
-          "summary": "Mobile - Time Clock Redesign",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-74",
-          "summary": "Q224 MOBILE BUGS",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-64",
-          "summary": "Mobile - Login Redesign",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-35",
-          "summary": "Employee Mode Redesign",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-1",
-          "summary": "Building Components",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
         }
       ],
       "wipByStatus": {
         "Backlog": 25,
         "To Do": 21,
         "Ready for Development": 8,
-        "In Development": 13,
-        "Ready for Code Review": 2,
+        "In Development": 12,
+        "Ready for Code Review": 3,
         "In QA": 2,
         "Acceptance": 4,
         "Done": 36,
@@ -4966,7 +2651,7 @@
           "blockerProject": "MOBILE",
           "blockedKey": "MOBILE-982",
           "blockedSummary": "Shift Trading Mobile: Manager menu + list + Approve/Deny",
-          "blockedStatus": "In Development",
+          "blockedStatus": "Ready for Code Review",
           "blockedProject": "MOBILE"
         },
         {
@@ -5087,8 +2772,8 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T15:23:05.620Z",
-          "weekEnd": "2026-05-27T15:23:05.620Z",
+          "weekStart": "2026-05-20T15:46:10.660Z",
+          "weekEnd": "2026-05-27T15:46:10.660Z",
           "throughput": 6,
           "cycleTimeAvg": 70.7,
           "leadTimeAvg": 69.5,
@@ -5100,8 +2785,8 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T15:23:05.620Z",
-          "weekEnd": "2026-06-03T15:23:05.620Z",
+          "weekStart": "2026-05-27T15:46:10.660Z",
+          "weekEnd": "2026-06-03T15:46:10.660Z",
           "throughput": 8,
           "cycleTimeAvg": 17.5,
           "leadTimeAvg": 18.1,
@@ -5113,8 +2798,8 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T15:23:05.620Z",
-          "weekEnd": "2026-06-10T15:23:05.620Z",
+          "weekStart": "2026-06-03T15:46:10.660Z",
+          "weekEnd": "2026-06-10T15:46:10.660Z",
           "throughput": 6,
           "cycleTimeAvg": 12.3,
           "leadTimeAvg": 17.6,
@@ -5126,8 +2811,8 @@
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T15:23:05.620Z",
-          "weekEnd": "2026-06-17T15:23:05.620Z",
+          "weekStart": "2026-06-10T15:46:10.660Z",
+          "weekEnd": "2026-06-17T15:46:10.660Z",
           "throughput": 13,
           "cycleTimeAvg": 14.3,
           "leadTimeAvg": 21.3,
@@ -5139,8 +2824,8 @@
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T15:23:05.620Z",
-          "weekEnd": "2026-06-24T15:23:05.620Z",
+          "weekStart": "2026-06-17T15:46:10.660Z",
+          "weekEnd": "2026-06-24T15:46:10.660Z",
           "throughput": 5,
           "cycleTimeAvg": 3.2,
           "leadTimeAvg": 9.3,
@@ -5152,8 +2837,8 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T15:23:05.620Z",
-          "weekEnd": "2026-07-01T15:23:05.620Z",
+          "weekStart": "2026-06-24T15:46:10.660Z",
+          "weekEnd": "2026-07-01T15:46:10.660Z",
           "throughput": 11,
           "cycleTimeAvg": 8.3,
           "leadTimeAvg": 61.8,
@@ -5165,8 +2850,8 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T15:23:05.620Z",
-          "weekEnd": "2026-07-08T15:23:05.620Z",
+          "weekStart": "2026-07-01T15:46:10.660Z",
+          "weekEnd": "2026-07-08T15:46:10.660Z",
           "throughput": 7,
           "cycleTimeAvg": 12.2,
           "leadTimeAvg": 56.2,
@@ -5178,8 +2863,8 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T15:23:05.620Z",
-          "weekEnd": "2026-07-15T15:23:05.620Z",
+          "weekStart": "2026-07-08T15:46:10.660Z",
+          "weekEnd": "2026-07-15T15:46:10.660Z",
           "throughput": 10,
           "cycleTimeAvg": 11.3,
           "leadTimeAvg": 32.6,
@@ -5198,7 +2883,6 @@
           "key": "BOA-1924",
           "summary": "BOA - SMART | 2026 Q3 SMART",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 2,
           "childDone": 0,
           "percentDone": 0
@@ -5207,7 +2891,6 @@
           "key": "BOA-1923",
           "summary": "BOA - Gazelle | 2026 Q3 Gazelle",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 5,
           "childDone": 2,
           "percentDone": 40
@@ -5216,7 +2899,6 @@
           "key": "BOA-1903",
           "summary": "BOA: Production Bug Backlog Q3 2026",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 2,
           "percentDone": 66.7
@@ -5225,7 +2907,6 @@
           "key": "BOA-1883",
           "summary": "Finalizer Enhancements ",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 0,
           "percentDone": 0
@@ -5234,7 +2915,6 @@
           "key": "BOA-1864",
           "summary": "Quarterly Filing Efficiencies",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 5,
           "childDone": 3,
           "percentDone": 60
@@ -5243,7 +2923,6 @@
           "key": "BOA-1832",
           "summary": "BOA - Smart | Salesforce Sales Order to Billing Automation",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 1,
           "percentDone": 100
@@ -5252,7 +2931,6 @@
           "key": "BOA-1791",
           "summary": "BOA - 2026 Q2 Bugs",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 15,
           "childDone": 15,
           "percentDone": 100
@@ -5261,7 +2939,6 @@
           "key": "BOA-1790",
           "summary": "BOA - Watcher | 2026 Q2 Watcher",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 4,
           "childDone": 4,
           "percentDone": 100
@@ -5270,7 +2947,6 @@
           "key": "BOA-1789",
           "summary": "BOA - Lioness | 2026 Q2 Lioness",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 2,
           "childDone": 2,
           "percentDone": 100
@@ -5279,7 +2955,6 @@
           "key": "BOA-1772",
           "summary": "FedEx Shipping Integration",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 9,
           "childDone": 0,
           "percentDone": 0
@@ -5288,7 +2963,6 @@
           "key": "BOA-1681",
           "summary": "BOA 2026 Maintenance",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 1,
           "percentDone": 100
@@ -5297,7 +2971,6 @@
           "key": "BOA-1674",
           "summary": "YEAR END 2026",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 13,
           "childDone": 3,
           "percentDone": 23.1
@@ -5306,7 +2979,6 @@
           "key": "BOA-1549",
           "summary": "2026 Tax Table Updates",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 32,
           "childDone": 32,
           "percentDone": 100
@@ -5315,7 +2987,6 @@
           "key": "BOA-1539",
           "summary": "Compensated vs Active Billing Model",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 2,
           "percentDone": 66.7
@@ -5324,7 +2995,6 @@
           "key": "BOA-1537",
           "summary": "Tristate Automation",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 0,
           "percentDone": 0
@@ -5333,7 +3003,6 @@
           "key": "BOA-1536",
           "summary": "OBBBA ",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 26,
           "childDone": 26,
           "percentDone": 100
@@ -5342,7 +3011,6 @@
           "key": "BOA-1493",
           "summary": "BOA - First Dollar",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 2,
           "childDone": 2,
           "percentDone": 100
@@ -5351,7 +3019,6 @@
           "key": "BOA-1210",
           "summary": "Zendesk nightly sync for renewals and inactive users",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -5360,7 +3027,6 @@
           "key": "BOA-1193",
           "summary": "Utilize FedEx Ship API to create Shipping labels and tracking numbers",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -5369,7 +3035,6 @@
           "key": "BOA-964",
           "summary": "BOA - SMART | Accounting - Support Void and Reissue of Payments",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 2,
           "childDone": 2,
           "percentDone": 100
@@ -5378,7 +3043,6 @@
           "key": "BOA-748",
           "summary": "BOA - Watcher | Custom Exports ",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 89,
           "childDone": 59,
           "percentDone": 66.3
@@ -5387,667 +3051,9 @@
           "key": "BOA-551",
           "summary": "Infrastructure Updates - BOA 2026",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 10,
           "childDone": 6,
           "percentDone": 60
-        },
-        {
-          "key": "BOA-1874",
-          "summary": "Trump Accounts (IRC §530A/§128/§6434) — MVP",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1815",
-          "summary": "BOA | Year End 2026",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1788",
-          "summary": "BOA - Gazelle | 2026 Q2 Gazelle",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1787",
-          "summary": "BOA - SMART | 2026 Q2 SMART",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1695",
-          "summary": "BOA - 2026 Q1 Bugs",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1680",
-          "summary": "BOA - LIONESS | 2026 Q1 LIONESS",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1662",
-          "summary": "BOA - Watcher | 2026 Q1 Watcher ",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1661",
-          "summary": "BOA - Gazelle | 2026 Q1 Gazelle",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1660",
-          "summary": "BOA - SMART | 2026 Q1 SMART",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1538",
-          "summary": "YEAR END 2025",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1498",
-          "summary": "BOA - Gazelle | Bulk File Sanitization by state",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1413",
-          "summary": "Tax Automation - New Hire Reporting",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1400",
-          "summary": "Back Office - Need to remove any special/foreign characters and replace with the acceptable equivalent when exporting files. ",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1355",
-          "summary": "VAR Billing Enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1302",
-          "summary": "Text Message Billing Rewrite",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1229",
-          "summary": "Billing Analytics Improvements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1212",
-          "summary": "Ability to bill per employee with feature access",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1211",
-          "summary": "BOA - SMART | Ability to Edit VAR Billing",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1165",
-          "summary": "2024 Maintenance - BOA",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1156",
-          "summary": "BOA - Gazelle | Ability to toggle a company a demo company",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-967",
-          "summary": "BOA - SMART | Accounting - Billing Enhancements Q4",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-966",
-          "summary": "BOA - SMART | Tax - Q4 Bulk Files, VAR Automation, Tax Payments",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-965",
-          "summary": "BOA - Gazelle | Accounting Reporting Enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-963",
-          "summary": "BOA - SMART | Accounting - Additional Reports and Report Enhancements Q4 2024",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-962",
-          "summary": "BOA - Gazelle | Tax Changes Q4 2024 [Quarterly + Annual Filing]",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-918",
-          "summary": "2025 Tax Table Updates",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-851",
-          "summary": "2024 Q3 Bugs",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-850",
-          "summary": "2024 Q3 Commits",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-849",
-          "summary": "2024 Q3 Tech Debt",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-831",
-          "summary": "Expedited Payroll - DD calculation and additional checks",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-703",
-          "summary": "Q2 BUGS - 2024",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-702",
-          "summary": "2024 Year End",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-701",
-          "summary": "Q2 - Misc Enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-700",
-          "summary": "Q2 Commits - 2024",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-640",
-          "summary": "Updating the Agreement field so that it is editable and cleaner",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-639",
-          "summary": "TalentReef",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-636",
-          "summary": "SPIFF",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-544",
-          "summary": "SMART .net Conversion - Prep Work",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-536",
-          "summary": "BOA - Gazelle | Excess GTL + Non-Cash Entry",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-523",
-          "summary": "Q1 Bugs - 2024",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-522",
-          "summary": "Q1 Commits - 2024",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-430",
-          "summary": "Q4 2023 Bugs ",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-359",
-          "summary": "Q3 2023 Bugs",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-350",
-          "summary": "DevEx Conversions",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-289",
-          "summary": "BOA | ACH Same/Next Day",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-288",
-          "summary": "2023 YEAR END",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-287",
-          "summary": "2024 Tax Table Updates",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-286",
-          "summary": "Q4 2023 - Commitments for Dev Requests",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-285",
-          "summary": "Q3 2023 - Commitments for Dev Requests",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-258",
-          "summary": "Equifax Project Documents - File Transfer",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-144",
-          "summary": "Update SMART Billing System to Allow Creation of New Fee Items",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-102",
-          "summary": "Smart - Fees Billed Report",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-101",
-          "summary": "PayKonnect (401k 360 Integration)",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-100",
-          "summary": "VAR<>R365 Billing Changes",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-99",
-          "summary": "ACH Audit export",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-98",
-          "summary": "Integrations (Vendors)",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-97",
-          "summary": "Smart Update Requests (Tax/Finance/Accounting)",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-96",
-          "summary": "Finalizer Updates",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-95",
-          "summary": "[WATCH] Hookup Pay History Page to PH Export",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-94",
-          "summary": "[SMART] Record and Manage Partial ACH Debit Payments",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-93",
-          "summary": "[SMART] Accounting/Tax Requests",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-92",
-          "summary": "R365 Billing Updates",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-91",
-          "summary": "Smart Fees Settled Report",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-90",
-          "summary": "[ComData] Back Office updates to support new paycard provider",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-89",
-          "summary": "Build support for min wage management in Gazelle",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-88",
-          "summary": "2022 Tax Table Updates",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-87",
-          "summary": "Smart Partner Rep Tracking",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-86",
-          "summary": "PrecisePay Integration",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-85",
-          "summary": "Smart - Dimensions Billing",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-84",
-          "summary": "[WATCH] Rework/rewrite old automated exports",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-83",
-          "summary": "2020 Tax - Q2 Changes/Issues",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-82",
-          "summary": "CCD Risk Management",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-81",
-          "summary": "Add Monitoring and Multi-Threading to the AutoFinalizer",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
         }
       ],
       "wipByStatus": {
@@ -6301,8 +3307,8 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T15:23:12.568Z",
-          "weekEnd": "2026-05-27T15:23:12.568Z",
+          "weekStart": "2026-05-20T15:46:18.291Z",
+          "weekEnd": "2026-05-27T15:46:18.291Z",
           "throughput": 2,
           "cycleTimeAvg": 9.5,
           "leadTimeAvg": 10.1,
@@ -6314,8 +3320,8 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T15:23:12.568Z",
-          "weekEnd": "2026-06-03T15:23:12.568Z",
+          "weekStart": "2026-05-27T15:46:18.291Z",
+          "weekEnd": "2026-06-03T15:46:18.291Z",
           "throughput": 8,
           "cycleTimeAvg": 95.4,
           "leadTimeAvg": 103.6,
@@ -6327,8 +3333,8 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T15:23:12.568Z",
-          "weekEnd": "2026-06-10T15:23:12.568Z",
+          "weekStart": "2026-06-03T15:46:18.291Z",
+          "weekEnd": "2026-06-10T15:46:18.291Z",
           "throughput": 13,
           "cycleTimeAvg": 14.9,
           "leadTimeAvg": 23.3,
@@ -6340,8 +3346,8 @@
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T15:23:12.568Z",
-          "weekEnd": "2026-06-17T15:23:12.568Z",
+          "weekStart": "2026-06-10T15:46:18.291Z",
+          "weekEnd": "2026-06-17T15:46:18.291Z",
           "throughput": 14,
           "cycleTimeAvg": 10.9,
           "leadTimeAvg": 21.5,
@@ -6353,8 +3359,8 @@
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T15:23:12.568Z",
-          "weekEnd": "2026-06-24T15:23:12.568Z",
+          "weekStart": "2026-06-17T15:46:18.291Z",
+          "weekEnd": "2026-06-24T15:46:18.291Z",
           "throughput": 10,
           "cycleTimeAvg": 4.6,
           "leadTimeAvg": 47.7,
@@ -6366,8 +3372,8 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T15:23:12.568Z",
-          "weekEnd": "2026-07-01T15:23:12.568Z",
+          "weekStart": "2026-06-24T15:46:18.291Z",
+          "weekEnd": "2026-07-01T15:46:18.291Z",
           "throughput": 9,
           "cycleTimeAvg": 10.5,
           "leadTimeAvg": 28,
@@ -6379,8 +3385,8 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T15:23:12.568Z",
-          "weekEnd": "2026-07-08T15:23:12.568Z",
+          "weekStart": "2026-07-01T15:46:18.291Z",
+          "weekEnd": "2026-07-08T15:46:18.291Z",
           "throughput": 2,
           "cycleTimeAvg": 34.4,
           "leadTimeAvg": 126.3,
@@ -6392,8 +3398,8 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T15:23:12.568Z",
-          "weekEnd": "2026-07-15T15:23:12.568Z",
+          "weekStart": "2026-07-08T15:46:18.291Z",
+          "weekEnd": "2026-07-15T15:46:18.291Z",
           "throughput": 6,
           "cycleTimeAvg": 197.9,
           "leadTimeAvg": 476.1,
@@ -6412,7 +3418,6 @@
           "key": "EXP-949",
           "summary": "Multi-Approvals - Workflow control enhancements. ",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -6421,7 +3426,6 @@
           "key": "EXP-947",
           "summary": "AI position management data - intelligent import",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -6430,7 +3434,6 @@
           "key": "EXP-940",
           "summary": "Compensation Dashboard build out and integration ",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 6,
           "childDone": 0,
           "percentDone": 0
@@ -6439,7 +3442,6 @@
           "key": "EXP-937",
           "summary": "EXP: Production Bug Backlog Q3 2026",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 2,
           "childDone": 1,
           "percentDone": 50
@@ -6448,7 +3450,6 @@
           "key": "EXP-933",
           "summary": "Compensation Page overhaul",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -6457,7 +3458,6 @@
           "key": "EXP-929",
           "summary": "Employee Quick Drawer - WF implementation",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 5,
           "childDone": 4,
           "percentDone": 80
@@ -6466,7 +3466,6 @@
           "key": "EXP-915",
           "summary": "Admin REACT Conversions",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 10,
           "childDone": 10,
           "percentDone": 100
@@ -6475,7 +3474,6 @@
           "key": "EXP-892",
           "summary": "Position Management Onboarding Wizard",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -6484,7 +3482,6 @@
           "key": "EXP-882",
           "summary": "Dashboard Grid - chart views",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 9,
           "childDone": 1,
           "percentDone": 11.1
@@ -6493,7 +3490,6 @@
           "key": "EXP-881",
           "summary": "Position Management onboarding wizard",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 19,
           "childDone": 10,
           "percentDone": 52.6
@@ -6502,7 +3498,6 @@
           "key": "EXP-869",
           "summary": "WF Dashboard - Tiles to React and logic change",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 11,
           "childDone": 11,
           "percentDone": 100
@@ -6511,7 +3506,6 @@
           "key": "EXP-859",
           "summary": "EXP - Q2 Production Bugs 2026",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 3,
           "percentDone": 100
@@ -6520,7 +3514,6 @@
           "key": "EXP-849",
           "summary": "Workforce Q2 Bugs and Misc",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 23,
           "childDone": 19,
           "percentDone": 82.6
@@ -6529,7 +3522,6 @@
           "key": "EXP-830",
           "summary": "Worforce Dashboards - Alterations and UI alignment",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -6538,7 +3530,6 @@
           "key": "EXP-806",
           "summary": "Retention Dashboard",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 6,
           "childDone": 6,
           "percentDone": 100
@@ -6547,7 +3538,6 @@
           "key": "EXP-805",
           "summary": "Headcount Dashboard",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 7,
           "childDone": 7,
           "percentDone": 100
@@ -6556,7 +3546,6 @@
           "key": "EXP-793",
           "summary": "Workforce Q1 Bugs and misc",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 25,
           "childDone": 25,
           "percentDone": 100
@@ -6565,7 +3554,6 @@
           "key": "EXP-721",
           "summary": "DOC -Epic 3",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -6574,7 +3562,6 @@
           "key": "EXP-720",
           "summary": "DOC -Epic 2",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -6583,7 +3570,6 @@
           "key": "EXP-719",
           "summary": "DOC -Epic 1",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 1,
           "percentDone": 100
@@ -6592,7 +3578,6 @@
           "key": "EXP-426",
           "summary": "Comp Analysis Tool (placeholder Epic 2)",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -6601,7 +3586,6 @@
           "key": "EXP-425",
           "summary": "Comp Analysis Tool (placeholder story 1)",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
@@ -6610,550 +3594,9 @@
           "key": "EXP-30",
           "summary": "Workforce Planning - 3rd Party Position Pay Integration",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 0,
           "childDone": 0,
           "percentDone": 0
-        },
-        {
-          "key": "EXP-868",
-          "summary": "Workforce - Position Staffing Logic overhaul",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-810",
-          "summary": "Multi approvals - post MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-796",
-          "summary": "Position Management data loss issue",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-741",
-          "summary": "Position Management Page - Post MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-680",
-          "summary": "Comp change +1 clean up",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-660",
-          "summary": "Positional Reporting exceptions - Data Wire Up",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-659",
-          "summary": "Multi-Tier Approval - Approvals page - Data Wire up",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-658",
-          "summary": "Multi-Tier Approval - Epic 2",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-657",
-          "summary": "Multi-Tier Approval - Approvals Page",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-656",
-          "summary": "Position Management page Overhaul - Data wire up",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-655",
-          "summary": "Position Management Page MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-626",
-          "summary": "Positional Reporting exceptions - UI",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-609",
-          "summary": "Position Management Reports",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-587",
-          "summary": "WFP Dashboard Tile creation",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-565",
-          "summary": "Multi-Tier Approval - Epic 1",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-532",
-          "summary": "2024 Maintenance - EXP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-511",
-          "summary": "Comp Change Request - Data Wire up",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-502",
-          "summary": "Comp Change Request - UI - Online",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-434",
-          "summary": "Position Seats - Org Chart behavioral changes - Phase 2",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-423",
-          "summary": "Budgeting - Additional incomes and fully burdened labor rates",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-419",
-          "summary": "Comp Request Changes - UI (manager) ",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-413",
-          "summary": "Position Seats - Workflow additions",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-411",
-          "summary": "Changes to the org charts UI and behavior related to position seats",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-396",
-          "summary": "Position Seats - Org Chart behavioral changes - Phase 1",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-378",
-          "summary": "Position Seats - Data Table - Abstraction",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-374",
-          "summary": "WFPD - MVP +1",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-373",
-          "summary": "WFPD - Headcount Child Dashboard",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-372",
-          "summary": "WFPD - Retention Child Dashboard",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-371",
-          "summary": "WFPD - Main Dashboard & Admin",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-293",
-          "summary": "WFPD - Pre-work & Common Components",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-221",
-          "summary": "WFP - Org chart - Q2",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-216",
-          "summary": "Q2 2024 - HR enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-215",
-          "summary": "Q2 2024 - Attendance enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-214",
-          "summary": "Q2 2024 - Reporting enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-213",
-          "summary": "Q2 2024 - Admin enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-212",
-          "summary": "H2 2024 - HR enhancements",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-211",
-          "summary": "H2 2024 - Attendance enhancements",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-210",
-          "summary": "H2 2024 - Reporting enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-209",
-          "summary": "H2 2024 - Admin enhancements",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-202",
-          "summary": "Q1 2024 - Admin enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-201",
-          "summary": "Q1 2024 - Attendance enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-200",
-          "summary": "Q1 2024 - HR enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-199",
-          "summary": "Q1 2024 - Reporting enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-194",
-          "summary": "Exp - Roadmap",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-192",
-          "summary": "WFP - Position Management - Standard User Permissions",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-181",
-          "summary": "Benefit Enhancements - 2024",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-130",
-          "summary": "WFP - Position Management Improvements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-129",
-          "summary": "WFP - Org Chart V2",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-127",
-          "summary": "API Token Access UI In The Support Consle",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-126",
-          "summary": "[S6] Sencha 6 Upgrade - Round 2",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-125",
-          "summary": "Support Console / Ability to add a company in Online",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-35",
-          "summary": "Workforce Planning - Metrics & Dashboards",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-34",
-          "summary": "WFP - Budgeting",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-33",
-          "summary": "Position Management - Org Charting",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-31",
-          "summary": "Benefit Enhancements - 2023",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-29",
-          "summary": "[OE] Qualifying Life Event - MVP",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-28",
-          "summary": "Add alert hooks for events for which we provide notifications",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-27",
-          "summary": "Create a Notification structure and UI",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-26",
-          "summary": "Position Management - Misc Improvements & Fixes",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-25",
-          "summary": "Support Meal Break Penalties in Online",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
         }
       ],
       "wipByStatus": {
@@ -7321,14 +3764,14 @@
         }
       ],
       "dependencyCount": 15,
-      "oldestWipAgeDays": 1121.9,
+      "oldestWipAgeDays": 1122,
       "agingWipCount": 83,
       "agingWipIssues": [
         {
           "key": "EXP-30",
           "summary": "Workforce Planning - 3rd Party Position Pay Integration",
           "status": "To Do",
-          "ageDays": 1121.9
+          "ageDays": 1122
         },
         {
           "key": "EXP-203",
@@ -7377,34 +3820,34 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T15:23:20.278Z",
-          "weekEnd": "2026-05-27T15:23:20.278Z",
-          "throughput": 2,
+          "weekStart": "2026-05-20T15:46:26.489Z",
+          "weekEnd": "2026-05-27T15:46:26.489Z",
+          "throughput": 3,
           "cycleTimeAvg": 11.8,
-          "leadTimeAvg": 31.4,
-          "flowEfficiencyPct": 37.6,
-          "qualityLoopbackRatePct": 100,
+          "leadTimeAvg": 20.9,
+          "flowEfficiencyPct": 56.5,
+          "qualityLoopbackRatePct": 66.7,
           "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 2,
+          "qualityLoopbackSampleSize": 3,
           "aiLeverageRatePct": 0
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T15:23:20.278Z",
-          "weekEnd": "2026-06-03T15:23:20.278Z",
-          "throughput": 12,
+          "weekStart": "2026-05-27T15:46:26.489Z",
+          "weekEnd": "2026-06-03T15:46:26.489Z",
+          "throughput": 11,
           "cycleTimeAvg": 16.6,
-          "leadTimeAvg": 42.6,
-          "flowEfficiencyPct": 39,
-          "qualityLoopbackRatePct": 41.7,
+          "leadTimeAvg": 46.5,
+          "flowEfficiencyPct": 35.7,
+          "qualityLoopbackRatePct": 45.5,
           "qualityLoopbackCount": 5,
-          "qualityLoopbackSampleSize": 12,
-          "aiLeverageRatePct": 8.3
+          "qualityLoopbackSampleSize": 11,
+          "aiLeverageRatePct": 9.1
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T15:23:20.278Z",
-          "weekEnd": "2026-06-10T15:23:20.278Z",
+          "weekStart": "2026-06-03T15:46:26.489Z",
+          "weekEnd": "2026-06-10T15:46:26.489Z",
           "throughput": 9,
           "cycleTimeAvg": 14.1,
           "leadTimeAvg": 29.9,
@@ -7416,8 +3859,8 @@
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T15:23:20.278Z",
-          "weekEnd": "2026-06-17T15:23:20.278Z",
+          "weekStart": "2026-06-10T15:46:26.489Z",
+          "weekEnd": "2026-06-17T15:46:26.489Z",
           "throughput": 4,
           "cycleTimeAvg": 12.7,
           "leadTimeAvg": 30.3,
@@ -7429,8 +3872,8 @@
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T15:23:20.278Z",
-          "weekEnd": "2026-06-24T15:23:20.278Z",
+          "weekStart": "2026-06-17T15:46:26.489Z",
+          "weekEnd": "2026-06-24T15:46:26.489Z",
           "throughput": 4,
           "cycleTimeAvg": 10.1,
           "leadTimeAvg": 19.7,
@@ -7442,8 +3885,8 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T15:23:20.278Z",
-          "weekEnd": "2026-07-01T15:23:20.278Z",
+          "weekStart": "2026-06-24T15:46:26.489Z",
+          "weekEnd": "2026-07-01T15:46:26.489Z",
           "throughput": 8,
           "cycleTimeAvg": 13.7,
           "leadTimeAvg": 109.7,
@@ -7455,8 +3898,8 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T15:23:20.278Z",
-          "weekEnd": "2026-07-08T15:23:20.278Z",
+          "weekStart": "2026-07-01T15:46:26.489Z",
+          "weekEnd": "2026-07-08T15:46:26.489Z",
           "throughput": 10,
           "cycleTimeAvg": 16,
           "leadTimeAvg": 32.4,
@@ -7468,8 +3911,8 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T15:23:20.278Z",
-          "weekEnd": "2026-07-15T15:23:20.278Z",
+          "weekStart": "2026-07-08T15:46:26.489Z",
+          "weekEnd": "2026-07-15T15:46:26.489Z",
           "throughput": 7,
           "cycleTimeAvg": 14.9,
           "leadTimeAvg": 33.9,
@@ -7488,7 +3931,6 @@
           "key": "HR-375",
           "summary": "Configurable default Employer (ER) contribution for DED interface benefit plans",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 5,
           "childDone": 2,
           "percentDone": 40
@@ -7497,7 +3939,6 @@
           "key": "HR-374",
           "summary": "HR: Production Bug Backlog Q3 2026",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 0,
           "percentDone": 0
@@ -7506,7 +3947,6 @@
           "key": "HR-360",
           "summary": "Performance Reviews MVP+ - Quick Win Feedback",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 8,
           "childDone": 3,
           "percentDone": 37.5
@@ -7515,7 +3955,6 @@
           "key": "HR-352",
           "summary": "Address missing and miscategorized deductions on the Total Compensation Report.",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 2,
           "childDone": 1,
           "percentDone": 50
@@ -7524,7 +3963,6 @@
           "key": "HR-340",
           "summary": "QOL items - Q2 2026",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 1,
           "percentDone": 100
@@ -7533,7 +3971,6 @@
           "key": "HR-332",
           "summary": "HR Q2 2026 Bugs",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 3,
           "childDone": 3,
           "percentDone": 100
@@ -7542,7 +3979,6 @@
           "key": "HR-241",
           "summary": "Performance Reviews - Early Access",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 5,
           "childDone": 1,
           "percentDone": 20
@@ -7551,7 +3987,6 @@
           "key": "HR-238",
           "summary": "Performance Reviews MVP+ - Review Campaigns",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 7,
           "childDone": 1,
           "percentDone": 14.3
@@ -7560,7 +3995,6 @@
           "key": "HR-237",
           "summary": "Performance Reviews MVP - Submit Self Review",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 16,
           "childDone": 10,
           "percentDone": 62.5
@@ -7569,7 +4003,6 @@
           "key": "HR-229",
           "summary": "Performance Reviews MVP+ - 360/Peer",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 1,
           "childDone": 0,
           "percentDone": 0
@@ -7578,7 +4011,6 @@
           "key": "HR-203",
           "summary": "Performance Reviews MVP - Submit Individual Review",
           "status": "In Progress",
-          "epicDone": false,
           "childTotal": 37,
           "childDone": 37,
           "percentDone": 100
@@ -7587,244 +4019,9 @@
           "key": "HR-88",
           "summary": "Improve the benefits management module's performance",
           "status": "To Do",
-          "epicDone": false,
           "childTotal": 5,
           "childDone": 4,
           "percentDone": 80
-        },
-        {
-          "key": "HR-359",
-          "summary": "Performance Reviews MVP - Must-Have Fixes",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-328",
-          "summary": "First Dollar - Card Activation",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-322",
-          "summary": "HR Dev Tasks - Q1 2026",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-313",
-          "summary": "Bugs and small QOL items for Q1 2026",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-301",
-          "summary": "Bugs/QOL to complete in Q4 2025 that don't fit existing projects.",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-273",
-          "summary": "First Dollar - eSS Account Access",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-260",
-          "summary": "Bugs/QOL to complete in Q3 2025 that don't fit existing projects.",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-204",
-          "summary": "Performance Reviews MVP - Create Individual Review",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-186",
-          "summary": "HR Dev Tasks Q2 2025",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-185",
-          "summary": "Bugs/QOL to complete in Q2 2025 that don't fit existing projects. ",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-184",
-          "summary": "UI/UX bugs related to the release of the new UI. ",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-163",
-          "summary": "Performance Reviews MVP - Admin Setup",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-132",
-          "summary": "Total Comp Rework - Update deduction filters to utilize mapping",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-117",
-          "summary": "Benefits - Primary Care Physician Work",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-99",
-          "summary": "Documents Management - Q1 2025",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-98",
-          "summary": "Other HR Enhancements - Q4 2024",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-85",
-          "summary": "Performance management - enhancements",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-69",
-          "summary": "Benefits Reports Updates - 2024",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-68",
-          "summary": "HR & Benefits - Roadmap",
-          "status": "Won't Do",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-46",
-          "summary": "Option to elect to have emails sent to an Admin when benefit elections are completed",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-24",
-          "summary": "Guaranteed Issue Logic",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-23",
-          "summary": "Enable multiple New Hire enrollment periods based on EE benefits classifications",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-12",
-          "summary": "2024 - Plan Setup Upgrades",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-11",
-          "summary": "2024 - Administration/Record Keeping Upgrades",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-9",
-          "summary": "Benefits management - Q3/Q4 2024",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-1",
-          "summary": "Qualifying Life Events - MVP",
-          "status": "Completed",
-          "epicDone": true,
-          "childTotal": null,
-          "childDone": null,
-          "percentDone": 100
         }
       ],
       "wipByStatus": {
@@ -7958,8 +4155,8 @@
       "weekly": [
         {
           "label": "May 20–May 27",
-          "weekStart": "2026-05-20T15:23:27.046Z",
-          "weekEnd": "2026-05-27T15:23:27.046Z",
+          "weekStart": "2026-05-20T15:46:34.182Z",
+          "weekEnd": "2026-05-27T15:46:34.182Z",
           "throughput": 3,
           "cycleTimeAvg": 14.9,
           "leadTimeAvg": 32.1,
@@ -7971,8 +4168,8 @@
         },
         {
           "label": "May 27–Jun 3",
-          "weekStart": "2026-05-27T15:23:27.046Z",
-          "weekEnd": "2026-06-03T15:23:27.046Z",
+          "weekStart": "2026-05-27T15:46:34.182Z",
+          "weekEnd": "2026-06-03T15:46:34.182Z",
           "throughput": 3,
           "cycleTimeAvg": 19.4,
           "leadTimeAvg": 224,
@@ -7984,8 +4181,8 @@
         },
         {
           "label": "Jun 3–Jun 10",
-          "weekStart": "2026-06-03T15:23:27.046Z",
-          "weekEnd": "2026-06-10T15:23:27.046Z",
+          "weekStart": "2026-06-03T15:46:34.182Z",
+          "weekEnd": "2026-06-10T15:46:34.182Z",
           "throughput": 5,
           "cycleTimeAvg": 12.7,
           "leadTimeAvg": 85,
@@ -7997,8 +4194,8 @@
         },
         {
           "label": "Jun 10–Jun 17",
-          "weekStart": "2026-06-10T15:23:27.046Z",
-          "weekEnd": "2026-06-17T15:23:27.046Z",
+          "weekStart": "2026-06-10T15:46:34.182Z",
+          "weekEnd": "2026-06-17T15:46:34.182Z",
           "throughput": 4,
           "cycleTimeAvg": 14.9,
           "leadTimeAvg": 30.8,
@@ -8010,8 +4207,8 @@
         },
         {
           "label": "Jun 17–Jun 24",
-          "weekStart": "2026-06-17T15:23:27.046Z",
-          "weekEnd": "2026-06-24T15:23:27.046Z",
+          "weekStart": "2026-06-17T15:46:34.182Z",
+          "weekEnd": "2026-06-24T15:46:34.182Z",
           "throughput": 6,
           "cycleTimeAvg": 20.2,
           "leadTimeAvg": 120.7,
@@ -8023,8 +4220,8 @@
         },
         {
           "label": "Jun 24–Jul 1",
-          "weekStart": "2026-06-24T15:23:27.046Z",
-          "weekEnd": "2026-07-01T15:23:27.046Z",
+          "weekStart": "2026-06-24T15:46:34.182Z",
+          "weekEnd": "2026-07-01T15:46:34.182Z",
           "throughput": 6,
           "cycleTimeAvg": 19.5,
           "leadTimeAvg": 70.8,
@@ -8036,8 +4233,8 @@
         },
         {
           "label": "Jul 1–Jul 8",
-          "weekStart": "2026-07-01T15:23:27.046Z",
-          "weekEnd": "2026-07-08T15:23:27.046Z",
+          "weekStart": "2026-07-01T15:46:34.182Z",
+          "weekEnd": "2026-07-08T15:46:34.182Z",
           "throughput": 2,
           "cycleTimeAvg": 0.3,
           "leadTimeAvg": 26.4,
@@ -8049,8 +4246,8 @@
         },
         {
           "label": "Jul 8–Jul 15",
-          "weekStart": "2026-07-08T15:23:27.046Z",
-          "weekEnd": "2026-07-15T15:23:27.046Z",
+          "weekStart": "2026-07-08T15:46:34.182Z",
+          "weekEnd": "2026-07-15T15:46:34.182Z",
           "throughput": 3,
           "cycleTimeAvg": 25,
           "leadTimeAvg": 44.6,
