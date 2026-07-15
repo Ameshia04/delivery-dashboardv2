@@ -134,22 +134,47 @@ function isAiComponent(name) {
   return /claude|ai/i.test(name || "");
 }
 
-// Cycle time only counts time spent in these specific statuses -- the "active
-// build through release" span of the workflow -- rather than any status in
-// Jira's broad "In Progress" category. If your Jira status names differ
-// slightly from these, update this list to match exactly (case-insensitive).
-const CYCLE_TIME_STATUSES = ["In Dev", "In CR", "In QA", "In Acceptance", "Ready for Release"];
-const CYCLE_TIME_STATUS_SET = new Set(CYCLE_TIME_STATUSES.map((s) => s.toLowerCase()));
-function isCycleTimeStatus(name) {
-  return CYCLE_TIME_STATUS_SET.has((name || "").toLowerCase());
+// Different projects use different literal Jira status names for the same
+// conceptual workflow stage (e.g. "In Progress" vs "In Development" both mean
+// active build work). This maps every real status name (lowercased) we've
+// found in this Jira site to one canonical stage label, so the WIP chart and
+// the cycle-time clock treat them consistently instead of as separate/unknown
+// statuses. "Ready for Release" is a Done-category status in this Jira
+// instance, but it's still bucketed as "Done" here (rather than excluded
+// entirely) so work that's finished-but-not-yet-shipped stays visible.
+// If your Jira adds/renames statuses, update this map to match.
+const STATUS_CANONICAL_MAP = {
+  "backlog": "Backlog",
+  "to do": "To Do",
+  "ready for development": "Ready for Development",
+  "in development": "In Development",
+  "in progress": "In Development",
+  "ready for code review": "Ready for Code Review",
+  "in qa": "In QA",
+  "ready for acceptance": "Acceptance",
+  "acceptance": "Acceptance",
+  "ready for release": "Done",
+};
+function canonicalStatus(name) {
+  return STATUS_CANONICAL_MAP[(name || "").toLowerCase()] || null;
 }
 
-// WIP status chart is locked to these 7 lanes (in this order) so every
-// project's chart looks the same regardless of small per-project workflow
-// differences. Anything not on this list is folded into "Other" rather than
-// silently dropped or adding a stray extra bar.
-const WIP_LANES = ["Backlog", "Ready for Development", "To Do", "Ready for QA", "In Development", "In Progress", "In QA"];
-const WIP_LANE_BY_LOWER = new Map(WIP_LANES.map((l) => [l.toLowerCase(), l]));
+// WIP status chart is locked to these lanes (in this order) so every
+// project's chart looks the same regardless of per-project workflow naming
+// differences. Anything not in STATUS_CANONICAL_MAP is folded into "Other"
+// rather than silently dropped or adding a stray extra bar.
+const WIP_LANES = ["Backlog", "To Do", "Ready for Development", "In Development", "Ready for Code Review", "In QA", "Acceptance", "Done"];
+
+// Cycle time only counts time spent in these specific canonical stages -- the
+// "active build through review/QA/acceptance" span -- rather than any status
+// in Jira's broad "In Progress" category. "Done" (Ready for Release) is
+// excluded here since it marks the tail end of the process, not a valid
+// starting point for the clock.
+const CYCLE_TIME_STATUSES = new Set(["In Development", "Ready for Code Review", "In QA", "Acceptance"]);
+function isCycleTimeStatus(name) {
+  const canonical = canonicalStatus(name);
+  return canonical ? CYCLE_TIME_STATUSES.has(canonical) : false;
+}
 
 /** Analyze one issue's status changelog for cycle time, lead time, and regressions. */
 function analyzeIssue(issue, statusCategoryByName) {
@@ -244,19 +269,61 @@ function weekLabel(startMs, endMs) {
   return `${fmt(startMs)}–${fmt(endMs)}`;
 }
 
+/** Each project's Epics, with % of child work items (Stories/Tasks/Bugs under
+ * that Epic via the "parent" field) that are Done. Verified against a real
+ * example (INV-651): parent = INV-651 returns its 10 child work items, 5 of
+ * which are Done -- 50%, matching Jira's own "Child work items" progress bar.
+ * Epics that are themselves already Done/Won't Do are reported at 100% without
+ * an extra query, since their child breakdown won't change anymore -- this
+ * keeps the number of API calls down for projects with a lot of closed Epics. */
+async function analyzeEpics(key) {
+  const epics = await searchAll(`project = ${key} AND issuetype = Epic`, ["summary", "status"]);
+  const results = [];
+  for (const epic of epics) {
+    const epicDone = epic.fields.status.statusCategory && epic.fields.status.statusCategory.key === "done";
+    let childTotal = null;
+    let childDone = null;
+    let percentDone = epicDone ? 100 : null;
+    if (!epicDone) {
+      const children = await searchAll(`parent = ${epic.key}`, ["status"]);
+      childTotal = children.length;
+      childDone = children.filter((c) => c.fields.status.statusCategory && c.fields.status.statusCategory.key === "done").length;
+      percentDone = childTotal ? round1((childDone / childTotal) * 100) : 0;
+    }
+    results.push({
+      key: epic.key,
+      summary: epic.fields.summary,
+      status: epic.fields.status.name,
+      epicDone,
+      childTotal,
+      childDone,
+      percentDone,
+    });
+  }
+  // Active (not-yet-done) Epics first, so the list leads with what's still in flight.
+  results.sort((a, b) => (a.epicDone === b.epicDone ? 0 : a.epicDone ? 1 : -1));
+  return results;
+}
+
 async function analyzeProject(key, statusCategoryByName) {
   const now = Date.now();
+
+  const epics = await analyzeEpics(key);
 
   // WIP snapshot: all currently open issues, grouped by status (not time-windowed).
   // Also pull issuelinks so we can surface real "blocked by" dependencies, not just a
   // "Blocked" component guess. Jira embeds a minimal fields object (key, summary, status)
   // on each linked issue automatically, so no extra API calls are needed.
-  const wipIssues = await searchAll(`project = ${key} AND statusCategory != Done`, ["status", "summary", "issuelinks", "components", "created"]);
+  // "Ready for Release" is a Done-category status in this Jira instance, so a
+  // plain `statusCategory != Done` filter would silently exclude it -- add it
+  // back explicitly so finished-but-not-yet-shipped work still shows up (in
+  // the "Done" WIP lane, per STATUS_CANONICAL_MAP).
+  const wipIssues = await searchAll(`project = ${key} AND (statusCategory != Done OR status = "Ready for Release")`, ["status", "summary", "issuelinks", "components", "created"]);
   const wipByStatus = {};
   for (const lane of WIP_LANES) wipByStatus[lane] = 0;
   let otherWipCount = 0;
   for (const issue of wipIssues) {
-    const canonicalLane = WIP_LANE_BY_LOWER.get((issue.fields.status.name || "").toLowerCase());
+    const canonicalLane = canonicalStatus(issue.fields.status.name);
     if (canonicalLane) {
       wipByStatus[canonicalLane]++;
     } else {
@@ -370,6 +437,7 @@ async function analyzeProject(key, statusCategoryByName) {
 
   return {
     key,
+    epics,
     wipByStatus,
     wipTotal: wipIssues.length,
     dependencies,
