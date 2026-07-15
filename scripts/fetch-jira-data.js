@@ -134,9 +134,22 @@ function isAiComponent(name) {
   return /claude|ai/i.test(name || "");
 }
 
-function isBlockedComponent(name) {
-  return /blocked/i.test(name || "");
+// Cycle time only counts time spent in these specific statuses -- the "active
+// build through release" span of the workflow -- rather than any status in
+// Jira's broad "In Progress" category. If your Jira status names differ
+// slightly from these, update this list to match exactly (case-insensitive).
+const CYCLE_TIME_STATUSES = ["In Dev", "In CR", "In QA", "In Acceptance", "Ready for Release"];
+const CYCLE_TIME_STATUS_SET = new Set(CYCLE_TIME_STATUSES.map((s) => s.toLowerCase()));
+function isCycleTimeStatus(name) {
+  return CYCLE_TIME_STATUS_SET.has((name || "").toLowerCase());
 }
+
+// WIP status chart is locked to these 7 lanes (in this order) so every
+// project's chart looks the same regardless of small per-project workflow
+// differences. Anything not on this list is folded into "Other" rather than
+// silently dropped or adding a stray extra bar.
+const WIP_LANES = ["Backlog", "Ready for Development", "To Do", "Ready for QA", "In Development", "In Progress", "In QA"];
+const WIP_LANE_BY_LOWER = new Map(WIP_LANES.map((l) => [l.toLowerCase(), l]));
 
 /** Analyze one issue's status changelog for cycle time, lead time, and regressions. */
 function analyzeIssue(issue, statusCategoryByName) {
@@ -157,16 +170,20 @@ function analyzeIssue(issue, statusCategoryByName) {
   for (const t of histories) {
     const fromCat = statusCategoryByName[t.from];
     const toCat = statusCategoryByName[t.to];
-    if (startInProgress === null && toCat === 4) startInProgress = t.ts;
+    // Cycle time clock starts on first entry into one of the named
+    // CYCLE_TIME_STATUSES (In Dev, In CR, In QA, In Acceptance, Ready for
+    // Release), not just any "In Progress" category status.
+    if (startInProgress === null && isCycleTimeStatus(t.to)) startInProgress = t.ts;
     if (fromCat != null && toCat != null && CATEGORY_ORDER[toCat] < CATEGORY_ORDER[fromCat]) {
       regressions++;
     }
   }
 
-  // Edge case: issue created directly into an in-progress/done status with no changelog.
+  // Edge case: issue created directly into a cycle-time status (or resolved)
+  // with no changelog history.
   if (startInProgress === null && histories.length === 0) {
     const curCat = statusCategoryByName[issue.fields.status.name];
-    if (curCat === 4 || curCat === 3) startInProgress = created;
+    if (isCycleTimeStatus(issue.fields.status.name) || curCat === 3) startInProgress = created;
   }
 
   let cycleTimeDays = null;
@@ -236,10 +253,17 @@ async function analyzeProject(key, statusCategoryByName) {
   // on each linked issue automatically, so no extra API calls are needed.
   const wipIssues = await searchAll(`project = ${key} AND statusCategory != Done`, ["status", "summary", "issuelinks", "components", "created"]);
   const wipByStatus = {};
+  for (const lane of WIP_LANES) wipByStatus[lane] = 0;
+  let otherWipCount = 0;
   for (const issue of wipIssues) {
-    const name = issue.fields.status.name;
-    wipByStatus[name] = (wipByStatus[name] || 0) + 1;
+    const canonicalLane = WIP_LANE_BY_LOWER.get((issue.fields.status.name || "").toLowerCase());
+    if (canonicalLane) {
+      wipByStatus[canonicalLane]++;
+    } else {
+      otherWipCount++;
+    }
   }
+  if (otherWipCount > 0) wipByStatus["Other"] = otherWipCount;
 
   // Aging WIP: how long has each open issue been open? Uses the "created" date
   // as a low-cost proxy for "time in flight" -- an exact "time in current
@@ -257,62 +281,51 @@ async function analyzeProject(key, statusCategoryByName) {
   const agingWipCount = wipWithAge.filter((w) => w.ageDays > AGING_WIP_THRESHOLD_DAYS).length;
   const agingWipIssues = [...wipWithAge].sort((a, b) => b.ageDays - a.ageDays).slice(0, 5);
 
-  // Dependencies: for each open issue, find "Blocks" links where THIS issue is the
-  // one being blocked (an inwardIssue under a "Blocks" type link), and keep only
-  // blockers that are themselves still open (not Done).
-  // Every blocker is tagged with a "scope": if the blocking issue lives in the
-  // same Jira project, it's "internal" (your own team can unblock it); if it
-  // lives in a different Jira project, it's "external" (you're waiting on
-  // another team). This is derived purely from the issue key prefix, so it
-  // needs no extra Jira fields or config.
-  const blockedIssues = [];
+  // Dependencies: Jira's "Blocks" link type is directional -- an issue can be
+  // either the blocker (outward "blocks" link) or the one being blocked (inward
+  // "is blocked by" link). We capture both directions here so the same
+  // relationship shows up whether we're reading it from the blocker's side or
+  // the blocked side (e.g. INV-935 "blocks" MOBILE-974 in Jira's Linked work
+  // items shows up as one dependency row, not two). Only keeps dependencies
+  // where both tickets are still open (not Done).
+  const dependencies = [];
+  const seenPairs = new Set();
+  const addDependency = (blocker, blocked) => {
+    const pairKey = `${blocker.key}->${blocked.key}`;
+    if (seenPairs.has(pairKey)) return;
+    seenPairs.add(pairKey);
+    dependencies.push({
+      blockerKey: blocker.key,
+      blockerSummary: blocker.summary,
+      blockerStatus: blocker.status,
+      blockerProject: blocker.key.split("-")[0],
+      blockedKey: blocked.key,
+      blockedSummary: blocked.summary,
+      blockedStatus: blocked.status,
+      blockedProject: blocked.key.split("-")[0],
+    });
+  };
+  const isOpenLinkedIssue = (fields) => {
+    const cat = fields.status && fields.status.statusCategory ? fields.status.statusCategory.key : null;
+    return cat ? cat !== "done" : true;
+  };
   for (const issue of wipIssues) {
     const links = issue.fields.issuelinks || [];
-    const blockers = links
-      .filter((l) => l.type && l.type.name === "Blocks" && l.inwardIssue)
-      .map((l) => {
-        const bFields = l.inwardIssue.fields || {};
-        const bCat = bFields.status && bFields.status.statusCategory ? bFields.status.statusCategory.key : null;
-        const bKey = l.inwardIssue.key;
-        const bProject = bKey.split("-")[0];
-        return {
-          key: bKey,
-          summary: bFields.summary || null,
-          status: bFields.status ? bFields.status.name : null,
-          isOpen: bCat ? bCat !== "done" : true,
-          scope: bProject === key ? "internal" : "external",
-        };
-      })
-      .filter((b) => b.isOpen);
-    if (blockers.length) {
-      blockedIssues.push({
-        key: issue.key,
-        summary: issue.fields.summary,
-        status: issue.fields.status.name,
-        blockedBy: blockers.map((b) => ({ key: b.key, summary: b.summary, status: b.status, scope: b.scope })),
-      });
+    const thisIssue = { key: issue.key, summary: issue.fields.summary, status: issue.fields.status.name };
+    for (const l of links) {
+      if (!l.type || l.type.name !== "Blocks") continue;
+      // This issue is blocked by another (inward link).
+      if (l.inwardIssue && isOpenLinkedIssue(l.inwardIssue.fields || {})) {
+        const f = l.inwardIssue.fields || {};
+        addDependency({ key: l.inwardIssue.key, summary: f.summary || null, status: f.status ? f.status.name : null }, thisIssue);
+      }
+      // This issue blocks another (outward link).
+      if (l.outwardIssue && isOpenLinkedIssue(l.outwardIssue.fields || {})) {
+        const f = l.outwardIssue.fields || {};
+        addDependency(thisIssue, { key: l.outwardIssue.key, summary: f.summary || null, status: f.status ? f.status.name : null });
+      }
     }
   }
-  // Fall back to the "Blocked" component tag for issues that are flagged that way
-  // but don't (yet) have a formal Jira issue link recorded. Scope is unknown here
-  // (no linked issue to compare project keys against), so the front end treats
-  // blockedBy: [] as "flagged, no linked issue on record."
-  const linkedKeys = new Set(blockedIssues.map((b) => b.key));
-  for (const issue of wipIssues) {
-    if (linkedKeys.has(issue.key)) continue;
-    if ((issue.fields.components || []).some((c) => isBlockedComponent(c.name))) {
-      blockedIssues.push({ key: issue.key, summary: issue.fields.summary, status: issue.fields.status.name, blockedBy: [] });
-    }
-  }
-  const openBlockers = blockedIssues.length;
-  const internalBlockerCount = blockedIssues.reduce(
-    (acc, b) => acc + b.blockedBy.filter((x) => x.scope === "internal").length,
-    0
-  );
-  const externalBlockerCount = blockedIssues.reduce(
-    (acc, b) => acc + b.blockedBy.filter((x) => x.scope === "external").length,
-    0
-  );
 
   // Rolling 8-week window, relative to right now.
   const windowIssues = await searchAll(
@@ -359,10 +372,8 @@ async function analyzeProject(key, statusCategoryByName) {
     key,
     wipByStatus,
     wipTotal: wipIssues.length,
-    openBlockers,
-    internalBlockerCount,
-    externalBlockerCount,
-    blockedIssues,
+    dependencies,
+    dependencyCount: dependencies.length,
     oldestWipAgeDays,
     agingWipCount,
     agingWipIssues,
