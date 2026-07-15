@@ -65,13 +65,6 @@
     .deps-chip b { display: block; font-size: 18px; text-transform: none; letter-spacing: 0; margin-bottom: 2px; }
     .deps-chip.blue b { color: var(--blue); } .deps-chip.purple b { color: var(--purple); } .deps-chip.yellow b { color: var(--yellow); }
     .deps-chip.red b { color: var(--red); }
-    .deps-group { margin-bottom: 22px; }
-    .deps-group:last-child { margin-bottom: 0; }
-    .deps-group-title { font-size: 13px; font-weight: 700; margin-bottom: 8px; }
-    .deps-group-hint { font-size: 11px; font-weight: 400; color: var(--muted); margin-left: 6px; }
-    .scope-pill { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; padding: 2px 7px; border-radius: 20px; margin-right: 6px; }
-    .scope-pill.internal { background: #123a52; color: var(--blue); }
-    .scope-pill.external { background: #35275c; color: var(--purple); }
     .overview-filter-row { display: flex; align-items: center; gap: 10px; margin-bottom: 18px; }
     .overview-filter-row label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); }
     #printBtn {
@@ -127,21 +120,21 @@
 
 <main>
   <div id="errorBanner" class="error-banner" style="display:none"></div>
+  <div class="overview-filter-row">
+    <label for="projectFilter">Project</label>
+    <select id="projectFilter" onchange="onProjectChange()"></select>
+  </div>
   <div class="note-card">
-    Grouped by real Jira project (INV, APCOM, EMP, CORE, MOBILE, BOA, EXP, HR) All metrics are a rolling 8-week (56-day) window ending today. Use the project dropdown above to switch between a cross-project comparison ("All Projects") and a single project's week-by-week trend.
+    Grouped by real Jira project (INV, APCOM, EMP, CORE, MOBILE, BOA, EXP, HR) — there is no Pod/Delivery Manager field in Jira yet. All metrics are a rolling 8-week (56-day) window ending today. Use the project dropdown above to switch between a cross-project comparison ("All Projects") and a single project's week-by-week trend — it stays put no matter which tab you're on.
   </div>
 
   <!-- OVERVIEW -->
   <div id="tab-overview" class="tab-content active">
-    <div class="overview-filter-row">
-      <label for="projectFilter">Project</label>
-      <select id="projectFilter" onchange="onProjectChange()"></select>
-    </div>
     <div class="summary-grid" id="overviewCards"></div>
     <div class="two-col">
       <div class="chart-card">
         <h3 id="cycleTimeChartTitle">Cycle Time by Project</h3>
-        <p id="cycleTimeChartSub">Avg days, first "In Progress" transition to resolution · rolling 8 weeks</p>
+        <p id="cycleTimeChartSub">Avg days, first entry into In Dev/In CR/In QA/In Acceptance/Ready for Release to resolution · rolling 8 weeks</p>
         <canvas id="cycleTimeChart"></canvas>
       </div>
       <div class="chart-card">
@@ -156,27 +149,14 @@
       <canvas id="loopbackChart"></canvas>
     </div>
     <div class="chart-card">
-      <h3 id="depsTitle">Dependencies &amp; Blockers</h3>
-      <p id="depsSub">Open issues currently blocked, split by who can unblock them</p>
+      <h3 id="depsTitle">Dependencies</h3>
+      <p id="depsSub">Ticket-to-ticket dependencies, from Jira's "Blocks" linked work items</p>
       <div class="deps-summary" id="depsSummary"></div>
-
-      <div class="deps-group">
-        <div class="deps-group-title">Internal <span class="deps-group-hint">blocked by a ticket in the same project — your own team can unblock it</span></div>
-        <table class="flow-table" id="depsTableInternal">
-          <thead><tr><th id="depsProjectColInternal">Project</th><th>Issue</th><th>Status</th><th>Blocked By</th></tr></thead>
-          <tbody></tbody>
-        </table>
-        <p id="depsEmptyInternal" style="display:none;margin-top:8px">No internal blockers right now 🎉</p>
-      </div>
-
-      <div class="deps-group">
-        <div class="deps-group-title">External <span class="deps-group-hint">blocked by a ticket in another project/team</span></div>
-        <table class="flow-table" id="depsTableExternal">
-          <thead><tr><th id="depsProjectColExternal">Project</th><th>Issue</th><th>Status</th><th>Blocked By</th></tr></thead>
-          <tbody></tbody>
-        </table>
-        <p id="depsEmptyExternal" style="display:none;margin-top:8px">No external blockers right now 🎉</p>
-      </div>
+      <table class="flow-table" id="depsTable">
+        <thead><tr><th>Blocker</th><th>Status</th><th></th><th>Blocked</th><th>Status</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p id="depsEmpty" style="display:none;margin-top:8px">No open dependencies right now 🎉</p>
     </div>
   </div>
 
@@ -338,19 +318,19 @@ function renderAllProjects(projects) {
   const avgCycle = cycleTimes.length ? (cycleTimes.reduce((a,b)=>a+b,0)/cycleTimes.length).toFixed(1) : '—';
   const avgLead = leadTimes.length ? (leadTimes.reduce((a,b)=>a+b,0)/leadTimes.length).toFixed(1) : '—';
   const totalWip = projects.reduce((a,p) => a + (p.wipTotal || 0), 0);
-  const totalBlockers = projects.reduce((a,p) => a + (p.openBlockers || 0), 0);
+  const totalDependencies = dedupeDependencies(projects.flatMap(p => p.dependencies || [])).length;
   const atRisk = projects.filter(p => p.cycleTimeDays.avg !== null && p.cycleTimeDays.avg > 8).length;
 
   document.getElementById('overviewCards').innerHTML = `
     <div class="card blue"><div class="card-label">Avg Cycle Time</div><div class="card-value">${avgCycle}<span style="font-size:14px;font-weight:400"> d</span></div><div class="card-sub">Rolling 8 weeks</div></div>
     <div class="card purple"><div class="card-label">Avg Lead Time</div><div class="card-value">${avgLead}<span style="font-size:14px;font-weight:400"> d</span></div><div class="card-sub">Created → Done</div></div>
     <div class="card"><div class="card-label">Total WIP</div><div class="card-value">${totalWip}</div><div class="card-sub">Open issues, all projects</div></div>
-    <div class="card yellow"><div class="card-label">Open Blockers</div><div class="card-value">${totalBlockers}</div><div class="card-sub">Tagged "Blocked" component</div></div>
+    <div class="card yellow"><div class="card-label">Dependencies</div><div class="card-value">${totalDependencies}</div><div class="card-sub">Open "Blocks" links</div></div>
     <div class="card red"><div class="card-label">Projects at Risk</div><div class="card-value">${atRisk}</div><div class="card-sub">Avg cycle time &gt; 8 days</div></div>
   `;
 
   document.getElementById('cycleTimeChartTitle').textContent = 'Cycle Time by Project';
-  document.getElementById('cycleTimeChartSub').textContent = 'Avg days, first "In Progress" transition to resolution · rolling 8 weeks';
+  document.getElementById('cycleTimeChartSub').textContent = 'Avg days, first entry into In Dev/In CR/In QA/In Acceptance/Ready for Release to resolution · rolling 8 weeks';
   makeChart('cycleTimeChart', {
     type: 'bar',
     data: { labels, datasets: [{ label: 'Avg Cycle Time (days)', data: projects.map(p => p.cycleTimeDays.avg), backgroundColor: '#38bdf8' }] },
@@ -374,12 +354,8 @@ function renderAllProjects(projects) {
     } } } }, scales: { y: { beginAtZero: true, max: 100 } } }
   });
 
-  // Dependencies & Blockers — cross-project, so show the Project column
-  renderDepsSection(projects.flatMap(p => (p.blockedIssues || []).map(b => ({ ...b, project: p.key }))), true);
-  renderDepsSummary(
-    projects.reduce((a, p) => a + (p.internalBlockerCount || 0), 0),
-    projects.reduce((a, p) => a + (p.externalBlockerCount || 0), 0)
-  );
+  // Dependencies — combined across all projects
+  renderDependencies(projects.flatMap(p => p.dependencies || []));
 
   // Aging WIP — cross-project, so show the Project column
   renderAgingWip(projects.flatMap(p => (p.agingWipIssues || []).map(w => ({ ...w, project: p.key }))), true);
@@ -422,7 +398,7 @@ function renderAllProjects(projects) {
         <div><div class="p-stat-val" style="color:${p.cycleTimeDays.avg > 8 ? 'var(--red)' : 'var(--text)'}">${fmt(p.cycleTimeDays.avg)}</div><div class="p-stat-lbl">Cycle (d)</div></div>
         <div><div class="p-stat-val">${fmt(p.leadTimeDays.avg)}</div><div class="p-stat-lbl">Lead (d)</div></div>
         <div><div class="p-stat-val">${fmt(p.qualityLoopbackRatePct,'%')}</div><div class="p-stat-lbl">Loop-back (${p.qualityLoopbackCount ?? 0}/${p.qualityLoopbackSampleSize ?? 0})</div></div>
-        <div><div class="p-stat-val" style="color:${p.openBlockers > 0 ? 'var(--yellow)' : 'var(--green)'}">${p.openBlockers}</div><div class="p-stat-lbl">Blockers</div></div>
+        <div><div class="p-stat-val" style="color:${p.dependencyCount > 0 ? 'var(--yellow)' : 'var(--green)'}">${p.dependencyCount ?? 0}</div><div class="p-stat-lbl">Dependencies</div></div>
       </div>
     </div>
   `).join('');
@@ -462,65 +438,41 @@ function renderAllProjects(projects) {
   });
 }
 
-// Splits blocked issues into internal (blocker lives in the same Jira project)
-// vs external (blocker lives elsewhere) buckets. An issue whose blockedBy has
-// both kinds of links shows up in both buckets, once per relevant blocker.
-// Issues with no linked blocker at all (just a "Blocked" component tag) land
-// in the external bucket with a fallback note, since that's the safer default
-// when the source of the block is unknown.
-function splitByScope(rows) {
-  const internal = [];
-  const external = [];
+// Dependencies come straight from Jira's "Blocks" linked work items -- each
+// row is one directional relationship (blocker -> blocked), e.g. "INV-935
+// blocks MOBILE-974". fetch-jira-data.js already captures both the outward
+// and inward side of each link, so the same pair can show up once per
+// project it touches when multiple projects are combined; dedupe by the
+// blocker/blocked key pair before rendering.
+function dedupeDependencies(rows) {
+  const seen = new Set();
+  const out = [];
   for (const r of rows) {
-    if (!r.blockedBy || !r.blockedBy.length) {
-      external.push({ ...r, blockedBy: [] });
-      continue;
-    }
-    const intB = r.blockedBy.filter(b => b.scope === 'internal');
-    const extB = r.blockedBy.filter(b => b.scope !== 'internal');
-    if (intB.length) internal.push({ ...r, blockedBy: intB });
-    if (extB.length) external.push({ ...r, blockedBy: extB });
+    const k = `${r.blockerKey}->${r.blockedKey}`;
+    if (seen.has(k)) continue;
+    seen.add(k);
+    out.push(r);
   }
-  return { internal, external };
+  return out;
 }
 
-function pillsFor(blockedBy) {
-  if (!blockedBy || !blockedBy.length) {
-    return '<span style="color:var(--muted)">Tagged "Blocked" — no linked issue on record</span>';
-  }
-  return blockedBy.map(b =>
-    `<span class="scope-pill ${b.scope === 'internal' ? 'internal' : 'external'}">${b.scope === 'internal' ? 'internal' : 'external'}</span>${b.key}${b.status ? ` (${b.status})` : ''}`
-  ).join(', ');
-}
-
-function renderDepsGroup(tableId, projectColId, emptyId, rows, showProject) {
-  document.getElementById(projectColId).style.display = showProject ? '' : 'none';
-  const tbody = document.querySelector(`#${tableId} tbody`);
-  const empty = document.getElementById(emptyId);
-  if (!rows.length) {
+function renderDependencies(rows) {
+  const deduped = dedupeDependencies(rows);
+  const tbody = document.querySelector('#depsTable tbody');
+  const empty = document.getElementById('depsEmpty');
+  if (!deduped.length) {
     tbody.innerHTML = '';
-    document.getElementById(tableId).style.display = 'none';
+    document.getElementById('depsTable').style.display = 'none';
     empty.style.display = 'block';
-    return;
+  } else {
+    document.getElementById('depsTable').style.display = '';
+    empty.style.display = 'none';
+    tbody.innerHTML = deduped.map(d => `
+      <tr><td>${d.blockerKey}</td><td>${d.blockerStatus || '—'}</td><td style="color:var(--muted)">blocks →</td><td>${d.blockedKey}</td><td>${d.blockedStatus || '—'}</td></tr>
+    `).join('');
   }
-  document.getElementById(tableId).style.display = '';
-  empty.style.display = 'none';
-  tbody.innerHTML = rows.map(r =>
-    `<tr>${showProject ? `<td>${r.project}</td>` : ''}<td>${r.key}</td><td>${r.status || '—'}</td><td>${pillsFor(r.blockedBy)}</td></tr>`
-  ).join('');
-}
-
-function renderDepsSection(rows, showProject) {
-  const { internal, external } = splitByScope(rows);
-  renderDepsGroup('depsTableInternal', 'depsProjectColInternal', 'depsEmptyInternal', internal, showProject);
-  renderDepsGroup('depsTableExternal', 'depsProjectColExternal', 'depsEmptyExternal', external, showProject);
-}
-
-function renderDepsSummary(internalCount, externalCount) {
-  document.getElementById('depsSummary').innerHTML = `
-    <div class="deps-chip blue"><b>${internalCount}</b>Internal</div>
-    <div class="deps-chip purple"><b>${externalCount}</b>External</div>
-  `;
+  document.getElementById('depsSummary').innerHTML = `<div class="deps-chip blue"><b>${deduped.length}</b>Dependencies</div>`;
+  return deduped;
 }
 
 // Aging WIP: renders the oldest-first table of currently open issues. showProject
@@ -563,7 +515,7 @@ function renderSingleProject(p) {
     <div class="card blue"><div class="card-label">Avg Cycle Time</div><div class="card-value">${fmt(p.cycleTimeDays.avg)}<span style="font-size:14px;font-weight:400"> d</span></div><div class="card-sub">${p.key} · rolling 8 weeks</div></div>
     <div class="card purple"><div class="card-label">Avg Lead Time</div><div class="card-value">${fmt(p.leadTimeDays.avg)}<span style="font-size:14px;font-weight:400"> d</span></div><div class="card-sub">Created → Done</div></div>
     <div class="card"><div class="card-label">Current WIP</div><div class="card-value">${p.wipTotal}</div><div class="card-sub">Open issues, right now</div></div>
-    <div class="card yellow"><div class="card-label">Open Blockers</div><div class="card-value">${p.openBlockers}</div><div class="card-sub">Tagged "Blocked" component</div></div>
+    <div class="card yellow"><div class="card-label">Dependencies</div><div class="card-value">${p.dependencyCount ?? 0}</div><div class="card-sub">Open "Blocks" links</div></div>
     <div class="card ${p.cycleTimeDays.avg > 8 ? 'red' : 'green'}"><div class="card-label">Risk Status</div><div class="card-value">${p.cycleTimeDays.avg > 8 ? 'At Risk' : 'OK'}</div><div class="card-sub">Cycle time vs 8-day ceiling</div></div>
   `;
 
@@ -595,8 +547,7 @@ function renderSingleProject(p) {
     } } } }, scales: { y: { beginAtZero: true, max: 100 } } }
   });
 
-  renderDepsSection((p.blockedIssues || []).map(b => ({ ...b, project: p.key })), false);
-  renderDepsSummary(p.internalBlockerCount || 0, p.externalBlockerCount || 0);
+  renderDependencies(p.dependencies || []);
 
   renderAgingWip((p.agingWipIssues || []).map(w => ({ ...w, project: p.key })), false);
   renderAgingSummary(p.oldestWipAgeDays ?? null, p.agingWipCount || 0);
@@ -629,7 +580,7 @@ function renderSingleProject(p) {
         <div><div class="p-stat-val" style="color:${p.cycleTimeDays.avg > 8 ? 'var(--red)' : 'var(--text)'}">${fmt(p.cycleTimeDays.avg)}</div><div class="p-stat-lbl">Cycle (d)</div></div>
         <div><div class="p-stat-val">${fmt(p.leadTimeDays.avg)}</div><div class="p-stat-lbl">Lead (d)</div></div>
         <div><div class="p-stat-val">${fmt(p.qualityLoopbackRatePct,'%')}</div><div class="p-stat-lbl">Loop-back (${p.qualityLoopbackCount ?? 0}/${p.qualityLoopbackSampleSize ?? 0})</div></div>
-        <div><div class="p-stat-val" style="color:${p.openBlockers > 0 ? 'var(--yellow)' : 'var(--green)'}">${p.openBlockers}</div><div class="p-stat-lbl">Blockers</div></div>
+        <div><div class="p-stat-val" style="color:${p.dependencyCount > 0 ? 'var(--yellow)' : 'var(--green)'}">${p.dependencyCount ?? 0}</div><div class="p-stat-lbl">Dependencies</div></div>
       </div>
     </div>
   `;
