@@ -1,4563 +1,1165 @@
 {
-  "generatedAt": "2026-07-21T16:27:38.496Z",
+  "generatedAt": "2026-07-21T19:40:22.440Z",
   "windowDays": 56,
   "groupingNote": "Metrics are grouped by real Jira project (no Pod/DM field exists yet). Update PROJECTS + grouping in fetch-jira-data.js once Pods/DMs are tracked in Jira.",
   "projects": [
     {
       "key": "INV",
-      "epics": [
-        {
-          "key": "INV-964",
-          "summary": "Addl. Enhancements - Automated Mapping Generation (MVP)",
-          "status": "To Do",
-          "childTotal": 5,
-          "childDone": 2,
-          "percentDone": 40
-        },
-        {
-          "key": "INV-958",
-          "summary": "[Exp Mgmt] Backend Migration to PHP",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-939",
-          "summary": "Company Enhancements",
-          "status": "To Do",
-          "childTotal": 1,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-934",
-          "summary": "Expense Itinerary in Mobile — APS-Online MileageCalcMap migration (Strategy 1)",
-          "status": "To Do",
-          "childTotal": 1,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-910",
-          "summary": "INV Q2 2026 bugs",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-900",
-          "summary": "EFTPS Integration",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-857",
-          "summary": "Company Users Management",
-          "status": "To Do",
-          "childTotal": 4,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-856",
-          "summary": "Tristate/Kotapay Integration",
-          "status": "To Do",
-          "childTotal": 4,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-838",
-          "summary": "[Exp Mgmt] Enhancements & Bugfixes - 2026",
-          "status": "In Progress",
-          "childTotal": 8,
-          "childDone": 8,
-          "percentDone": 100
-        },
-        {
-          "key": "INV-789",
-          "summary": "[VAR App] Additional Insights",
-          "status": "To Do",
-          "childTotal": 3,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-784",
-          "summary": "3. Document Templates & Automation Rules",
-          "status": "In Progress",
-          "childTotal": 12,
-          "childDone": 11,
-          "percentDone": 91.7
-        },
-        {
-          "key": "INV-653",
-          "summary": "Project Management & GuideCX integration",
-          "status": "To Do",
-          "childTotal": 7,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-651",
-          "summary": "3. Onboarding Packet Management",
-          "status": "In Progress",
-          "childTotal": 10,
-          "childDone": 6,
-          "percentDone": 60
-        },
-        {
-          "key": "INV-618",
-          "summary": "0. Architecture & Core Components",
-          "status": "In Progress",
-          "childTotal": 43,
-          "childDone": 41,
-          "percentDone": 95.3
-        },
-        {
-          "key": "INV-604",
-          "summary": "4. Due Diligence & Project Management",
-          "status": "In Progress",
-          "childTotal": 20,
-          "childDone": 10,
-          "percentDone": 50
-        },
-        {
-          "key": "INV-526",
-          "summary": "Departments allocations",
-          "status": "In Progress",
-          "childTotal": 10,
-          "childDone": 6,
-          "percentDone": 60
-        },
-        {
-          "key": "INV-436",
-          "summary": "Expense Management in ReactJS - eSS/mSS",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-427",
-          "summary": "Expense Management in ReactJS - Online",
-          "status": "To Do",
-          "childTotal": 6,
-          "childDone": 3,
-          "percentDone": 50
-        },
-        {
-          "key": "INV-412",
-          "summary": "Tracking Implementation",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-315",
-          "summary": "[Shift Trading] Enhancements & Bugfixes - Insights",
-          "status": "To Do",
-          "childTotal": 5,
-          "childDone": 3,
-          "percentDone": 60
-        },
-        {
-          "key": "INV-116",
-          "summary": "[Expense Mgmt] Enhancements & Bugfixes - Insights",
-          "status": "In Progress",
-          "childTotal": 17,
-          "childDone": 8,
-          "percentDone": 47.1
-        },
-        {
-          "key": "INV-74",
-          "summary": "Corporate card management",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-71",
-          "summary": "Manage multiple expense policies",
-          "status": "To Do",
-          "childTotal": 3,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "INV-70",
-          "summary": "Multi-level validation for Expense Management",
-          "status": "To Do",
-          "childTotal": 3,
-          "childDone": 0,
-          "percentDone": 0
-        }
-      ],
+      "epics": [],
       "wipByStatus": {
-        "Backlog": 49,
-        "To Do": 25,
-        "Ready for Development": 9,
-        "In Development": 16,
+        "Backlog": 0,
+        "To Do": 0,
+        "Ready for Development": 0,
+        "In Development": 0,
         "Ready for Code Review": 0,
-        "In QA": 1,
-        "Acceptance": 1,
-        "Done": 22,
-        "Other": 6
+        "In QA": 0,
+        "Acceptance": 0,
+        "Done": 0
       },
-      "wipTotal": 129,
-      "dependencies": [
-        {
-          "blockerKey": "INV-768",
-          "blockerSummary": "Create/Edit an automation rule",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "INV",
-          "blockedKey": "INV-985",
-          "blockedSummary": "Finish-line validation &amp; QA pass (feature-complete + QA-passed, auth-on)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-982",
-          "blockerSummary": "Generate an initial mapping on template upload (AI-assisted)",
-          "blockerStatus": "In Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-985",
-          "blockedSummary": "Finish-line validation &amp; QA pass (feature-complete + QA-passed, auth-on)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-983",
-          "blockerSummary": "Upload a mapping file to override a template's mapping",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-985",
-          "blockedSummary": "Finish-line validation &amp; QA pass (feature-complete + QA-passed, auth-on)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-669",
-          "blockerSummary": "Automatically generate the list of documents to include in the onboarding packet",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "INV",
-          "blockedKey": "INV-985",
-          "blockedSummary": "Finish-line validation &amp; QA pass (feature-complete + QA-passed, auth-on)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-922",
-          "blockerSummary": "Prevent users from generating the onboarding packet if the necessary forms have not been submitted",
-          "blockerStatus": "In QA",
-          "blockerProject": "INV",
-          "blockedKey": "INV-985",
-          "blockedSummary": "Finish-line validation &amp; QA pass (feature-complete + QA-passed, auth-on)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-959",
-          "blockerSummary": "Update the \"Documents\" status on the APS landing page",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "INV",
-          "blockedKey": "INV-985",
-          "blockedSummary": "Finish-line validation &amp; QA pass (feature-complete + QA-passed, auth-on)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-962",
-          "blockerSummary": "Display the \"Onboarding Packet\" section in the company recap",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "INV",
-          "blockedKey": "INV-985",
-          "blockedSummary": "Finish-line validation &amp; QA pass (feature-complete + QA-passed, auth-on)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-984",
-          "blockerSummary": "Shared AI foundation: schema, owl↔ai API-key auth, flag-gating, dead-stack removal",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "INV",
-          "blockedKey": "INV-982",
-          "blockedSummary": "Generate an initial mapping on template upload (AI-assisted)",
-          "blockedStatus": "In Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-984",
-          "blockerSummary": "Shared AI foundation: schema, owl↔ai API-key auth, flag-gating, dead-stack removal",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "INV",
-          "blockedKey": "INV-983",
-          "blockedSummary": "Upload a mapping file to override a template's mapping",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-984",
-          "blockerSummary": "Shared AI foundation: schema, owl↔ai API-key auth, flag-gating, dead-stack removal",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "INV",
-          "blockedKey": "INV-985",
-          "blockedSummary": "Finish-line validation &amp; QA pass (feature-complete + QA-passed, auth-on)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-980",
-          "blockerSummary": "KYC — UAT to Live validation + E2E QA coordination",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-975",
-          "blockedSummary": "KYC — Consent-gated Account Verification generation",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-980",
-          "blockerSummary": "KYC — UAT to Live validation + E2E QA coordination",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-976",
-          "blockedSummary": "KYC — Real consent in the Account Verification (CBV) request",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-980",
-          "blockerSummary": "KYC — UAT to Live validation + E2E QA coordination",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-977",
-          "blockedSummary": "KYC — Consent form tile on the company recap",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-980",
-          "blockerSummary": "KYC — UAT to Live validation + E2E QA coordination",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-978",
-          "blockedSummary": "KYC — KYC task status from report completion",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-980",
-          "blockerSummary": "KYC — UAT to Live validation + E2E QA coordination",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-979",
-          "blockedSummary": "KYC — Finalize generation/rendering/save engine (integration + hardening)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-980",
-          "blockerSummary": "KYC — UAT to Live validation + E2E QA coordination",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-961",
-          "blockedSummary": "Display the KYC details in the company recap",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-979",
-          "blockerSummary": "KYC — Finalize generation/rendering/save engine (integration + hardening)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-924",
-          "blockedSummary": "KYC — Generate Report & Preview",
-          "blockedStatus": "Acceptance",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-979",
-          "blockerSummary": "KYC — Finalize generation/rendering/save engine (integration + hardening)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-926",
-          "blockedSummary": "[QA Testing] KYC Verification (End-to-End)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-961",
-          "blockerSummary": "Display the KYC details in the company recap",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "INV",
-          "blockedKey": "INV-978",
-          "blockedSummary": "KYC — KYC task status from report completion",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-977",
-          "blockerSummary": "KYC — Consent form tile on the company recap",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-971",
-          "blockedSummary": "KYC — Consent onboarding form (#7 Consent for KYB/KYC Verifications)",
-          "blockedStatus": "In Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-976",
-          "blockerSummary": "KYC — Real consent in the Account Verification (CBV) request",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-971",
-          "blockedSummary": "KYC — Consent onboarding form (#7 Consent for KYB/KYC Verifications)",
-          "blockedStatus": "In Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-975",
-          "blockerSummary": "KYC — Consent-gated Account Verification generation",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-971",
-          "blockedSummary": "KYC — Consent onboarding form (#7 Consent for KYB/KYC Verifications)",
-          "blockedStatus": "In Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-971",
-          "blockerSummary": "KYC — Consent onboarding form (#7 Consent for KYB/KYC Verifications)",
-          "blockerStatus": "In Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-974",
-          "blockedSummary": "KYC — Foundation: consent table + onboarding-form-type registration",
-          "blockedStatus": "Ready for Release",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-977",
-          "blockerSummary": "KYC — Consent form tile on the company recap",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-974",
-          "blockedSummary": "KYC — Foundation: consent table + onboarding-form-type registration",
-          "blockedStatus": "Ready for Release",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-935",
-          "blockerSummary": "APS-Online: migrate MileageCalcMap to Routes API New + Places API New",
-          "blockerStatus": "In Development",
-          "blockerProject": "INV",
-          "blockedKey": "MOBILE-974",
-          "blockedSummary": "Cross-platform calculation parity QA (fixture-set verification)",
-          "blockedStatus": "Ready for Code Review",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "INV-979",
-          "blockerSummary": "KYC — Finalize generation/rendering/save engine (integration + hardening)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-928",
-          "blockedSummary": "KYC — Save to Documents",
-          "blockedStatus": "Ready for Release",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-926",
-          "blockerSummary": "[QA Testing] KYC Verification (End-to-End)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "INV",
-          "blockedKey": "INV-928",
-          "blockedSummary": "KYC — Save to Documents",
-          "blockedStatus": "Ready for Release",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-924",
-          "blockerSummary": "KYC — Generate Report & Preview",
-          "blockerStatus": "Acceptance",
-          "blockerProject": "INV",
-          "blockedKey": "INV-926",
-          "blockedSummary": "[QA Testing] KYC Verification (End-to-End)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-782",
-          "blockerSummary": "Step 4 - Track the Document Signatures",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "INV",
-          "blockedKey": "INV-669",
-          "blockedSummary": "Automatically generate the list of documents to include in the onboarding packet",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "INV"
-        },
-        {
-          "blockerKey": "INV-678",
-          "blockerSummary": "Void or replace a sent onboarding packet",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "INV",
-          "blockedKey": "INV-985",
-          "blockedSummary": "Finish-line validation &amp; QA pass (feature-complete + QA-passed, auth-on)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "INV"
-        }
-      ],
-      "dependencyCount": 30,
-      "oldestWipAgeDays": 875.8,
-      "agingWipCount": 114,
-      "agingWipIssues": [
-        {
-          "key": "INV-30",
-          "summary": "Copy an expense",
-          "status": "Backlog",
-          "ageDays": 875.8
-        },
-        {
-          "key": "INV-29",
-          "summary": "Copy an Expense Report",
-          "status": "Backlog",
-          "ageDays": 875.8
-        },
-        {
-          "key": "INV-44",
-          "summary": "Implement a validation process - with org chart",
-          "status": "Backlog",
-          "ageDays": 873.7
-        },
-        {
-          "key": "INV-47",
-          "summary": "Get automated warnings for unusual expenses (amounts...)",
-          "status": "Backlog",
-          "ageDays": 871.9
-        },
-        {
-          "key": "INV-66",
-          "summary": "View an Expense History",
-          "status": "Backlog",
-          "ageDays": 867.7
-        }
-      ],
+      "wipTotal": 0,
+      "dependencies": [],
+      "dependencyCount": 0,
+      "oldestWipAgeDays": null,
+      "agingWipCount": 0,
+      "agingWipIssues": [],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 41.1,
-        "median": 22,
-        "sampleSize": 66
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
       "leadTimeDays": {
-        "avg": 112.3,
-        "median": 39.5,
-        "sampleSize": 74
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
-      "flowEfficiencyPct": 36.6,
-      "throughput7d": 9,
-      "throughputWindowTotal": 74,
-      "throughputAvgPerWeek": 9.3,
-      "qualityLoopbackRatePct": 39.2,
-      "qualityLoopbackCount": 29,
-      "qualityLoopbackSampleSize": 74,
-      "aiLeverageRatePct": 0,
+      "flowEfficiencyPct": null,
+      "throughput7d": 0,
+      "throughputWindowTotal": 0,
+      "throughputAvgPerWeek": 0,
+      "qualityLoopbackRatePct": null,
+      "qualityLoopbackCount": 0,
+      "qualityLoopbackSampleSize": 0,
+      "aiLeverageRatePct": null,
       "weekly": [
         {
           "label": "May 26–Jun 2",
-          "weekStart": "2026-05-26T16:26:34.619Z",
-          "weekEnd": "2026-06-02T16:26:34.619Z",
-          "throughput": 9,
-          "cycleTimeAvg": 27.3,
-          "leadTimeAvg": 63.1,
-          "flowEfficiencyPct": 43.3,
-          "qualityLoopbackRatePct": 22.2,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 9,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-05-26T19:40:19.222Z",
+          "weekEnd": "2026-06-02T19:40:19.222Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 2–Jun 9",
-          "weekStart": "2026-06-02T16:26:34.619Z",
-          "weekEnd": "2026-06-09T16:26:34.619Z",
-          "throughput": 6,
-          "cycleTimeAvg": 70.1,
-          "leadTimeAvg": 169.3,
-          "flowEfficiencyPct": 41.4,
-          "qualityLoopbackRatePct": 33.3,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 6,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-02T19:40:19.222Z",
+          "weekEnd": "2026-06-09T19:40:19.222Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 9–Jun 16",
-          "weekStart": "2026-06-09T16:26:34.619Z",
-          "weekEnd": "2026-06-16T16:26:34.619Z",
-          "throughput": 7,
-          "cycleTimeAvg": 31.1,
-          "leadTimeAvg": 109.9,
-          "flowEfficiencyPct": 28.3,
-          "qualityLoopbackRatePct": 57.1,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 7,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-09T19:40:19.222Z",
+          "weekEnd": "2026-06-16T19:40:19.222Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 16–Jun 23",
-          "weekStart": "2026-06-16T16:26:34.619Z",
-          "weekEnd": "2026-06-23T16:26:34.619Z",
-          "throughput": 9,
-          "cycleTimeAvg": 16,
-          "leadTimeAvg": 63.7,
-          "flowEfficiencyPct": 25.1,
-          "qualityLoopbackRatePct": 33.3,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 9,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-16T19:40:19.222Z",
+          "weekEnd": "2026-06-23T19:40:19.222Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 23–Jun 30",
-          "weekStart": "2026-06-23T16:26:34.619Z",
-          "weekEnd": "2026-06-30T16:26:34.619Z",
-          "throughput": 13,
-          "cycleTimeAvg": 17.2,
-          "leadTimeAvg": 101.2,
-          "flowEfficiencyPct": 17,
-          "qualityLoopbackRatePct": 53.8,
-          "qualityLoopbackCount": 7,
-          "qualityLoopbackSampleSize": 13,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-23T19:40:19.222Z",
+          "weekEnd": "2026-06-30T19:40:19.222Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 30–Jul 7",
-          "weekStart": "2026-06-30T16:26:34.619Z",
-          "weekEnd": "2026-07-07T16:26:34.619Z",
-          "throughput": 10,
-          "cycleTimeAvg": 111.8,
-          "leadTimeAvg": 262.1,
-          "flowEfficiencyPct": 42.7,
-          "qualityLoopbackRatePct": 10,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 10,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-30T19:40:19.222Z",
+          "weekEnd": "2026-07-07T19:40:19.222Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 7–Jul 14",
-          "weekStart": "2026-07-07T16:26:34.619Z",
-          "weekEnd": "2026-07-14T16:26:34.619Z",
-          "throughput": 11,
-          "cycleTimeAvg": 15.3,
-          "leadTimeAvg": 45.3,
-          "flowEfficiencyPct": 33.8,
-          "qualityLoopbackRatePct": 72.7,
-          "qualityLoopbackCount": 8,
-          "qualityLoopbackSampleSize": 11,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-07T19:40:19.222Z",
+          "weekEnd": "2026-07-14T19:40:19.222Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 14–Jul 21",
-          "weekStart": "2026-07-14T16:26:34.619Z",
-          "weekEnd": "2026-07-21T16:26:34.619Z",
-          "throughput": 9,
-          "cycleTimeAvg": 39.7,
-          "leadTimeAvg": 105.8,
-          "flowEfficiencyPct": 37.5,
-          "qualityLoopbackRatePct": 22.2,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 9,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-14T19:40:19.222Z",
+          "weekEnd": "2026-07-21T19:40:19.222Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         }
       ]
     },
     {
       "key": "APCOM",
-      "epics": [
-        {
-          "key": "APCOM-310",
-          "summary": "Salesforce CDC Integration",
-          "status": "To Do",
-          "childTotal": 4,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "APCOM-307",
-          "summary": "Meerkat Q3 2026",
-          "status": "To Do",
-          "childTotal": 1,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "APCOM-297",
-          "summary": "APCOM: Production Bug Backlog Q3 2026",
-          "status": "To Do",
-          "childTotal": 8,
-          "childDone": 6,
-          "percentDone": 75
-        },
-        {
-          "key": "APCOM-275",
-          "summary": "Auto-generate API Documentation",
-          "status": "In Progress",
-          "childTotal": 9,
-          "childDone": 9,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-272",
-          "summary": "Intacct Modernization",
-          "status": "To Do",
-          "childTotal": 30,
-          "childDone": 14,
-          "percentDone": 46.7
-        },
-        {
-          "key": "APCOM-222",
-          "summary": "DailyPay Enhancements",
-          "status": "In Progress",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "APCOM-209",
-          "summary": "Account Summary — Internal APS View",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "APCOM-192",
-          "summary": "Mass Updates",
-          "status": "In Progress",
-          "childTotal": 1,
-          "childDone": 1,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-186",
-          "summary": "ESS Paystub Rendering Parity with DocVault",
-          "status": "In Progress",
-          "childTotal": 6,
-          "childDone": 3,
-          "percentDone": 50
-        },
-        {
-          "key": "APCOM-172",
-          "summary": "APCOM Q2 2026 bugs",
-          "status": "In Progress",
-          "childTotal": 14,
-          "childDone": 14,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-139",
-          "summary": "EIP - Improvements",
-          "status": "In Progress",
-          "childTotal": 3,
-          "childDone": 1,
-          "percentDone": 33.3
-        },
-        {
-          "key": "APCOM-127",
-          "summary": "Account Summary - Feature Usage",
-          "status": "In Progress",
-          "childTotal": 45,
-          "childDone": 42,
-          "percentDone": 93.3
-        },
-        {
-          "key": "APCOM-108",
-          "summary": "General Ledger Endpoint",
-          "status": "In Progress",
-          "childTotal": 2,
-          "childDone": 2,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-87",
-          "summary": "Meerkat Q2 2026",
-          "status": "In Progress",
-          "childTotal": 11,
-          "childDone": 10,
-          "percentDone": 90.9
-        },
-        {
-          "key": "APCOM-86",
-          "summary": "Meerkat AI",
-          "status": "To Do",
-          "childTotal": 1,
-          "childDone": 1,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-85",
-          "summary": "Time-off Request Endpoint",
-          "status": "In Progress",
-          "childTotal": 2,
-          "childDone": 2,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-84",
-          "summary": "Webhooks System",
-          "status": "In Progress",
-          "childTotal": 16,
-          "childDone": 8,
-          "percentDone": 50
-        },
-        {
-          "key": "APCOM-73",
-          "summary": "NetSuite GL Integration",
-          "status": "In Progress",
-          "childTotal": 8,
-          "childDone": 1,
-          "percentDone": 12.5
-        },
-        {
-          "key": "APCOM-68",
-          "summary": "Refactoring Token Management",
-          "status": "In Progress",
-          "childTotal": 10,
-          "childDone": 10,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-66",
-          "summary": "Shift Trading v1",
-          "status": "In Progress",
-          "childTotal": 18,
-          "childDone": 18,
-          "percentDone": 100
-        },
-        {
-          "key": "APCOM-65",
-          "summary": "Expense Management Updates",
-          "status": "In Progress",
-          "childTotal": 2,
-          "childDone": 1,
-          "percentDone": 50
-        },
-        {
-          "key": "APCOM-64",
-          "summary": "Intacct - Improvements",
-          "status": "In Progress",
-          "childTotal": 26,
-          "childDone": 22,
-          "percentDone": 84.6
-        },
-        {
-          "key": "APCOM-57",
-          "summary": "R365 Overhaul",
-          "status": "In Progress",
-          "childTotal": 4,
-          "childDone": 2,
-          "percentDone": 50
-        },
-        {
-          "key": "APCOM-55",
-          "summary": "Employee Navigator 2.0",
-          "status": "In Progress",
-          "childTotal": 12,
-          "childDone": 12,
-          "percentDone": 100
-        }
-      ],
+      "epics": [],
       "wipByStatus": {
-        "Backlog": 24,
-        "To Do": 7,
-        "Ready for Development": 20,
-        "In Development": 19,
+        "Backlog": 0,
+        "To Do": 0,
+        "Ready for Development": 0,
+        "In Development": 0,
         "Ready for Code Review": 0,
-        "In QA": 2,
+        "In QA": 0,
         "Acceptance": 0,
-        "Done": 24,
-        "Other": 8
+        "Done": 0
       },
-      "wipTotal": 104,
-      "dependencies": [
-        {
-          "blockerKey": "APCOM-336",
-          "blockerSummary": "Webhooks operational readiness — runbook, dead-letter monitoring, rollout plan",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-325",
-          "blockedSummary": "Webhooks System — Initial Feature Release QA (APCOM-84)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-335",
-          "blockerSummary": "Webhook coalescer — filter source='I' (bulk-import) rows",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-325",
-          "blockedSummary": "Webhooks System — Initial Feature Release QA (APCOM-84)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-334",
-          "blockerSummary": "Webhook coalescer — Withdrawn ('W') suppression on the direct-read path",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-325",
-          "blockedSummary": "Webhooks System — Initial Feature Release QA (APCOM-84)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-333",
-          "blockerSummary": "Webhook subscription endpoint hardening — SSRF/private-IP rejection + duplicate guard",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-325",
-          "blockedSummary": "Webhooks System — Initial Feature Release QA (APCOM-84)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-332",
-          "blockerSummary": "Webhook payload timestamp conformance — derive from audit_id (APCOM-288 §1)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-325",
-          "blockedSummary": "Webhooks System — Initial Feature Release QA (APCOM-84)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-321",
-          "blockerSummary": "[Internal API][EIP] Permission-based change-type filtering on EmployeeChangeRequests endpoints",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "APCOM",
-          "blockedKey": "CORE-1627",
-          "blockedSummary": "[QA Testing] Employee List Dashboard — Permission-based change-type filtering (post APCOM-321)",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "APCOM-256",
-          "blockerSummary": "Intacct Phase 3.1 — Migrate base INTACCT companies to new class",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-306",
-          "blockedSummary": "[Regression] Intacct Modernization - Build #1",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-257",
-          "blockerSummary": "Intacct Phase 3.2 — Migrate INTACCT_DIMENSION companies to new class",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-306",
-          "blockedSummary": "[Regression] Intacct Modernization - Build #1",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-258",
-          "blockerSummary": "Intacct Phase 3.3 — Migrate numbered generics (INTACCT_12, INTACCT_21, INTACCT_23)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-306",
-          "blockedSummary": "[Regression] Intacct Modernization - Build #1",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-259",
-          "blockerSummary": "Intacct Phase 3.4 — Migrate check-date variants (SKY_RANCHES, ONE_WORLD)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-306",
-          "blockedSummary": "[Regression] Intacct Modernization - Build #1",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-260",
-          "blockerSummary": "Intacct Phase 3.5 — Migrate batch variants (EASTER_SEALS, SEVIERVILLE_FBC, BY_BATCH_8, BY_BATCH_13)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-306",
-          "blockedSummary": "[Regression] Intacct Modernization - Build #1",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-261",
-          "blockerSummary": "Intacct Phase 3.6 — Migrate employee-detail variants (EMP_DETAIL_6, EMP_DETAIL_8, EMP_DETAIL_LIFESONG, BATCH_EMP_DETAIL_APSPM_4787)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-306",
-          "blockedSummary": "[Regression] Intacct Modernization - Build #1",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-298",
-          "blockerSummary": "[Internal API] Team schedule visibility endpoint — GET /EmployeeSchedules/team",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "APCOM",
-          "blockedKey": "EMP-892",
-          "blockedSummary": "Allow employees to see other employees schedules",
-          "blockedStatus": "In QA",
-          "blockedProject": "EMP"
-        },
-        {
-          "blockerKey": "APCOM-287",
-          "blockerSummary": "Extend webhook subscription schema (webhook_subscriptions + webhook_outbox tables)",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-333",
-          "blockedSummary": "Webhook subscription endpoint hardening — SSRF/private-IP rejection + duplicate guard",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-287",
-          "blockerSummary": "Extend webhook subscription schema (webhook_subscriptions + webhook_outbox tables)",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-334",
-          "blockedSummary": "Webhook coalescer — Withdrawn ('W') suppression on the direct-read path",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-287",
-          "blockerSummary": "Extend webhook subscription schema (webhook_subscriptions + webhook_outbox tables)",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-336",
-          "blockedSummary": "Webhooks operational readiness — runbook, dead-letter monitoring, rollout plan",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-270",
-          "blockerSummary": "Intacct Phase 5.3 — Benchmark REST vs XML for largest clients",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-271",
-          "blockedSummary": "Intacct Phase 5.4 — Remove XML SDK dependency",
-          "blockedStatus": "Backlog",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-269",
-          "blockerSummary": "Intacct Phase 5.2 — Per-company feature flag for REST rollout",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-270",
-          "blockedSummary": "Intacct Phase 5.3 — Benchmark REST vs XML for largest clients",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-268",
-          "blockerSummary": "Intacct Phase 5.1 — Implement RestApiClient satisfying IntacctApiClient",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-269",
-          "blockedSummary": "Intacct Phase 5.2 — Per-company feature flag for REST rollout",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-263",
-          "blockerSummary": "Intacct Phase 4.1 — Build unified DimensionSyncService",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-267",
-          "blockedSummary": "Intacct Phase 4.5 — Dimension Mapping admin UI panel",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-256",
-          "blockerSummary": "Intacct Phase 3.1 — Migrate base INTACCT companies to new class",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-262",
-          "blockedSummary": "Intacct Phase 3.7 — Delete deprecated legacy files",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-257",
-          "blockerSummary": "Intacct Phase 3.2 — Migrate INTACCT_DIMENSION companies to new class",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-262",
-          "blockedSummary": "Intacct Phase 3.7 — Delete deprecated legacy files",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-258",
-          "blockerSummary": "Intacct Phase 3.3 — Migrate numbered generics (INTACCT_12, INTACCT_21, INTACCT_23)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-262",
-          "blockedSummary": "Intacct Phase 3.7 — Delete deprecated legacy files",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-259",
-          "blockerSummary": "Intacct Phase 3.4 — Migrate check-date variants (SKY_RANCHES, ONE_WORLD)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-262",
-          "blockedSummary": "Intacct Phase 3.7 — Delete deprecated legacy files",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-260",
-          "blockerSummary": "Intacct Phase 3.5 — Migrate batch variants (EASTER_SEALS, SEVIERVILLE_FBC, BY_BATCH_8, BY_BATCH_13)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-262",
-          "blockedSummary": "Intacct Phase 3.7 — Delete deprecated legacy files",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-261",
-          "blockerSummary": "Intacct Phase 3.6 — Migrate employee-detail variants (EMP_DETAIL_6, EMP_DETAIL_8, EMP_DETAIL_LIFESONG, BATCH_EMP_DETAIL_APSPM_4787)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-262",
-          "blockedSummary": "Intacct Phase 3.7 — Delete deprecated legacy files",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-255",
-          "blockerSummary": "Intacct Phase 2.7 — Shadow mode: preview comparison framework",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-261",
-          "blockedSummary": "Intacct Phase 3.6 — Migrate employee-detail variants (EMP_DETAIL_6, EMP_DETAIL_8, EMP_DETAIL_LIFESONG, BATCH_EMP_DETAIL_APSPM_4787)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-255",
-          "blockerSummary": "Intacct Phase 2.7 — Shadow mode: preview comparison framework",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-260",
-          "blockedSummary": "Intacct Phase 3.5 — Migrate batch variants (EASTER_SEALS, SEVIERVILLE_FBC, BY_BATCH_8, BY_BATCH_13)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-255",
-          "blockerSummary": "Intacct Phase 2.7 — Shadow mode: preview comparison framework",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-259",
-          "blockedSummary": "Intacct Phase 3.4 — Migrate check-date variants (SKY_RANCHES, ONE_WORLD)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-255",
-          "blockerSummary": "Intacct Phase 2.7 — Shadow mode: preview comparison framework",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-258",
-          "blockedSummary": "Intacct Phase 3.3 — Migrate numbered generics (INTACCT_12, INTACCT_21, INTACCT_23)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-255",
-          "blockerSummary": "Intacct Phase 2.7 — Shadow mode: preview comparison framework",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-257",
-          "blockedSummary": "Intacct Phase 3.2 — Migrate INTACCT_DIMENSION companies to new class",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-255",
-          "blockerSummary": "Intacct Phase 2.7 — Shadow mode: preview comparison framework",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "APCOM",
-          "blockedKey": "APCOM-256",
-          "blockedSummary": "Intacct Phase 3.1 — Migrate base INTACCT companies to new class",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "APCOM"
-        },
-        {
-          "blockerKey": "APCOM-216",
-          "blockerSummary": "[DailyPay] Add live DailyPay status check endpoint to Meerkat.Internal",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "APCOM",
-          "blockedKey": "CORE-1565",
-          "blockedSummary": "Report Builder: DailyPay Enrollment Status",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        }
-      ],
-      "dependencyCount": 33,
-      "oldestWipAgeDays": 2071.8,
-      "agingWipCount": 96,
-      "agingWipIssues": [
-        {
-          "key": "APCOM-64",
-          "summary": "Intacct - Improvements",
-          "status": "In Progress",
-          "ageDays": 2071.8
-        },
-        {
-          "key": "APCOM-68",
-          "summary": "Refactoring Token Management",
-          "status": "In Progress",
-          "ageDays": 1383.1
-        },
-        {
-          "key": "APCOM-43",
-          "summary": "\"Enable Intacct Integration\" doesn't always add the generic integration",
-          "status": "Backlog",
-          "ageDays": 1249.9
-        },
-        {
-          "key": "APCOM-31",
-          "summary": "Partner API",
-          "status": "To Do",
-          "ageDays": 616
-        },
-        {
-          "key": "APCOM-2",
-          "summary": "More user info pushed to ZD in thesync.",
-          "status": "Backlog",
-          "ageDays": 581
-        }
-      ],
+      "wipTotal": 0,
+      "dependencies": [],
+      "dependencyCount": 0,
+      "oldestWipAgeDays": null,
+      "agingWipCount": 0,
+      "agingWipIssues": [],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 15.7,
-        "median": 11,
-        "sampleSize": 86
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
       "leadTimeDays": {
-        "avg": 70.3,
-        "median": 18.7,
-        "sampleSize": 89
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
-      "flowEfficiencyPct": 22.3,
-      "throughput7d": 7,
-      "throughputWindowTotal": 89,
-      "throughputAvgPerWeek": 11.1,
-      "qualityLoopbackRatePct": 30.3,
-      "qualityLoopbackCount": 27,
-      "qualityLoopbackSampleSize": 89,
-      "aiLeverageRatePct": 2.2,
+      "flowEfficiencyPct": null,
+      "throughput7d": 0,
+      "throughputWindowTotal": 0,
+      "throughputAvgPerWeek": 0,
+      "qualityLoopbackRatePct": null,
+      "qualityLoopbackCount": 0,
+      "qualityLoopbackSampleSize": 0,
+      "aiLeverageRatePct": null,
       "weekly": [
         {
           "label": "May 26–Jun 2",
-          "weekStart": "2026-05-26T16:26:46.706Z",
-          "weekEnd": "2026-06-02T16:26:46.706Z",
-          "throughput": 16,
-          "cycleTimeAvg": 12.2,
-          "leadTimeAvg": 118.7,
-          "flowEfficiencyPct": 10.3,
-          "qualityLoopbackRatePct": 18.8,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 16,
-          "aiLeverageRatePct": 6.3
+          "weekStart": "2026-05-26T19:40:19.621Z",
+          "weekEnd": "2026-06-02T19:40:19.621Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 2–Jun 9",
-          "weekStart": "2026-06-02T16:26:46.706Z",
-          "weekEnd": "2026-06-09T16:26:46.706Z",
-          "throughput": 4,
-          "cycleTimeAvg": 33.4,
-          "leadTimeAvg": 41.6,
-          "flowEfficiencyPct": 80.3,
-          "qualityLoopbackRatePct": 25,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 4,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-02T19:40:19.621Z",
+          "weekEnd": "2026-06-09T19:40:19.621Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 9–Jun 16",
-          "weekStart": "2026-06-09T16:26:46.706Z",
-          "weekEnd": "2026-06-16T16:26:46.706Z",
-          "throughput": 13,
-          "cycleTimeAvg": 14.3,
-          "leadTimeAvg": 190.6,
-          "flowEfficiencyPct": 7.5,
-          "qualityLoopbackRatePct": 30.8,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 13,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-09T19:40:19.621Z",
+          "weekEnd": "2026-06-16T19:40:19.621Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 16–Jun 23",
-          "weekStart": "2026-06-16T16:26:46.706Z",
-          "weekEnd": "2026-06-23T16:26:46.706Z",
-          "throughput": 13,
-          "cycleTimeAvg": 12.2,
-          "leadTimeAvg": 23.3,
-          "flowEfficiencyPct": 52.4,
-          "qualityLoopbackRatePct": 15.4,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 13,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-16T19:40:19.621Z",
+          "weekEnd": "2026-06-23T19:40:19.621Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 23–Jun 30",
-          "weekStart": "2026-06-23T16:26:46.706Z",
-          "weekEnd": "2026-06-30T16:26:46.706Z",
-          "throughput": 22,
-          "cycleTimeAvg": 8.5,
-          "leadTimeAvg": 11.8,
-          "flowEfficiencyPct": 72,
-          "qualityLoopbackRatePct": 22.7,
-          "qualityLoopbackCount": 5,
-          "qualityLoopbackSampleSize": 22,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-23T19:40:19.621Z",
+          "weekEnd": "2026-06-30T19:40:19.621Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 30–Jul 7",
-          "weekStart": "2026-06-30T16:26:46.706Z",
-          "weekEnd": "2026-07-07T16:26:46.706Z",
-          "throughput": 10,
-          "cycleTimeAvg": 15.7,
-          "leadTimeAvg": 70.1,
-          "flowEfficiencyPct": 22.4,
-          "qualityLoopbackRatePct": 50,
-          "qualityLoopbackCount": 5,
-          "qualityLoopbackSampleSize": 10,
-          "aiLeverageRatePct": 10
+          "weekStart": "2026-06-30T19:40:19.621Z",
+          "weekEnd": "2026-07-07T19:40:19.621Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 7–Jul 14",
-          "weekStart": "2026-07-07T16:26:46.706Z",
-          "weekEnd": "2026-07-14T16:26:46.706Z",
-          "throughput": 4,
-          "cycleTimeAvg": 33.9,
-          "leadTimeAvg": 37.1,
-          "flowEfficiencyPct": 91.4,
-          "qualityLoopbackRatePct": 75,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 4,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-07T19:40:19.621Z",
+          "weekEnd": "2026-07-14T19:40:19.621Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 14–Jul 21",
-          "weekStart": "2026-07-14T16:26:46.706Z",
-          "weekEnd": "2026-07-21T16:26:46.706Z",
-          "throughput": 7,
-          "cycleTimeAvg": 33.2,
-          "leadTimeAvg": 42.8,
-          "flowEfficiencyPct": 77.6,
-          "qualityLoopbackRatePct": 57.1,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 7,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-14T19:40:19.621Z",
+          "weekEnd": "2026-07-21T19:40:19.621Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         }
       ]
     },
     {
       "key": "EMP",
-      "epics": [
-        {
-          "key": "EMP-933",
-          "summary": "Require Mobile clock in",
-          "status": "In Progress",
-          "childTotal": 1,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "EMP-925",
-          "summary": "Custom PDF Forms",
-          "status": "To Do",
-          "childTotal": 4,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "EMP-905",
-          "summary": "EMP:Production Bug Backlog Q3 2026",
-          "status": "To Do",
-          "childTotal": 6,
-          "childDone": 4,
-          "percentDone": 66.7
-        },
-        {
-          "key": "EMP-866",
-          "summary": "Schedule Templates: updates after MVP",
-          "status": "In Progress",
-          "childTotal": 4,
-          "childDone": 2,
-          "percentDone": 50
-        },
-        {
-          "key": "EMP-825",
-          "summary": "Q2 2026 Miscellaneous Employee updates",
-          "status": "In Progress",
-          "childTotal": 8,
-          "childDone": 7,
-          "percentDone": 87.5
-        },
-        {
-          "key": "EMP-762",
-          "summary": "Employee onboarding",
-          "status": "In Progress",
-          "childTotal": 41,
-          "childDone": 30,
-          "percentDone": 73.2
-        }
-      ],
+      "epics": [],
       "wipByStatus": {
-        "Backlog": 13,
-        "To Do": 2,
+        "Backlog": 0,
+        "To Do": 0,
         "Ready for Development": 0,
-        "In Development": 8,
-        "Ready for Code Review": 1,
-        "In QA": 1,
+        "In Development": 0,
+        "Ready for Code Review": 0,
+        "In QA": 0,
         "Acceptance": 0,
-        "Done": 6,
-        "Other": 7
+        "Done": 0
       },
-      "wipTotal": 38,
-      "dependencies": [
-        {
-          "blockerKey": "EMP-851",
-          "blockerSummary": "Onboarding documents: CRUD + assignment/action model, copy-on-assign & company-doc picker",
-          "blockerStatus": "Ready for Code Review",
-          "blockerProject": "EMP",
-          "blockedKey": "EMP-934",
-          "blockedSummary": "Post-hire document handoff to legacy employee vault (copy-on-hire)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "EMP"
-        },
-        {
-          "blockerKey": "EMP-883",
-          "blockerSummary": "Foundation: Feature 8 schema + pdftk form engine (PdfFormEngineInterface) + form controllers",
-          "blockerStatus": "Backlog",
-          "blockerProject": "EMP",
-          "blockedKey": "EMP-890",
-          "blockedSummary": "Feature 8: Required Forms attachment panel in template editor + migrate-in-flight handler",
-          "blockedStatus": "Backlog",
-          "blockedProject": "EMP"
-        },
-        {
-          "blockerKey": "EMP-882",
-          "blockerSummary": "Foundation: aps-ui PDF primitives + engine POC (POC done — pdftk/pdf-lib; see 2026-07-10 comment)",
-          "blockerStatus": "Backlog",
-          "blockerProject": "EMP",
-          "blockedKey": "EMP-889",
-          "blockedSummary": "Feature 8: New Hire Forms HR-menu admin app + Form Builder editor",
-          "blockedStatus": "Backlog",
-          "blockedProject": "EMP"
-        },
-        {
-          "blockerKey": "EMP-883",
-          "blockerSummary": "Foundation: Feature 8 schema + pdftk form engine (PdfFormEngineInterface) + form controllers",
-          "blockerStatus": "Backlog",
-          "blockerProject": "EMP",
-          "blockedKey": "EMP-889",
-          "blockedSummary": "Feature 8: New Hire Forms HR-menu admin app + Form Builder editor",
-          "blockedStatus": "Backlog",
-          "blockedProject": "EMP"
-        },
-        {
-          "blockerKey": "EMP-885",
-          "blockerSummary": "Foundation: HR menu ExtJS host page for New Hire Forms (Feature 8)",
-          "blockerStatus": "Backlog",
-          "blockerProject": "EMP",
-          "blockedKey": "EMP-889",
-          "blockedSummary": "Feature 8: New Hire Forms HR-menu admin app + Form Builder editor",
-          "blockedStatus": "Backlog",
-          "blockedProject": "EMP"
-        },
-        {
-          "blockerKey": "EMP-884",
-          "blockerSummary": "Foundation: onboarding_replaces_eip_hires feature flag",
-          "blockerStatus": "Backlog",
-          "blockerProject": "EMP",
-          "blockedKey": "EMP-888",
-          "blockedSummary": "Feature 7: APS Hire (CareerPlug) Data Ingest — webhook + Pending Assignment tab + prefill mapping",
-          "blockedStatus": "Backlog",
-          "blockedProject": "EMP"
-        },
-        {
-          "blockerKey": "EMP-882",
-          "blockerSummary": "Foundation: aps-ui PDF primitives + engine POC (POC done — pdftk/pdf-lib; see 2026-07-10 comment)",
-          "blockerStatus": "Backlog",
-          "blockerProject": "EMP",
-          "blockedKey": "EMP-887",
-          "blockedSummary": "Feature: EE Step 7 — Documents (review + upload) + Fillable PDF Filler",
-          "blockedStatus": "Backlog",
-          "blockedProject": "EMP"
-        },
-        {
-          "blockerKey": "EMP-883",
-          "blockerSummary": "Foundation: Feature 8 schema + pdftk form engine (PdfFormEngineInterface) + form controllers",
-          "blockerStatus": "Backlog",
-          "blockerProject": "EMP",
-          "blockedKey": "EMP-887",
-          "blockedSummary": "Feature: EE Step 7 — Documents (review + upload) + Fillable PDF Filler",
-          "blockedStatus": "Backlog",
-          "blockedProject": "EMP"
-        },
-        {
-          "blockerKey": "EMP-851",
-          "blockerSummary": "Onboarding documents: CRUD + assignment/action model, copy-on-assign & company-doc picker",
-          "blockerStatus": "Ready for Code Review",
-          "blockerProject": "EMP",
-          "blockedKey": "EMP-887",
-          "blockedSummary": "Feature: EE Step 7 — Documents (review + upload) + Fillable PDF Filler",
-          "blockedStatus": "Backlog",
-          "blockedProject": "EMP"
-        },
-        {
-          "blockerKey": "EMP-882",
-          "blockerSummary": "Foundation: aps-ui PDF primitives + engine POC (POC done — pdftk/pdf-lib; see 2026-07-10 comment)",
-          "blockerStatus": "Backlog",
-          "blockerProject": "EMP",
-          "blockedKey": "EMP-883",
-          "blockedSummary": "Foundation: Feature 8 schema + pdftk form engine (PdfFormEngineInterface) + form controllers",
-          "blockedStatus": "Backlog",
-          "blockedProject": "EMP"
-        },
-        {
-          "blockerKey": "EMP-853",
-          "blockerSummary": "Onboarding legacy hire bridge (hire-payload + mark-hired + legacy hire RPC)",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "EMP",
-          "blockedKey": "EMP-934",
-          "blockedSummary": "Post-hire document handoff to legacy employee vault (copy-on-hire)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "EMP"
-        }
-      ],
-      "dependencyCount": 11,
-      "oldestWipAgeDays": 740.1,
-      "agingWipCount": 30,
-      "agingWipIssues": [
-        {
-          "key": "EMP-370",
-          "summary": "Scheduling",
-          "status": "In Progress",
-          "ageDays": 740.1
-        },
-        {
-          "key": "EMP-472",
-          "summary": "Scheduling Redesign - Post-MVP",
-          "status": "In Progress",
-          "ageDays": 617.1
-        },
-        {
-          "key": "EMP-509",
-          "summary": "APS Payroll - Manager section for Employee Documents",
-          "status": "Estimate",
-          "ageDays": 556.8
-        },
-        {
-          "key": "EMP-579",
-          "summary": "[Spike] How are duplicate emails being put in the send_email table",
-          "status": "Ready for Release",
-          "ageDays": 480.1
-        },
-        {
-          "key": "EMP-660",
-          "summary": "[Spike] Review 3 notifications for performance gains",
-          "status": "Ready for Release",
-          "ageDays": 369.1
-        }
-      ],
+      "wipTotal": 0,
+      "dependencies": [],
+      "dependencyCount": 0,
+      "oldestWipAgeDays": null,
+      "agingWipCount": 0,
+      "agingWipIssues": [],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 15.1,
-        "median": 6.9,
-        "sampleSize": 42
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
       "leadTimeDays": {
-        "avg": 67.5,
-        "median": 20.9,
-        "sampleSize": 63
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
-      "flowEfficiencyPct": 22.4,
-      "throughput7d": 8,
-      "throughputWindowTotal": 63,
-      "throughputAvgPerWeek": 7.9,
-      "qualityLoopbackRatePct": 30.2,
-      "qualityLoopbackCount": 19,
-      "qualityLoopbackSampleSize": 63,
-      "aiLeverageRatePct": 0,
+      "flowEfficiencyPct": null,
+      "throughput7d": 0,
+      "throughputWindowTotal": 0,
+      "throughputAvgPerWeek": 0,
+      "qualityLoopbackRatePct": null,
+      "qualityLoopbackCount": 0,
+      "qualityLoopbackSampleSize": 0,
+      "aiLeverageRatePct": null,
       "weekly": [
         {
           "label": "May 26–Jun 2",
-          "weekStart": "2026-05-26T16:26:57.025Z",
-          "weekEnd": "2026-06-02T16:26:57.025Z",
-          "throughput": 9,
-          "cycleTimeAvg": 9.5,
-          "leadTimeAvg": 33.8,
-          "flowEfficiencyPct": 28.1,
-          "qualityLoopbackRatePct": 44.4,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 9,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-05-26T19:40:20.019Z",
+          "weekEnd": "2026-06-02T19:40:20.019Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 2–Jun 9",
-          "weekStart": "2026-06-02T16:26:57.025Z",
-          "weekEnd": "2026-06-09T16:26:57.025Z",
-          "throughput": 4,
-          "cycleTimeAvg": 11.8,
-          "leadTimeAvg": 31.9,
-          "flowEfficiencyPct": 37,
-          "qualityLoopbackRatePct": 25,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 4,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-02T19:40:20.019Z",
+          "weekEnd": "2026-06-09T19:40:20.019Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 9–Jun 16",
-          "weekStart": "2026-06-09T16:26:57.025Z",
-          "weekEnd": "2026-06-16T16:26:57.025Z",
-          "throughput": 11,
-          "cycleTimeAvg": 14.1,
-          "leadTimeAvg": 120.9,
-          "flowEfficiencyPct": 11.7,
-          "qualityLoopbackRatePct": 45.5,
-          "qualityLoopbackCount": 5,
-          "qualityLoopbackSampleSize": 11,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-09T19:40:20.019Z",
+          "weekEnd": "2026-06-16T19:40:20.019Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 16–Jun 23",
-          "weekStart": "2026-06-16T16:26:57.025Z",
-          "weekEnd": "2026-06-23T16:26:57.025Z",
-          "throughput": 12,
-          "cycleTimeAvg": 10.9,
-          "leadTimeAvg": 94.4,
-          "flowEfficiencyPct": 11.5,
-          "qualityLoopbackRatePct": 50,
-          "qualityLoopbackCount": 6,
-          "qualityLoopbackSampleSize": 12,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-16T19:40:20.019Z",
+          "weekEnd": "2026-06-23T19:40:20.019Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 23–Jun 30",
-          "weekStart": "2026-06-23T16:26:57.025Z",
-          "weekEnd": "2026-06-30T16:26:57.025Z",
-          "throughput": 15,
-          "cycleTimeAvg": 4.5,
-          "leadTimeAvg": 9.8,
-          "flowEfficiencyPct": 45.9,
-          "qualityLoopbackRatePct": 6.7,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 15,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-23T19:40:20.019Z",
+          "weekEnd": "2026-06-30T19:40:20.019Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 30–Jul 7",
-          "weekStart": "2026-06-30T16:26:57.025Z",
-          "weekEnd": "2026-07-07T16:26:57.025Z",
-          "throughput": 1,
-          "cycleTimeAvg": 0.7,
-          "leadTimeAvg": 70.7,
-          "flowEfficiencyPct": 1,
-          "qualityLoopbackRatePct": 0,
+          "weekStart": "2026-06-30T19:40:20.019Z",
+          "weekEnd": "2026-07-07T19:40:20.019Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
           "qualityLoopbackCount": 0,
-          "qualityLoopbackSampleSize": 1,
-          "aiLeverageRatePct": 0
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 7–Jul 14",
-          "weekStart": "2026-07-07T16:26:57.025Z",
-          "weekEnd": "2026-07-14T16:26:57.025Z",
-          "throughput": 3,
-          "cycleTimeAvg": 3.9,
-          "leadTimeAvg": 27.9,
-          "flowEfficiencyPct": 14,
-          "qualityLoopbackRatePct": 33.3,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 3,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-07T19:40:20.019Z",
+          "weekEnd": "2026-07-14T19:40:20.019Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 14–Jul 21",
-          "weekStart": "2026-07-14T16:26:57.025Z",
-          "weekEnd": "2026-07-21T16:26:57.025Z",
-          "throughput": 8,
-          "cycleTimeAvg": 52.7,
-          "leadTimeAvg": 132.2,
-          "flowEfficiencyPct": 39.9,
-          "qualityLoopbackRatePct": 12.5,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 8,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-14T19:40:20.019Z",
+          "weekEnd": "2026-07-21T19:40:20.019Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         }
       ]
     },
     {
       "key": "CORE",
-      "epics": [
-        {
-          "key": "CORE-1667",
-          "summary": "React Conversion: Run Payroll Batch",
-          "status": "To Do",
-          "childTotal": 15,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "CORE-1661",
-          "summary": "React Conversion: Report Builder",
-          "status": "To Do",
-          "childTotal": 3,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "CORE-1656",
-          "summary": "React Conversion — Add Employee Wizard",
-          "status": "To Do",
-          "childTotal": 4,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "CORE-1651",
-          "summary": "React Conversion: Integration Setup",
-          "status": "To Do",
-          "childTotal": 4,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "CORE-1635",
-          "summary": "React Conversion: Company Setup",
-          "status": "To Do",
-          "childTotal": 8,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "CORE-1594",
-          "summary": "React Conversion: Employee Record",
-          "status": "To Do",
-          "childTotal": 12,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "CORE-1573",
-          "summary": "CORE: Production Bug Backlog Q3 2026",
-          "status": "To Do",
-          "childTotal": 17,
-          "childDone": 6,
-          "percentDone": 35.3
-        },
-        {
-          "key": "CORE-1528",
-          "summary": "Secure 2.0 Compliance",
-          "status": "To Do",
-          "childTotal": 15,
-          "childDone": 4,
-          "percentDone": 26.7
-        },
-        {
-          "key": "CORE-1469",
-          "summary": "Q2 Misc Enhancements",
-          "status": "To Do",
-          "childTotal": 14,
-          "childDone": 7,
-          "percentDone": 50
-        },
-        {
-          "key": "CORE-1468",
-          "summary": "NACHA Compliance - PreNotes",
-          "status": "To Do",
-          "childTotal": 5,
-          "childDone": 5,
-          "percentDone": 100
-        },
-        {
-          "key": "CORE-1447",
-          "summary": "Payroll Comparison Tools",
-          "status": "To Do",
-          "childTotal": 3,
-          "childDone": 1,
-          "percentDone": 33.3
-        },
-        {
-          "key": "CORE-1434",
-          "summary": "React Conversion: Report Manager",
-          "status": "To Do",
-          "childTotal": 3,
-          "childDone": 1,
-          "percentDone": 33.3
-        },
-        {
-          "key": "CORE-1411",
-          "summary": "CORE Q2 2026 Backlog Bugs",
-          "status": "To Do",
-          "childTotal": 127,
-          "childDone": 76,
-          "percentDone": 59.8
-        },
-        {
-          "key": "CORE-1407",
-          "summary": "CORE Testing Documentation",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "CORE-1364",
-          "summary": "Proactive Payroll - MVP+",
-          "status": "To Do",
-          "childTotal": 11,
-          "childDone": 10,
-          "percentDone": 90.9
-        },
-        {
-          "key": "CORE-1336",
-          "summary": "CORE Year End 2026",
-          "status": "To Do",
-          "childTotal": 15,
-          "childDone": 6,
-          "percentDone": 40
-        },
-        {
-          "key": "CORE-1253",
-          "summary": "Employee List Dashboard Revamp",
-          "status": "To Do",
-          "childTotal": 15,
-          "childDone": 14,
-          "percentDone": 93.3
-        },
-        {
-          "key": "CORE-1249",
-          "summary": "Mass Updates - Phase 3 - Effective Dating",
-          "status": "To Do",
-          "childTotal": 4,
-          "childDone": 2,
-          "percentDone": 50
-        },
-        {
-          "key": "CORE-1101",
-          "summary": "Effective Dating - Phase 2 - Additional Fields",
-          "status": "In Progress",
-          "childTotal": 15,
-          "childDone": 12,
-          "percentDone": 80
-        },
-        {
-          "key": "CORE-804",
-          "summary": "Money Service Admin - Phase 2 - Direct Deposit Returns",
-          "status": "To Do",
-          "childTotal": 5,
-          "childDone": 1,
-          "percentDone": 20
-        },
-        {
-          "key": "CORE-539",
-          "summary": "Pronoun Integration in Online",
-          "status": "To Do",
-          "childTotal": 2,
-          "childDone": 1,
-          "percentDone": 50
-        },
-        {
-          "key": "CORE-446",
-          "summary": "Expedited Payroll ",
-          "status": "To Do",
-          "childTotal": 7,
-          "childDone": 3,
-          "percentDone": 42.9
-        },
-        {
-          "key": "CORE-439",
-          "summary": "Preferred name Integration in Online",
-          "status": "To Do",
-          "childTotal": 16,
-          "childDone": 8,
-          "percentDone": 50
-        },
-        {
-          "key": "CORE-194",
-          "summary": "Active for Payroll - Post-MVP",
-          "status": "To Do",
-          "childTotal": 7,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "CORE-34",
-          "summary": "Support State of CA RROP (DLSE)",
-          "status": "To Do",
-          "childTotal": 9,
-          "childDone": 5,
-          "percentDone": 55.6
-        }
-      ],
+      "epics": [],
       "wipByStatus": {
-        "Backlog": 113,
-        "To Do": 26,
-        "Ready for Development": 34,
-        "In Development": 6,
+        "Backlog": 0,
+        "To Do": 0,
+        "Ready for Development": 0,
+        "In Development": 0,
         "Ready for Code Review": 0,
-        "In QA": 8,
-        "Acceptance": 5,
-        "Done": 9,
-        "Other": 21
+        "In QA": 0,
+        "Acceptance": 0,
+        "Done": 0
       },
-      "wipTotal": 222,
-      "dependencies": [
-        {
-          "blockerKey": "CORE-1597",
-          "blockerSummary": "EE Record React — Details tab (identity, demographics, work info, emergency contacts, notes)",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1690",
-          "blockedSummary": "EE Record React — Direct Deposit button + accounts modal (Details tab)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1682",
-          "blockedSummary": "Run Payroll Batch React: Payroll Dashboard Tile Link-Wiring",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1681",
-          "blockedSummary": "Run Payroll Batch React: Account Center Multi-Company Batch View/Review/Release",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1676",
-          "blockerSummary": "Run Payroll Batch React: Gross-to-Net Review",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1681",
-          "blockedSummary": "Run Payroll Batch React: Account Center Multi-Company Batch View/Review/Release",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1680",
-          "blockedSummary": "Run Payroll Batch React: Remote Check Printing Variant",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1670",
-          "blockerSummary": "Run Payroll Batch React: Step 1 — Enter Batch Details",
-          "blockerStatus": "In Development",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1680",
-          "blockedSummary": "Run Payroll Batch React: Remote Check Printing Variant",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1675",
-          "blockerSummary": "Run Payroll Batch React: Step 6 — Batch Report and Submission",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1680",
-          "blockedSummary": "Run Payroll Batch React: Remote Check Printing Variant",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1679",
-          "blockedSummary": "Run Payroll Batch React: Prepay / ATF Batch Wizard",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1678",
-          "blockedSummary": "Run Payroll Batch React: Multi-User Batch Locking",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1677",
-          "blockedSummary": "Run Payroll Batch React: Batch Overrides, Tax Override, Rate Override, Batch Utilities",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1676",
-          "blockedSummary": "Run Payroll Batch React: Gross-to-Net Review",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1675",
-          "blockedSummary": "Run Payroll Batch React: Step 6 — Batch Report and Submission",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1674",
-          "blockedSummary": "Run Payroll Batch React: Step 5 — Deductions (Conditional)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1673",
-          "blockedSummary": "Run Payroll Batch React: Step 4 — Time Entry Grid",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1672",
-          "blockedSummary": "Run Payroll Batch React: Step 3 — Confirm Batch Details",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1671",
-          "blockedSummary": "Run Payroll Batch React: Step 2 — Select Earnings and Deductions",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1670",
-          "blockedSummary": "Run Payroll Batch React: Step 1 — Enter Batch Details",
-          "blockedStatus": "In Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1668",
-          "blockerSummary": "Run Payroll Batch React: Foundation",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1669",
-          "blockedSummary": "Run Payroll Batch React: Batch List Home Screen",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1667",
-          "blockerSummary": "React Conversion: Run Payroll Batch",
-          "blockerStatus": "To Do",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-354",
-          "blockedSummary": "Batch - Move Base Department Update Logic to Batch Load",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1662",
-          "blockerSummary": "Report Builder React: Foundation — feature flag, host registration, i18n skeleton",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1664",
-          "blockedSummary": "Report Builder React: Custom Report Query Builder (Page 61)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1662",
-          "blockerSummary": "Report Builder React: Foundation — feature flag, host registration, i18n skeleton",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1663",
-          "blockedSummary": "Report Builder React: Standard Report Hub (Page 48)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1657",
-          "blockerSummary": "Foundation: ADD_EMPLOYEE_WIZARD feature flag, host wiring, and PhoneInput story",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1660",
-          "blockedSummary": "Employee Self-Onboarding Form (ui/onboarding/)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1657",
-          "blockerSummary": "Foundation: ADD_EMPLOYEE_WIZARD feature flag, host wiring, and PhoneInput story",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1659",
-          "blockedSummary": "Employer-side Add Employee Wizard (React, 4-step full-page replacement)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1658",
-          "blockerSummary": "SSN Duplicate Check backend endpoint (service/onboarding)",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1659",
-          "blockedSummary": "Employer-side Add Employee Wizard (React, 4-step full-page replacement)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1657",
-          "blockerSummary": "Foundation: ADD_EMPLOYEE_WIZARD feature flag, host wiring, and PhoneInput story",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1658",
-          "blockedSummary": "SSN Duplicate Check backend endpoint (service/onboarding)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1652",
-          "blockerSummary": "Integration Setup React: Foundation — feature flag, host registration, i18n skeleton",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1655",
-          "blockedSummary": "Integration Setup React: QuickBooks Settings Shell (Page 541)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1652",
-          "blockerSummary": "Integration Setup React: Foundation — feature flag, host registration, i18n skeleton",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1654",
-          "blockedSummary": "Integration Setup React: Admin Settings Hub (Page 540)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1652",
-          "blockerSummary": "Integration Setup React: Foundation — feature flag, host registration, i18n skeleton",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1653",
-          "blockedSummary": "Integration Setup React: Integration Hub (Page 160)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1650",
-          "blockerSummary": "Company Setup React: Foundation — feature flag, host registration, i18n skeleton",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1643",
-          "blockedSummary": "Company Setup React: Admin Console Shell",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1650",
-          "blockerSummary": "Company Setup React: Foundation — feature flag, host registration, i18n skeleton",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1644",
-          "blockedSummary": "Company Setup React: Storybook Backfill — Eight Existing React Admin Pages",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1643",
-          "blockerSummary": "Company Setup React: Admin Console Shell",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1649",
-          "blockedSummary": "Company Setup React: ESS Configuration",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1643",
-          "blockerSummary": "Company Setup React: Admin Console Shell",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1648",
-          "blockedSummary": "Company Setup React: Attendance Setup",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1643",
-          "blockerSummary": "Company Setup React: Admin Console Shell",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1647",
-          "blockedSummary": "Company Setup React: General Ledger Setup",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1643",
-          "blockerSummary": "Company Setup React: Admin Console Shell",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1646",
-          "blockedSummary": "Company Setup React: Core Settings Pages",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1643",
-          "blockerSummary": "Company Setup React: Admin Console Shell",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1645",
-          "blockedSummary": "Company Setup React: Wire-In Nine Existing React Pages",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1644",
-          "blockerSummary": "Company Setup React: Storybook Backfill — Eight Existing React Admin Pages",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1645",
-          "blockedSummary": "Company Setup React: Wire-In Nine Existing React Pages",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "BOA-1916",
-          "blockerSummary": "BOA - Gazelle | W-2 EFW2 mag-media update for new Box 12 codes (TP, TT, TA)",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "CORE-1633",
-          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "BOA-1914",
-          "blockerSummary": "BOA - Gazelle | W-2 Box 12 Code TT — No Tax on Overtime Premium population",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "CORE-1633",
-          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "BOA-1915",
-          "blockerSummary": "BOA - Gazelle | W-2 Box 14a/b — TTOC (Tipped Occupation Code) population",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "CORE-1633",
-          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "BOA-1913",
-          "blockerSummary": "BOA - Gazelle | W-2 Box 12 Code TP — No Tax on Tips population",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "CORE-1633",
-          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "APCOM-321",
-          "blockerSummary": "[Internal API][EIP] Permission-based change-type filtering on EmployeeChangeRequests endpoints",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "APCOM",
-          "blockedKey": "CORE-1627",
-          "blockedSummary": "[QA Testing] Employee List Dashboard — Permission-based change-type filtering (post APCOM-321)",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1605",
-          "blockerSummary": "EE Record React — Time, Dimensions, Intacct Integration & YTD Info tabs",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1606",
-          "blockedSummary": "EE Record React — Promote EMPLOYEE_RECORD_REACT flag to GA, remove legacy ExtJS page",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1603",
-          "blockerSummary": "EE Record React — layout_dyn_* dynamic fields engine (DynamicFieldsEngine component)",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1605",
-          "blockedSummary": "EE Record React — Time, Dimensions, Intacct Integration & YTD Info tabs",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1603",
-          "blockerSummary": "EE Record React — layout_dyn_* dynamic fields engine (DynamicFieldsEngine component)",
-          "blockerStatus": "Backlog",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1604",
-          "blockedSummary": "EE Record React — Custom / dynamic tabs (all company-configured layout_dyn tabs via DynamicFieldsEngine)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1596",
-          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1603",
-          "blockedSummary": "EE Record React — layout_dyn_* dynamic fields engine (DynamicFieldsEngine component)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1596",
-          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1602",
-          "blockedSummary": "EE Record React — Documents tab + Termination wizard wiring (closes EXP-863)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1596",
-          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1601",
-          "blockedSummary": "EE Record React — HR-module tabs (HR, Benefits, Events, Reviews, Goals)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1596",
-          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1600",
-          "blockedSummary": "EE Record React — Accruals tab + Dates & 401K tab",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1596",
-          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1599",
-          "blockedSummary": "EE Record React — Rates & Deductions tab (pay + recurring deductions, multi-tier gating + effective-dating)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1596",
-          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1598",
-          "blockedSummary": "EE Record React — Taxes tab (Federal W-4, State, Local)",
-          "blockedStatus": "In Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1596",
-          "blockerSummary": "EE Record React — Foundation: page frame (jump panel + header + action menu + stub tab shell), flag, store, i18n, layout_dyn_* spike",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1597",
-          "blockedSummary": "EE Record React — Details tab (identity, demographics, work info, emergency contacts, notes)",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1547",
-          "blockerSummary": "Stopping Payroll Errors - Move to Step 5 of Batch",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-908",
-          "blockedSummary": "Employees tied to Inactive Department - Payroll Warning",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1546",
-          "blockerSummary": "Gross-Up Payroll Enhancements - Multiple Incomes",
-          "blockerStatus": "Ready for Acceptance",
-          "blockerProject": "CORE",
-          "blockedKey": "BOA-1850",
-          "blockedSummary": "BOA - Lioness | Allow multiple incomes on gross-up batches",
-          "blockedStatus": "Ready for Acceptance",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "CORE-1546",
-          "blockerSummary": "Gross-Up Payroll Enhancements - Multiple Incomes",
-          "blockerStatus": "Ready for Acceptance",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-715",
-          "blockedSummary": "Prepay checks using dollar type incomes not calculating amounts",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1542",
-          "blockerSummary": "Fringe Benefits - Batch",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1543",
-          "blockedSummary": "Fringe Benefits - Prepay Checks",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1519",
-          "blockerSummary": "Payroll Comparison Report Updates",
-          "blockerStatus": "In QA",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1520",
-          "blockedSummary": "Payroll Comparison Report : System Admins",
-          "blockedStatus": "In QA",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "CORE-1463",
-          "blockerSummary": "Employee List Dashboard Revamp - Add to EA",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "CORE",
-          "blockedKey": "CORE-1572",
-          "blockedSummary": "180 day limit on Scheduled Changes on EE Record, Scheduled Changes, Mass Updates",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "APCOM-190",
-          "blockerSummary": "[Internal API][EIP] Company-wide list of scheduled EIP changes",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "APCOM",
-          "blockedKey": "CORE-1413",
-          "blockedSummary": "Employee List Dashboard MVP - Scheduled Updates",
-          "blockedStatus": "Ready for Release",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "APCOM-321",
-          "blockerSummary": "[Internal API][EIP] Permission-based change-type filtering on EmployeeChangeRequests endpoints",
-          "blockerStatus": "Ready for QA",
-          "blockerProject": "APCOM",
-          "blockedKey": "CORE-1413",
-          "blockedSummary": "Employee List Dashboard MVP - Scheduled Updates",
-          "blockedStatus": "Ready for Release",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "SI-726",
-          "blockerSummary": "Employee Console> Employee Approvals not showing eip_detail error message for invalid characters. ",
-          "blockerStatus": "In Progress",
-          "blockerProject": "SI",
-          "blockedKey": "CORE-857",
-          "blockedSummary": "Restrictions for EE name, EE address",
-          "blockedStatus": "Ready for QA",
-          "blockedProject": "CORE"
-        }
-      ],
-      "dependencyCount": 60,
-      "oldestWipAgeDays": 2278.7,
-      "agingWipCount": 212,
-      "agingWipIssues": [
-        {
-          "key": "CORE-71",
-          "summary": "FE to systematically update Gazelle when provider changes in Online.  Affects clients using EB for Cobra.",
-          "status": "Backlog",
-          "ageDays": 2278.7
-        },
-        {
-          "key": "CORE-166",
-          "summary": "Total Compensation Class Update - Move income references to special types",
-          "status": "Backlog",
-          "ageDays": 1944.1
-        },
-        {
-          "key": "CORE-167",
-          "summary": "Allow users to change the frequency on the Scheduled Earnings Interface",
-          "status": "Backlog",
-          "ageDays": 1868.9
-        },
-        {
-          "key": "CORE-34",
-          "summary": "Support State of CA RROP (DLSE)",
-          "status": "To Do",
-          "ageDays": 1644.8
-        },
-        {
-          "key": "CORE-126",
-          "summary": "Capture and use a snapshot of employee rates in the batch",
-          "status": "Backlog",
-          "ageDays": 1525.8
-        }
-      ],
+      "wipTotal": 0,
+      "dependencies": [],
+      "dependencyCount": 0,
+      "oldestWipAgeDays": null,
+      "agingWipCount": 0,
+      "agingWipIssues": [],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 16.3,
-        "median": 9.4,
-        "sampleSize": 77
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
       "leadTimeDays": {
-        "avg": 193.2,
-        "median": 70.2,
-        "sampleSize": 113
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
-      "flowEfficiencyPct": 8.4,
-      "throughput7d": 6,
-      "throughputWindowTotal": 113,
-      "throughputAvgPerWeek": 14.1,
-      "qualityLoopbackRatePct": 23,
-      "qualityLoopbackCount": 26,
-      "qualityLoopbackSampleSize": 113,
-      "aiLeverageRatePct": 0.9,
+      "flowEfficiencyPct": null,
+      "throughput7d": 0,
+      "throughputWindowTotal": 0,
+      "throughputAvgPerWeek": 0,
+      "qualityLoopbackRatePct": null,
+      "qualityLoopbackCount": 0,
+      "qualityLoopbackSampleSize": 0,
+      "aiLeverageRatePct": null,
       "weekly": [
         {
           "label": "May 26–Jun 2",
-          "weekStart": "2026-05-26T16:27:00.381Z",
-          "weekEnd": "2026-06-02T16:27:00.381Z",
-          "throughput": 5,
-          "cycleTimeAvg": 27.5,
-          "leadTimeAvg": 65,
-          "flowEfficiencyPct": 42.3,
-          "qualityLoopbackRatePct": 40,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 5,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-05-26T19:40:20.412Z",
+          "weekEnd": "2026-06-02T19:40:20.412Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 2–Jun 9",
-          "weekStart": "2026-06-02T16:27:00.381Z",
-          "weekEnd": "2026-06-09T16:27:00.381Z",
-          "throughput": 11,
-          "cycleTimeAvg": 14.4,
-          "leadTimeAvg": 72.1,
-          "flowEfficiencyPct": 20,
-          "qualityLoopbackRatePct": 36.4,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 11,
-          "aiLeverageRatePct": 9.1
+          "weekStart": "2026-06-02T19:40:20.412Z",
+          "weekEnd": "2026-06-09T19:40:20.412Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 9–Jun 16",
-          "weekStart": "2026-06-09T16:27:00.381Z",
-          "weekEnd": "2026-06-16T16:27:00.381Z",
-          "throughput": 27,
-          "cycleTimeAvg": 21.7,
-          "leadTimeAvg": 136.7,
-          "flowEfficiencyPct": 15.9,
-          "qualityLoopbackRatePct": 14.8,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 27,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-09T19:40:20.412Z",
+          "weekEnd": "2026-06-16T19:40:20.412Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 16–Jun 23",
-          "weekStart": "2026-06-16T16:27:00.381Z",
-          "weekEnd": "2026-06-23T16:27:00.381Z",
-          "throughput": 20,
-          "cycleTimeAvg": 10.8,
-          "leadTimeAvg": 106,
-          "flowEfficiencyPct": 10.2,
-          "qualityLoopbackRatePct": 25,
-          "qualityLoopbackCount": 5,
-          "qualityLoopbackSampleSize": 20,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-16T19:40:20.412Z",
+          "weekEnd": "2026-06-23T19:40:20.412Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 23–Jun 30",
-          "weekStart": "2026-06-23T16:27:00.381Z",
-          "weekEnd": "2026-06-30T16:27:00.381Z",
-          "throughput": 25,
-          "cycleTimeAvg": 16.4,
-          "leadTimeAvg": 365.8,
-          "flowEfficiencyPct": 4.5,
-          "qualityLoopbackRatePct": 20,
-          "qualityLoopbackCount": 5,
-          "qualityLoopbackSampleSize": 25,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-23T19:40:20.412Z",
+          "weekEnd": "2026-06-30T19:40:20.412Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 30–Jul 7",
-          "weekStart": "2026-06-30T16:27:00.381Z",
-          "weekEnd": "2026-07-07T16:27:00.381Z",
-          "throughput": 6,
-          "cycleTimeAvg": 9.3,
-          "leadTimeAvg": 320.3,
-          "flowEfficiencyPct": 2.9,
-          "qualityLoopbackRatePct": 16.7,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 6,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-30T19:40:20.412Z",
+          "weekEnd": "2026-07-07T19:40:20.412Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 7–Jul 14",
-          "weekStart": "2026-07-07T16:27:00.381Z",
-          "weekEnd": "2026-07-14T16:27:00.381Z",
-          "throughput": 13,
-          "cycleTimeAvg": 19.4,
-          "leadTimeAvg": 182.3,
-          "flowEfficiencyPct": 10.6,
-          "qualityLoopbackRatePct": 23.1,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 13,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-07T19:40:20.412Z",
+          "weekEnd": "2026-07-14T19:40:20.412Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 14–Jul 21",
-          "weekStart": "2026-07-14T16:27:00.381Z",
-          "weekEnd": "2026-07-21T16:27:00.381Z",
-          "throughput": 6,
-          "cycleTimeAvg": 17.3,
-          "leadTimeAvg": 244.7,
-          "flowEfficiencyPct": 7.1,
-          "qualityLoopbackRatePct": 33.3,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 6,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-14T19:40:20.412Z",
+          "weekEnd": "2026-07-21T19:40:20.412Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         }
       ]
     },
     {
       "key": "MOBILE",
-      "epics": [
-        {
-          "key": "MOBILE-1036",
-          "summary": "Q3 Bugs and Improvements for Mobile",
-          "status": "To Do",
-          "childTotal": 2,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "MOBILE-1029",
-          "summary": "Mobile Team - Q3 2026 Production Bugs",
-          "status": "To Do",
-          "childTotal": 4,
-          "childDone": 2,
-          "percentDone": 50
-        },
-        {
-          "key": "MOBILE-990",
-          "summary": "Tablet: RNW Storybook for Tablet App",
-          "status": "To Do",
-          "childTotal": 1,
-          "childDone": 1,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-989",
-          "summary": "Mobile: RNW Storybook work for the Mobile App",
-          "status": "To Do",
-          "childTotal": 50,
-          "childDone": 32,
-          "percentDone": 64
-        },
-        {
-          "key": "MOBILE-987",
-          "summary": "Mobile: Having the mobile app work on screen readers",
-          "status": "To Do",
-          "childTotal": 2,
-          "childDone": 2,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-983",
-          "summary": "Tablet: Offline punching",
-          "status": "To Do",
-          "childTotal": 2,
-          "childDone": 1,
-          "percentDone": 50
-        },
-        {
-          "key": "MOBILE-945",
-          "summary": "Reduce Buddy Punching on Tablet",
-          "status": "To Do",
-          "childTotal": 4,
-          "childDone": 3,
-          "percentDone": 75
-        },
-        {
-          "key": "MOBILE-889",
-          "summary": "Mobile Team - Q2 2026 Production Bugs",
-          "status": "In Progress",
-          "childTotal": 9,
-          "childDone": 9,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-871",
-          "summary": "Mobile: Dark Mode - Bugs and Improvements before MVP",
-          "status": "To Do",
-          "childTotal": 9,
-          "childDone": 9,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-845",
-          "summary": "Tech Debt 2026 - Mobile Team",
-          "status": "To Do",
-          "childTotal": 6,
-          "childDone": 6,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-843",
-          "summary": "Mobile - Q226 Bugs/Enhancements",
-          "status": "To Do",
-          "childTotal": 12,
-          "childDone": 11,
-          "percentDone": 91.7
-        },
-        {
-          "key": "MOBILE-842",
-          "summary": "Tablet - Q226  Bugs/Enhancements",
-          "status": "To Do",
-          "childTotal": 4,
-          "childDone": 4,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-827",
-          "summary": "Expense Management - Bugs",
-          "status": "In Progress",
-          "childTotal": 7,
-          "childDone": 7,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-816",
-          "summary": "Expense Management - Itinerary in Mobile",
-          "status": "In Progress",
-          "childTotal": 12,
-          "childDone": 8,
-          "percentDone": 66.7
-        },
-        {
-          "key": "MOBILE-799",
-          "summary": "DailyPay Bugs and Improvements AFTER MVP",
-          "status": "To Do",
-          "childTotal": 9,
-          "childDone": 9,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-783",
-          "summary": "Increasing the app store Ratings",
-          "status": "In Progress",
-          "childTotal": 12,
-          "childDone": 11,
-          "percentDone": 91.7
-        },
-        {
-          "key": "MOBILE-782",
-          "summary": "New Tablet app Bugs/Improvements ",
-          "status": "In Progress",
-          "childTotal": 11,
-          "childDone": 11,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-769",
-          "summary": "Shift Trading for Mobile App",
-          "status": "To Do",
-          "childTotal": 8,
-          "childDone": 6,
-          "percentDone": 75
-        },
-        {
-          "key": "MOBILE-751",
-          "summary": "Having Dark Mode added to the Mobile App",
-          "status": "To Do",
-          "childTotal": 76,
-          "childDone": 76,
-          "percentDone": 100
-        },
-        {
-          "key": "MOBILE-750",
-          "summary": "Integrating Frist Dollar into the Mobile app",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        }
-      ],
+      "epics": [],
       "wipByStatus": {
-        "Backlog": 6,
-        "To Do": 22,
-        "Ready for Development": 7,
-        "In Development": 12,
-        "Ready for Code Review": 4,
-        "In QA": 4,
-        "Acceptance": 2,
-        "Done": 50,
-        "Other": 10
+        "Backlog": 0,
+        "To Do": 0,
+        "Ready for Development": 0,
+        "In Development": 0,
+        "Ready for Code Review": 0,
+        "In QA": 0,
+        "Acceptance": 0,
+        "Done": 0
       },
-      "wipTotal": 117,
-      "dependencies": [
-        {
-          "blockerKey": "MOBILE-1068",
-          "blockerSummary": "Shift Trades: E2E Testing",
-          "blockerStatus": "Estimate",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-769",
-          "blockedSummary": "Shift Trading for Mobile App",
-          "blockedStatus": "To Do",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-1061",
-          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-1054",
-          "blockedSummary": "Mobile: Storybook [W1] — generic/textInput story (BLOCKED: wave-2)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-1061",
-          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-1056",
-          "blockedSummary": "Mobile: Storybook [W3] — generic/dateSelector story (BLOCKED: wave-2)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-1061",
-          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-1057",
-          "blockedSummary": "Mobile: Storybook [W4] — generic/textInputWIthNumber story (BLOCKED: wave-2)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-1061",
-          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-1058",
-          "blockedSummary": "Mobile: Storybook [W5] — generic/textInputWithInlineError story (BLOCKED: wave-2, suspected)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-1061",
-          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-1059",
-          "blockedSummary": "Mobile: Storybook [W6] — generic/pagerView story (BLOCKED: wave-2)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-1061",
-          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-1060",
-          "blockedSummary": "Mobile: Storybook [W7] — generic/progressBar story (BLOCKED: wave-2)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-1061",
-          "blockerSummary": "Storybook [Wave-2 Spike] — enable Reanimated + gesture-handler + bottom-sheet on the catalog RNW/Vite path",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-1027",
-          "blockedSummary": "Mobile: Storybook [FC5] — cards/newsfeedPostCard story",
-          "blockedStatus": "Ready for Code Review",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-1023",
-          "blockerSummary": "Mobile: Storybook [FC1] — cards/payCard story (exemplar, loading/empty/error via props)",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-1027",
-          "blockedSummary": "Mobile: Storybook [FC5] — cards/newsfeedPostCard story",
-          "blockedStatus": "Ready for Code Review",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-983",
-          "blockerSummary": "Tablet: Offline punching",
-          "blockerStatus": "To Do",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-945",
-          "blockedSummary": "Reduce Buddy Punching on Tablet",
-          "blockedStatus": "To Do",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-976",
-          "blockerSummary": "Shift Trading Mobile: Foundation (RTK services, i18n, permissions, routes)",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-982",
-          "blockedSummary": "Shift Trading Mobile: Manager menu + list + Approve/Deny",
-          "blockedStatus": "In QA",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "INV-935",
-          "blockerSummary": "APS-Online: migrate MileageCalcMap to Routes API New + Places API New",
-          "blockerStatus": "In Development",
-          "blockerProject": "INV",
-          "blockedKey": "MOBILE-974",
-          "blockedSummary": "Cross-platform calculation parity QA (fixture-set verification)",
-          "blockedStatus": "Ready for Code Review",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-970",
-          "blockerSummary": "Add Expense form: Provide Itinerary toggle + Itinerary Details link",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-971",
-          "blockedSummary": "Edit Expense: open existing itinerary, recompute on mutation",
-          "blockedStatus": "Ready for Code Review",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-969",
-          "blockerSummary": "Itinerary modal — multi-stop entry, autocomplete, route preview, calculate (direct Google APIs)",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-971",
-          "blockedSummary": "Edit Expense: open existing itinerary, recompute on mutation",
-          "blockedStatus": "Ready for Code Review",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-969",
-          "blockerSummary": "Itinerary modal — multi-stop entry, autocomplete, route preview, calculate (direct Google APIs)",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-974",
-          "blockedSummary": "Cross-platform calculation parity QA (fixture-set verification)",
-          "blockedStatus": "Ready for Code Review",
-          "blockedProject": "MOBILE"
-        },
-        {
-          "blockerKey": "MOBILE-968",
-          "blockerSummary": "Foundation: Wombat deps, API keys, i18n, feature flag, types (itinerary)",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "MOBILE",
-          "blockedKey": "MOBILE-971",
-          "blockedSummary": "Edit Expense: open existing itinerary, recompute on mutation",
-          "blockedStatus": "Ready for Code Review",
-          "blockedProject": "MOBILE"
-        }
-      ],
-      "dependencyCount": 16,
-      "oldestWipAgeDays": 740.1,
-      "agingWipCount": 85,
-      "agingWipIssues": [
-        {
-          "key": "MOBILE-145",
-          "summary": "Mobile Redesign",
-          "status": "In Progress",
-          "ageDays": 740.1
-        },
-        {
-          "key": "MOBILE-198",
-          "summary": "APS Tablet App Redesign",
-          "status": "In Progress",
-          "ageDays": 628.9
-        },
-        {
-          "key": "MOBILE-211",
-          "summary": "Expense Reimbursements - Mobile",
-          "status": "In Progress",
-          "ageDays": 614.9
-        },
-        {
-          "key": "MOBILE-252",
-          "summary": "Shift Trading - Mobile",
-          "status": "To Do",
-          "ageDays": 595.8
-        },
-        {
-          "key": "MOBILE-251",
-          "summary": "Employee Availability - Mobile",
-          "status": "To Do",
-          "ageDays": 595.8
-        }
-      ],
+      "wipTotal": 0,
+      "dependencies": [],
+      "dependencyCount": 0,
+      "oldestWipAgeDays": null,
+      "agingWipCount": 0,
+      "agingWipIssues": [],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 11.4,
-        "median": 8.3,
-        "sampleSize": 70
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
       "leadTimeDays": {
-        "avg": 31.2,
-        "median": 21.1,
-        "sampleSize": 77
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
-      "flowEfficiencyPct": 36.5,
-      "throughput7d": 19,
-      "throughputWindowTotal": 77,
-      "throughputAvgPerWeek": 9.6,
-      "qualityLoopbackRatePct": 23.4,
-      "qualityLoopbackCount": 18,
-      "qualityLoopbackSampleSize": 77,
-      "aiLeverageRatePct": 0,
+      "flowEfficiencyPct": null,
+      "throughput7d": 0,
+      "throughputWindowTotal": 0,
+      "throughputAvgPerWeek": 0,
+      "qualityLoopbackRatePct": null,
+      "qualityLoopbackCount": 0,
+      "qualityLoopbackSampleSize": 0,
+      "aiLeverageRatePct": null,
       "weekly": [
         {
           "label": "May 26–Jun 2",
-          "weekStart": "2026-05-26T16:27:10.704Z",
-          "weekEnd": "2026-06-02T16:27:10.704Z",
-          "throughput": 9,
-          "cycleTimeAvg": 16.2,
-          "leadTimeAvg": 17.3,
-          "flowEfficiencyPct": 93.6,
-          "qualityLoopbackRatePct": 33.3,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 9,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-05-26T19:40:20.789Z",
+          "weekEnd": "2026-06-02T19:40:20.789Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 2–Jun 9",
-          "weekStart": "2026-06-02T16:27:10.704Z",
-          "weekEnd": "2026-06-09T16:27:10.704Z",
-          "throughput": 4,
-          "cycleTimeAvg": 14.7,
-          "leadTimeAvg": 17.9,
-          "flowEfficiencyPct": 82.1,
-          "qualityLoopbackRatePct": 25,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 4,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-02T19:40:20.789Z",
+          "weekEnd": "2026-06-09T19:40:20.789Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 9–Jun 16",
-          "weekStart": "2026-06-09T16:27:10.704Z",
-          "weekEnd": "2026-06-16T16:27:10.704Z",
-          "throughput": 15,
-          "cycleTimeAvg": 13.4,
-          "leadTimeAvg": 20.7,
-          "flowEfficiencyPct": 64.7,
-          "qualityLoopbackRatePct": 26.7,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 15,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-09T19:40:20.789Z",
+          "weekEnd": "2026-06-16T19:40:20.789Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 16–Jun 23",
-          "weekStart": "2026-06-16T16:27:10.704Z",
-          "weekEnd": "2026-06-23T16:27:10.704Z",
-          "throughput": 5,
-          "cycleTimeAvg": 3.2,
-          "leadTimeAvg": 9.3,
-          "flowEfficiencyPct": 34.4,
-          "qualityLoopbackRatePct": 0,
+          "weekStart": "2026-06-16T19:40:20.789Z",
+          "weekEnd": "2026-06-23T19:40:20.789Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
           "qualityLoopbackCount": 0,
-          "qualityLoopbackSampleSize": 5,
-          "aiLeverageRatePct": 0
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 23–Jun 30",
-          "weekStart": "2026-06-23T16:27:10.704Z",
-          "weekEnd": "2026-06-30T16:27:10.704Z",
-          "throughput": 7,
-          "cycleTimeAvg": 8.7,
-          "leadTimeAvg": 83.9,
-          "flowEfficiencyPct": 10.4,
-          "qualityLoopbackRatePct": 57.1,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 7,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-23T19:40:20.789Z",
+          "weekEnd": "2026-06-30T19:40:20.789Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 30–Jul 7",
-          "weekStart": "2026-06-30T16:27:10.704Z",
-          "weekEnd": "2026-07-07T16:27:10.704Z",
-          "throughput": 10,
-          "cycleTimeAvg": 10.9,
-          "leadTimeAvg": 33.2,
-          "flowEfficiencyPct": 32.8,
-          "qualityLoopbackRatePct": 20,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 10,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-30T19:40:20.789Z",
+          "weekEnd": "2026-07-07T19:40:20.789Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 7–Jul 14",
-          "weekStart": "2026-07-07T16:27:10.704Z",
-          "weekEnd": "2026-07-14T16:27:10.704Z",
-          "throughput": 8,
-          "cycleTimeAvg": 10.2,
-          "leadTimeAvg": 47.2,
-          "flowEfficiencyPct": 21.6,
-          "qualityLoopbackRatePct": 0,
+          "weekStart": "2026-07-07T19:40:20.789Z",
+          "weekEnd": "2026-07-14T19:40:20.789Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
           "qualityLoopbackCount": 0,
-          "qualityLoopbackSampleSize": 8,
-          "aiLeverageRatePct": 0
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 14–Jul 21",
-          "weekStart": "2026-07-14T16:27:10.704Z",
-          "weekEnd": "2026-07-21T16:27:10.704Z",
-          "throughput": 19,
-          "cycleTimeAvg": 10.6,
-          "leadTimeAvg": 27.4,
-          "flowEfficiencyPct": 38.7,
-          "qualityLoopbackRatePct": 21.1,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 19,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-14T19:40:20.789Z",
+          "weekEnd": "2026-07-21T19:40:20.789Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         }
       ]
     },
     {
       "key": "BOA",
-      "epics": [
-        {
-          "key": "BOA-1943",
-          "summary": "Address Validation",
-          "status": "To Do",
-          "childTotal": 3,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "BOA-1924",
-          "summary": "BOA - SMART | 2026 Q3 SMART",
-          "status": "In Progress",
-          "childTotal": 2,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "BOA-1923",
-          "summary": "BOA - Gazelle | 2026 Q3 Gazelle",
-          "status": "In Progress",
-          "childTotal": 6,
-          "childDone": 2,
-          "percentDone": 33.3
-        },
-        {
-          "key": "BOA-1903",
-          "summary": "BOA: Production Bug Backlog Q3 2026",
-          "status": "To Do",
-          "childTotal": 4,
-          "childDone": 2,
-          "percentDone": 50
-        },
-        {
-          "key": "BOA-1883",
-          "summary": "Finalizer Enhancements ",
-          "status": "To Do",
-          "childTotal": 3,
-          "childDone": 1,
-          "percentDone": 33.3
-        },
-        {
-          "key": "BOA-1864",
-          "summary": "Quarterly Filing Efficiencies",
-          "status": "To Do",
-          "childTotal": 5,
-          "childDone": 3,
-          "percentDone": 60
-        },
-        {
-          "key": "BOA-1832",
-          "summary": "BOA - Smart | Salesforce Sales Order to Billing Automation",
-          "status": "To Do",
-          "childTotal": 1,
-          "childDone": 1,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1791",
-          "summary": "BOA - 2026 Q2 Bugs",
-          "status": "To Do",
-          "childTotal": 15,
-          "childDone": 15,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1790",
-          "summary": "BOA - Watcher | 2026 Q2 Watcher",
-          "status": "In Progress",
-          "childTotal": 4,
-          "childDone": 4,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1789",
-          "summary": "BOA - Lioness | 2026 Q2 Lioness",
-          "status": "In Progress",
-          "childTotal": 2,
-          "childDone": 2,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1772",
-          "summary": "FedEx Shipping Integration",
-          "status": "To Do",
-          "childTotal": 9,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "BOA-1681",
-          "summary": "BOA 2026 Maintenance",
-          "status": "In Progress",
-          "childTotal": 1,
-          "childDone": 1,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1674",
-          "summary": "YEAR END 2026",
-          "status": "To Do",
-          "childTotal": 13,
-          "childDone": 6,
-          "percentDone": 46.2
-        },
-        {
-          "key": "BOA-1549",
-          "summary": "2026 Tax Table Updates",
-          "status": "In Progress",
-          "childTotal": 33,
-          "childDone": 33,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1539",
-          "summary": "Compensated vs Active Billing Model",
-          "status": "In Progress",
-          "childTotal": 3,
-          "childDone": 2,
-          "percentDone": 66.7
-        },
-        {
-          "key": "BOA-1537",
-          "summary": "Tristate Automation",
-          "status": "To Do",
-          "childTotal": 1,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "BOA-1536",
-          "summary": "OBBBA ",
-          "status": "In Progress",
-          "childTotal": 26,
-          "childDone": 26,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1493",
-          "summary": "BOA - First Dollar",
-          "status": "In Progress",
-          "childTotal": 2,
-          "childDone": 2,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-1210",
-          "summary": "Zendesk nightly sync for renewals and inactive users",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "BOA-1193",
-          "summary": "Utilize FedEx Ship API to create Shipping labels and tracking numbers",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "BOA-964",
-          "summary": "BOA - SMART | Accounting - Support Void and Reissue of Payments",
-          "status": "To Do",
-          "childTotal": 2,
-          "childDone": 2,
-          "percentDone": 100
-        },
-        {
-          "key": "BOA-748",
-          "summary": "BOA - Watcher | Custom Exports ",
-          "status": "In Progress",
-          "childTotal": 89,
-          "childDone": 59,
-          "percentDone": 66.3
-        },
-        {
-          "key": "BOA-551",
-          "summary": "Infrastructure Updates - BOA 2026",
-          "status": "In Progress",
-          "childTotal": 10,
-          "childDone": 6,
-          "percentDone": 60
-        }
-      ],
+      "epics": [],
       "wipByStatus": {
-        "Backlog": 110,
-        "To Do": 12,
-        "Ready for Development": 27,
-        "In Development": 13,
+        "Backlog": 0,
+        "To Do": 0,
+        "Ready for Development": 0,
+        "In Development": 0,
         "Ready for Code Review": 0,
-        "In QA": 3,
-        "Acceptance": 2,
-        "Done": 11,
-        "Other": 14
+        "In QA": 0,
+        "Acceptance": 0,
+        "Done": 0
       },
-      "wipTotal": 192,
-      "dependencies": [
-        {
-          "blockerKey": "BOA-1917",
-          "blockerSummary": "BOA - Gazelle | 1099 mag-media migration to IRS IRIS (XML)",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "BOA-1937",
-          "blockedSummary": "BOA - APSeFile | 1099 IRIS XML e-file transmission",
-          "blockedStatus": "Backlog",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "BOA-1916",
-          "blockerSummary": "BOA - Gazelle | W-2 EFW2 mag-media update for new Box 12 codes (TP, TT, TA)",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "CORE-1633",
-          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "BOA-1915",
-          "blockerSummary": "BOA - Gazelle | W-2 Box 14a/b — TTOC (Tipped Occupation Code) population",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "CORE-1633",
-          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "BOA-1914",
-          "blockerSummary": "BOA - Gazelle | W-2 Box 12 Code TT — No Tax on Overtime Premium population",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "CORE-1633",
-          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "BOA-1913",
-          "blockerSummary": "BOA - Gazelle | W-2 Box 12 Code TP — No Tax on Tips population",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "CORE-1633",
-          "blockedSummary": "Year End 2026: W2 Supporting Box 12 TP, TT, TA",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "BOA-1912",
-          "blockerSummary": "Year-End 2026: Terminated Clients Before Year-End",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "BOA",
-          "blockedKey": "CORE-1525",
-          "blockedSummary": "Year-End 2026: Terminated Clients Before Year-End",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "BOA-1912",
-          "blockerSummary": "Year-End 2026: Terminated Clients Before Year-End",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "BOA",
-          "blockedKey": "CORE-1586",
-          "blockedSummary": "Year End 2026: Tax Settings in Online",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "CORE"
-        },
-        {
-          "blockerKey": "BOA-924",
-          "blockerSummary": "BOA - Gazelle | Form 941X processing",
-          "blockerStatus": "In Development",
-          "blockerProject": "BOA",
-          "blockedKey": "BOA-1911",
-          "blockedSummary": "BOA - Gazelle | Form 941-X XML e-file + doc-vault imaging",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "BOA-1910",
-          "blockerSummary": "BOA - Gazelle | FedEx Ship — Raw ZPL print path to Zebra ZP505",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "BOA-1843",
-          "blockedSummary": "BOA - Gazelle | FedEx Ship — Auto Label Generation at Packet Print (Single Shipment)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "BOA-1910",
-          "blockerSummary": "BOA - Gazelle | FedEx Ship — Raw ZPL print path to Zebra ZP505",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "BOA-1845",
-          "blockedSummary": "BOA - Gazelle | FedEx Ship — Label Storage and Reprint UI",
-          "blockedStatus": "Backlog",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "BOA-1842",
-          "blockerSummary": "BOA - Gazelle | FedEx API — OAuth2 Bearer Token Client with Refresh",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "BOA-1909",
-          "blockedSummary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
-          "blockedStatus": "Backlog",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "BOA-1909",
-          "blockerSummary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "BOA-1843",
-          "blockedSummary": "BOA - Gazelle | FedEx Ship — Auto Label Generation at Packet Print (Single Shipment)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "BOA-1909",
-          "blockerSummary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "BOA-1845",
-          "blockedSummary": "BOA - Gazelle | FedEx Ship — Label Storage and Reprint UI",
-          "blockedStatus": "Backlog",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "BOA-1909",
-          "blockerSummary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "BOA-1844",
-          "blockedSummary": "BOA - Gazelle | FedEx Ship — Split Shipment (per-location packets)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "BOA-1909",
-          "blockerSummary": "BOA - Gazelle | FedEx Ship — Foundation: HTTP client base, shipment schema, config & host hooks",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "BOA-1846",
-          "blockedSummary": "BOA - Gazelle | FedEx Ship — Label Cancellation (Pre-Tender Void)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "CORE-1546",
-          "blockerSummary": "Gross-Up Payroll Enhancements - Multiple Incomes",
-          "blockerStatus": "Ready for Acceptance",
-          "blockerProject": "CORE",
-          "blockedKey": "BOA-1850",
-          "blockedSummary": "BOA - Lioness | Allow multiple incomes on gross-up batches",
-          "blockedStatus": "Ready for Acceptance",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "BOA-1845",
-          "blockerSummary": "BOA - Gazelle | FedEx Ship — Label Storage and Reprint UI",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "BOA-1846",
-          "blockedSummary": "BOA - Gazelle | FedEx Ship — Label Cancellation (Pre-Tender Void)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "BOA-1843",
-          "blockerSummary": "BOA - Gazelle | FedEx Ship — Auto Label Generation at Packet Print (Single Shipment)",
-          "blockerStatus": "Backlog",
-          "blockerProject": "BOA",
-          "blockedKey": "BOA-1844",
-          "blockedSummary": "BOA - Gazelle | FedEx Ship — Split Shipment (per-location packets)",
-          "blockedStatus": "Backlog",
-          "blockedProject": "BOA"
-        },
-        {
-          "blockerKey": "BOA-160",
-          "blockerSummary": "Move manual finalization to the auto-finalizer and change processor queue to only print",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "BOA",
-          "blockedKey": "BOA-1771",
-          "blockedSummary": "Move finalization logic into a C# service",
-          "blockedStatus": "Backlog",
-          "blockedProject": "BOA"
-        }
-      ],
-      "dependencyCount": 19,
-      "oldestWipAgeDays": 2651.8,
-      "agingWipCount": 173,
-      "agingWipIssues": [
-        {
-          "key": "BOA-128",
-          "summary": "Add ability to setup an employee on multiple withholding states",
-          "status": "Backlog",
-          "ageDays": 2651.8
-        },
-        {
-          "key": "BOA-127",
-          "summary": "Add multiple withholding states to tax calculations",
-          "status": "Backlog",
-          "ageDays": 2651.8
-        },
-        {
-          "key": "BOA-105",
-          "summary": "Custom Garnishment Types",
-          "status": "Backlog",
-          "ageDays": 2510.9
-        },
-        {
-          "key": "BOA-117",
-          "summary": "OH WH Mag Media - add new xml monthly and annual files for WH and SD taxes",
-          "status": "Ready for Release",
-          "ageDays": 2435
-        },
-        {
-          "key": "BOA-124",
-          "summary": "OH SUTA addenda record layout",
-          "status": "Backlog",
-          "ageDays": 2351.9
-        }
-      ],
+      "wipTotal": 0,
+      "dependencies": [],
+      "dependencyCount": 0,
+      "oldestWipAgeDays": null,
+      "agingWipCount": 0,
+      "agingWipIssues": [],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 38.2,
-        "median": 8,
-        "sampleSize": 67
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
       "leadTimeDays": {
-        "avg": 92.4,
-        "median": 16.1,
-        "sampleSize": 74
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
-      "flowEfficiencyPct": 41.3,
-      "throughput7d": 11,
-      "throughputWindowTotal": 74,
-      "throughputAvgPerWeek": 9.3,
-      "qualityLoopbackRatePct": 23,
-      "qualityLoopbackCount": 17,
-      "qualityLoopbackSampleSize": 74,
-      "aiLeverageRatePct": 0,
+      "flowEfficiencyPct": null,
+      "throughput7d": 0,
+      "throughputWindowTotal": 0,
+      "throughputAvgPerWeek": 0,
+      "qualityLoopbackRatePct": null,
+      "qualityLoopbackCount": 0,
+      "qualityLoopbackSampleSize": 0,
+      "aiLeverageRatePct": null,
       "weekly": [
         {
           "label": "May 26–Jun 2",
-          "weekStart": "2026-05-26T16:27:18.478Z",
-          "weekEnd": "2026-06-02T16:27:18.478Z",
-          "throughput": 9,
-          "cycleTimeAvg": 86.8,
-          "leadTimeAvg": 94.2,
-          "flowEfficiencyPct": 92.1,
-          "qualityLoopbackRatePct": 44.4,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 9,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-05-26T19:40:21.132Z",
+          "weekEnd": "2026-06-02T19:40:21.132Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 2–Jun 9",
-          "weekStart": "2026-06-02T16:27:18.478Z",
-          "weekEnd": "2026-06-09T16:27:18.478Z",
-          "throughput": 10,
-          "cycleTimeAvg": 10,
-          "leadTimeAvg": 22.2,
-          "flowEfficiencyPct": 45,
-          "qualityLoopbackRatePct": 10,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 10,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-02T19:40:21.132Z",
+          "weekEnd": "2026-06-09T19:40:21.132Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 9–Jun 16",
-          "weekStart": "2026-06-09T16:27:18.478Z",
-          "weekEnd": "2026-06-16T16:27:18.478Z",
-          "throughput": 13,
-          "cycleTimeAvg": 16,
-          "leadTimeAvg": 25.2,
-          "flowEfficiencyPct": 63.5,
-          "qualityLoopbackRatePct": 38.5,
-          "qualityLoopbackCount": 5,
-          "qualityLoopbackSampleSize": 13,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-09T19:40:21.132Z",
+          "weekEnd": "2026-06-16T19:40:21.132Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 16–Jun 23",
-          "weekStart": "2026-06-16T16:27:18.478Z",
-          "weekEnd": "2026-06-23T16:27:18.478Z",
-          "throughput": 12,
-          "cycleTimeAvg": 4.8,
-          "leadTimeAvg": 42.4,
-          "flowEfficiencyPct": 11.3,
-          "qualityLoopbackRatePct": 8.3,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 12,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-16T19:40:21.132Z",
+          "weekEnd": "2026-06-23T19:40:21.132Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 23–Jun 30",
-          "weekStart": "2026-06-23T16:27:18.478Z",
-          "weekEnd": "2026-06-30T16:27:18.478Z",
-          "throughput": 9,
-          "cycleTimeAvg": 9.9,
-          "leadTimeAvg": 23.4,
-          "flowEfficiencyPct": 42.3,
-          "qualityLoopbackRatePct": 11.1,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 9,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-23T19:40:21.132Z",
+          "weekEnd": "2026-06-30T19:40:21.132Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 30–Jul 7",
-          "weekStart": "2026-06-30T16:27:18.478Z",
-          "weekEnd": "2026-07-07T16:27:18.478Z",
-          "throughput": 4,
-          "cycleTimeAvg": 22,
-          "leadTimeAvg": 78.9,
-          "flowEfficiencyPct": 27.9,
-          "qualityLoopbackRatePct": 0,
+          "weekStart": "2026-06-30T19:40:21.132Z",
+          "weekEnd": "2026-07-07T19:40:21.132Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
           "qualityLoopbackCount": 0,
-          "qualityLoopbackSampleSize": 4,
-          "aiLeverageRatePct": 0
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 7–Jul 14",
-          "weekStart": "2026-07-07T16:27:18.478Z",
-          "weekEnd": "2026-07-14T16:27:18.478Z",
-          "throughput": 6,
-          "cycleTimeAvg": 197.9,
-          "leadTimeAvg": 476.1,
-          "flowEfficiencyPct": 41.6,
-          "qualityLoopbackRatePct": 33.3,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 6,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-07T19:40:21.132Z",
+          "weekEnd": "2026-07-14T19:40:21.132Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 14–Jul 21",
-          "weekStart": "2026-07-14T16:27:18.478Z",
-          "weekEnd": "2026-07-21T16:27:18.478Z",
-          "throughput": 11,
-          "cycleTimeAvg": 11.6,
-          "leadTimeAvg": 140.8,
-          "flowEfficiencyPct": 8.2,
-          "qualityLoopbackRatePct": 27.3,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 11,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-14T19:40:21.132Z",
+          "weekEnd": "2026-07-21T19:40:21.132Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         }
       ]
     },
     {
       "key": "EXP",
-      "epics": [
-        {
-          "key": "EXP-949",
-          "summary": "Multi-Approvals - Workflow control enhancements. ",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "EXP-947",
-          "summary": "AI position management data - intelligent import",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "EXP-940",
-          "summary": "Compensation Dashboard build out and integration ",
-          "status": "To Do",
-          "childTotal": 6,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "EXP-937",
-          "summary": "EXP: Production Bug Backlog Q3 2026",
-          "status": "To Do",
-          "childTotal": 2,
-          "childDone": 1,
-          "percentDone": 50
-        },
-        {
-          "key": "EXP-933",
-          "summary": "Compensation Page overhaul",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "EXP-929",
-          "summary": "Employee Quick Drawer - WF implementation",
-          "status": "In Progress",
-          "childTotal": 5,
-          "childDone": 4,
-          "percentDone": 80
-        },
-        {
-          "key": "EXP-915",
-          "summary": "Admin REACT Conversions",
-          "status": "In Progress",
-          "childTotal": 10,
-          "childDone": 10,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-892",
-          "summary": "Position Management Onboarding Wizard",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "EXP-882",
-          "summary": "Dashboard Grid - chart views",
-          "status": "To Do",
-          "childTotal": 9,
-          "childDone": 1,
-          "percentDone": 11.1
-        },
-        {
-          "key": "EXP-881",
-          "summary": "Position Management onboarding wizard",
-          "status": "To Do",
-          "childTotal": 22,
-          "childDone": 11,
-          "percentDone": 50
-        },
-        {
-          "key": "EXP-869",
-          "summary": "WF Dashboard - Tiles to React and logic change",
-          "status": "To Do",
-          "childTotal": 11,
-          "childDone": 11,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-859",
-          "summary": "EXP - Q2 Production Bugs 2026",
-          "status": "To Do",
-          "childTotal": 3,
-          "childDone": 3,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-849",
-          "summary": "Workforce Q2 Bugs and Misc",
-          "status": "In Progress",
-          "childTotal": 24,
-          "childDone": 23,
-          "percentDone": 95.8
-        },
-        {
-          "key": "EXP-830",
-          "summary": "Worforce Dashboards - Alterations and UI alignment",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "EXP-806",
-          "summary": "Retention Dashboard",
-          "status": "To Do",
-          "childTotal": 6,
-          "childDone": 6,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-805",
-          "summary": "Headcount Dashboard",
-          "status": "To Do",
-          "childTotal": 7,
-          "childDone": 7,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-793",
-          "summary": "Workforce Q1 Bugs and misc",
-          "status": "In Progress",
-          "childTotal": 25,
-          "childDone": 25,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-721",
-          "summary": "DOC -Epic 3",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "EXP-720",
-          "summary": "DOC -Epic 2",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "EXP-719",
-          "summary": "DOC -Epic 1",
-          "status": "To Do",
-          "childTotal": 1,
-          "childDone": 1,
-          "percentDone": 100
-        },
-        {
-          "key": "EXP-426",
-          "summary": "Comp Analysis Tool (placeholder Epic 2)",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "EXP-425",
-          "summary": "Comp Analysis Tool (placeholder story 1)",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "EXP-30",
-          "summary": "Workforce Planning - 3rd Party Position Pay Integration",
-          "status": "To Do",
-          "childTotal": 0,
-          "childDone": 0,
-          "percentDone": 0
-        }
-      ],
+      "epics": [],
       "wipByStatus": {
-        "Backlog": 19,
-        "To Do": 24,
-        "Ready for Development": 9,
-        "In Development": 10,
+        "Backlog": 0,
+        "To Do": 0,
+        "Ready for Development": 0,
+        "In Development": 0,
         "Ready for Code Review": 0,
         "In QA": 0,
-        "Acceptance": 1,
-        "Done": 30,
-        "Other": 5
+        "Acceptance": 0,
+        "Done": 0
       },
-      "wipTotal": 98,
-      "dependencies": [
-        {
-          "blockerKey": "EXP-956",
-          "blockerSummary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "EXP",
-          "blockedKey": "EXP-961",
-          "blockedSummary": "Cleanup (deferred): retire legacy ExtJS comp-change view + fully retire ONLINE_WFP_BUDGETING flag",
-          "blockedStatus": "Estimate",
-          "blockedProject": "EXP"
-        },
-        {
-          "blockerKey": "EXP-957",
-          "blockerSummary": "Compensation Change Requests Panel (default panel)",
-          "blockerStatus": "In Development",
-          "blockerProject": "EXP",
-          "blockedKey": "EXP-961",
-          "blockedSummary": "Cleanup (deferred): retire legacy ExtJS comp-change view + fully retire ONLINE_WFP_BUDGETING flag",
-          "blockedStatus": "Estimate",
-          "blockedProject": "EXP"
-        },
-        {
-          "blockerKey": "EXP-958",
-          "blockerSummary": "Out of Range Panel",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "EXP",
-          "blockedKey": "EXP-961",
-          "blockedSummary": "Cleanup (deferred): retire legacy ExtJS comp-change view + fully retire ONLINE_WFP_BUDGETING flag",
-          "blockedStatus": "Estimate",
-          "blockedProject": "EXP"
-        },
-        {
-          "blockerKey": "EXP-959",
-          "blockerSummary": "Pay Range Positioning Panel (Labor Cost Variance insight)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "EXP",
-          "blockedKey": "EXP-961",
-          "blockedSummary": "Cleanup (deferred): retire legacy ExtJS comp-change view + fully retire ONLINE_WFP_BUDGETING flag",
-          "blockedStatus": "Estimate",
-          "blockedProject": "EXP"
-        },
-        {
-          "blockerKey": "EXP-960",
-          "blockerSummary": "Pay Equity Flight Risk Panel",
-          "blockerStatus": "Estimate",
-          "blockerProject": "EXP",
-          "blockedKey": "EXP-961",
-          "blockedSummary": "Cleanup (deferred): retire legacy ExtJS comp-change view + fully retire ONLINE_WFP_BUDGETING flag",
-          "blockedStatus": "Estimate",
-          "blockedProject": "EXP"
-        },
-        {
-          "blockerKey": "EXP-956",
-          "blockerSummary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "EXP",
-          "blockedKey": "EXP-960",
-          "blockedSummary": "Pay Equity Flight Risk Panel",
-          "blockedStatus": "Estimate",
-          "blockedProject": "EXP"
-        },
-        {
-          "blockerKey": "EXP-956",
-          "blockerSummary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "EXP",
-          "blockedKey": "EXP-959",
-          "blockedSummary": "Pay Range Positioning Panel (Labor Cost Variance insight)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "EXP"
-        },
-        {
-          "blockerKey": "EXP-956",
-          "blockerSummary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "EXP",
-          "blockedKey": "EXP-958",
-          "blockedSummary": "Out of Range Panel",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "EXP"
-        },
-        {
-          "blockerKey": "EXP-956",
-          "blockerSummary": "Foundation: Dashboard shell, host integration, feature flag & shared infra",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "EXP",
-          "blockedKey": "EXP-957",
-          "blockedSummary": "Compensation Change Requests Panel (default panel)",
-          "blockedStatus": "In Development",
-          "blockedProject": "EXP"
-        },
-        {
-          "blockerKey": "EXP-899",
-          "blockerSummary": "Toolbar (Edit mode)",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "EXP",
-          "blockedKey": "EXP-904",
-          "blockedSummary": "Setup Mode banner + Activate Workforce",
-          "blockedStatus": "In Development",
-          "blockedProject": "EXP"
-        },
-        {
-          "blockerKey": "EXP-899",
-          "blockerSummary": "Toolbar (Edit mode)",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "EXP",
-          "blockedKey": "EXP-905",
-          "blockedSummary": "Setup Review screen",
-          "blockedStatus": "Acceptance",
-          "blockedProject": "EXP"
-        },
-        {
-          "blockerKey": "EXP-899",
-          "blockerSummary": "Toolbar (Edit mode)",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "EXP",
-          "blockedKey": "EXP-906",
-          "blockedSummary": "Print preview + PDF export",
-          "blockedStatus": "In Development",
-          "blockedProject": "EXP"
-        }
-      ],
-      "dependencyCount": 12,
-      "oldestWipAgeDays": 1128,
-      "agingWipCount": 84,
-      "agingWipIssues": [
-        {
-          "key": "EXP-30",
-          "summary": "Workforce Planning - 3rd Party Position Pay Integration",
-          "status": "To Do",
-          "ageDays": 1128
-        },
-        {
-          "key": "EXP-203",
-          "summary": "Holiday Rule Step 7 restrictions can be bypassed by user",
-          "status": "Ready for Release",
-          "ageDays": 928.5
-        },
-        {
-          "key": "EXP-264",
-          "summary": "Performance Review goals disappear when completing a review",
-          "status": "Ready for Release",
-          "ageDays": 873.8
-        },
-        {
-          "key": "EXP-354",
-          "summary": "Workforce Planning",
-          "status": "In Progress",
-          "ageDays": 747.8
-        },
-        {
-          "key": "EXP-359",
-          "summary": "WFP - 3rd Party Pay Data",
-          "status": "To Do",
-          "ageDays": 739.8
-        }
-      ],
+      "wipTotal": 0,
+      "dependencies": [],
+      "dependencyCount": 0,
+      "oldestWipAgeDays": null,
+      "agingWipCount": 0,
+      "agingWipIssues": [],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 14.5,
-        "median": 13,
-        "sampleSize": 57
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
       "leadTimeDays": {
-        "avg": 42.5,
-        "median": 28.9,
-        "sampleSize": 60
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
-      "flowEfficiencyPct": 34.1,
-      "throughput7d": 6,
-      "throughputWindowTotal": 60,
-      "throughputAvgPerWeek": 7.5,
-      "qualityLoopbackRatePct": 53.3,
-      "qualityLoopbackCount": 32,
-      "qualityLoopbackSampleSize": 60,
-      "aiLeverageRatePct": 5,
+      "flowEfficiencyPct": null,
+      "throughput7d": 0,
+      "throughputWindowTotal": 0,
+      "throughputAvgPerWeek": 0,
+      "qualityLoopbackRatePct": null,
+      "qualityLoopbackCount": 0,
+      "qualityLoopbackSampleSize": 0,
+      "aiLeverageRatePct": null,
       "weekly": [
         {
           "label": "May 26–Jun 2",
-          "weekStart": "2026-05-26T16:27:26.374Z",
-          "weekEnd": "2026-06-02T16:27:26.374Z",
-          "throughput": 10,
-          "cycleTimeAvg": 19.3,
-          "leadTimeAvg": 49.1,
-          "flowEfficiencyPct": 39.3,
-          "qualityLoopbackRatePct": 50,
-          "qualityLoopbackCount": 5,
-          "qualityLoopbackSampleSize": 10,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-05-26T19:40:21.606Z",
+          "weekEnd": "2026-06-02T19:40:21.606Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 2–Jun 9",
-          "weekStart": "2026-06-02T16:27:26.374Z",
-          "weekEnd": "2026-06-09T16:27:26.374Z",
-          "throughput": 9,
-          "cycleTimeAvg": 10.8,
-          "leadTimeAvg": 25,
-          "flowEfficiencyPct": 43.2,
-          "qualityLoopbackRatePct": 55.6,
-          "qualityLoopbackCount": 5,
-          "qualityLoopbackSampleSize": 9,
-          "aiLeverageRatePct": 22.2
+          "weekStart": "2026-06-02T19:40:21.606Z",
+          "weekEnd": "2026-06-09T19:40:21.606Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 9–Jun 16",
-          "weekStart": "2026-06-09T16:27:26.374Z",
-          "weekEnd": "2026-06-16T16:27:26.374Z",
-          "throughput": 7,
-          "cycleTimeAvg": 14.9,
-          "leadTimeAvg": 30.3,
-          "flowEfficiencyPct": 49.2,
-          "qualityLoopbackRatePct": 57.1,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 7,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-09T19:40:21.606Z",
+          "weekEnd": "2026-06-16T19:40:21.606Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 16–Jun 23",
-          "weekStart": "2026-06-16T16:27:26.374Z",
-          "weekEnd": "2026-06-23T16:27:26.374Z",
-          "throughput": 4,
-          "cycleTimeAvg": 10.1,
-          "leadTimeAvg": 19.7,
-          "flowEfficiencyPct": 51.3,
-          "qualityLoopbackRatePct": 50,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 4,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-16T19:40:21.606Z",
+          "weekEnd": "2026-06-23T19:40:21.606Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 23–Jun 30",
-          "weekStart": "2026-06-23T16:27:26.374Z",
-          "weekEnd": "2026-06-30T16:27:26.374Z",
-          "throughput": 5,
-          "cycleTimeAvg": 12.2,
-          "leadTimeAvg": 29.2,
-          "flowEfficiencyPct": 41.8,
-          "qualityLoopbackRatePct": 80,
-          "qualityLoopbackCount": 4,
-          "qualityLoopbackSampleSize": 5,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-23T19:40:21.606Z",
+          "weekEnd": "2026-06-30T19:40:21.606Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 30–Jul 7",
-          "weekStart": "2026-06-30T16:27:26.374Z",
-          "weekEnd": "2026-07-07T16:27:26.374Z",
-          "throughput": 13,
-          "cycleTimeAvg": 16.3,
-          "leadTimeAvg": 81.2,
-          "flowEfficiencyPct": 20.1,
-          "qualityLoopbackRatePct": 46.2,
-          "qualityLoopbackCount": 6,
-          "qualityLoopbackSampleSize": 13,
-          "aiLeverageRatePct": 7.7
+          "weekStart": "2026-06-30T19:40:21.606Z",
+          "weekEnd": "2026-07-07T19:40:21.606Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 7–Jul 14",
-          "weekStart": "2026-07-07T16:27:26.374Z",
-          "weekEnd": "2026-07-14T16:27:26.374Z",
-          "throughput": 6,
-          "cycleTimeAvg": 12.6,
-          "leadTimeAvg": 31.7,
-          "flowEfficiencyPct": 39.7,
-          "qualityLoopbackRatePct": 50,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 6,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-07T19:40:21.606Z",
+          "weekEnd": "2026-07-14T19:40:21.606Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 14–Jul 21",
-          "weekStart": "2026-07-14T16:27:26.374Z",
-          "weekEnd": "2026-07-21T16:27:26.374Z",
-          "throughput": 6,
-          "cycleTimeAvg": 15.4,
-          "leadTimeAvg": 24.8,
-          "flowEfficiencyPct": 62.1,
-          "qualityLoopbackRatePct": 50,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 6,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-14T19:40:21.606Z",
+          "weekEnd": "2026-07-21T19:40:21.606Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         }
       ]
     },
     {
       "key": "HR",
-      "epics": [
-        {
-          "key": "HR-375",
-          "summary": "Configurable default Employer (ER) contribution for DED interface benefit plans",
-          "status": "To Do",
-          "childTotal": 5,
-          "childDone": 2,
-          "percentDone": 40
-        },
-        {
-          "key": "HR-374",
-          "summary": "HR: Production Bug Backlog Q3 2026",
-          "status": "To Do",
-          "childTotal": 2,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "HR-360",
-          "summary": "Performance Reviews MVP+ - Quick Win Feedback",
-          "status": "In Progress",
-          "childTotal": 8,
-          "childDone": 3,
-          "percentDone": 37.5
-        },
-        {
-          "key": "HR-352",
-          "summary": "Address missing and miscategorized deductions on the Total Compensation Report.",
-          "status": "To Do",
-          "childTotal": 2,
-          "childDone": 1,
-          "percentDone": 50
-        },
-        {
-          "key": "HR-340",
-          "summary": "QOL items - Q2 2026",
-          "status": "To Do",
-          "childTotal": 1,
-          "childDone": 1,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-332",
-          "summary": "HR Q2 2026 Bugs",
-          "status": "To Do",
-          "childTotal": 3,
-          "childDone": 3,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-241",
-          "summary": "Performance Reviews - Early Access",
-          "status": "To Do",
-          "childTotal": 5,
-          "childDone": 1,
-          "percentDone": 20
-        },
-        {
-          "key": "HR-238",
-          "summary": "Performance Reviews MVP+ - Review Campaigns",
-          "status": "To Do",
-          "childTotal": 7,
-          "childDone": 1,
-          "percentDone": 14.3
-        },
-        {
-          "key": "HR-237",
-          "summary": "Performance Reviews MVP - Submit Self Review",
-          "status": "In Progress",
-          "childTotal": 16,
-          "childDone": 11,
-          "percentDone": 68.8
-        },
-        {
-          "key": "HR-229",
-          "summary": "Performance Reviews MVP+ - 360/Peer",
-          "status": "To Do",
-          "childTotal": 1,
-          "childDone": 0,
-          "percentDone": 0
-        },
-        {
-          "key": "HR-203",
-          "summary": "Performance Reviews MVP - Submit Individual Review",
-          "status": "In Progress",
-          "childTotal": 37,
-          "childDone": 37,
-          "percentDone": 100
-        },
-        {
-          "key": "HR-88",
-          "summary": "Improve the benefits management module's performance",
-          "status": "To Do",
-          "childTotal": 5,
-          "childDone": 4,
-          "percentDone": 80
-        }
-      ],
+      "epics": [],
       "wipByStatus": {
-        "Backlog": 18,
-        "To Do": 18,
-        "Ready for Development": 5,
-        "In Development": 11,
+        "Backlog": 0,
+        "To Do": 0,
+        "Ready for Development": 0,
+        "In Development": 0,
         "Ready for Code Review": 0,
-        "In QA": 2,
+        "In QA": 0,
         "Acceptance": 0,
-        "Done": 3,
-        "Other": 3
+        "Done": 0
       },
-      "wipTotal": 60,
-      "dependencies": [
-        {
-          "blockerKey": "HR-368",
-          "blockerSummary": "Performance Reviews - Expanded Performance Management Settings (Defaults & Required Fields)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "HR",
-          "blockedKey": "HR-385",
-          "blockedSummary": "Online - Require Reassignment Reason (Org Setting Enforcement)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "HR"
-        },
-        {
-          "blockerKey": "HR-382",
-          "blockerSummary": "Online - Reassign Reviewer Reason (Capture)",
-          "blockerStatus": "Ready for Development",
-          "blockerProject": "HR",
-          "blockedKey": "HR-385",
-          "blockedSummary": "Online - Require Reassignment Reason (Org Setting Enforcement)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "HR"
-        },
-        {
-          "blockerKey": "HR-365",
-          "blockerSummary": "Online - HR Edit In-Flight Review (Reassign, Reschedule, Archive)",
-          "blockerStatus": "In Development",
-          "blockerProject": "HR",
-          "blockedKey": "HR-382",
-          "blockedSummary": "Online - Reassign Reviewer Reason (Capture)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "HR"
-        },
-        {
-          "blockerKey": "HR-365",
-          "blockerSummary": "Online - HR Edit In-Flight Review (Reassign, Reschedule, Archive)",
-          "blockerStatus": "In Development",
-          "blockerProject": "HR",
-          "blockedKey": "HR-368",
-          "blockedSummary": "Performance Reviews - Expanded Performance Management Settings (Defaults & Required Fields)",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "HR"
-        },
-        {
-          "blockerKey": "ARCH-580",
-          "blockerSummary": "Implement internal PDF generation service (Gotenberg)",
-          "blockerStatus": "Ready for Code Review",
-          "blockerProject": "ARCH",
-          "blockedKey": "HR-367",
-          "blockedSummary": "Performance Reviews - Export Completed Review to PDF",
-          "blockedStatus": "Ready for Development",
-          "blockedProject": "HR"
-        },
-        {
-          "blockerKey": "HR-366",
-          "blockerSummary": "Performance Reviews - Audit History / Change Log",
-          "blockerStatus": "Ready for Release",
-          "blockerProject": "HR",
-          "blockedKey": "HR-365",
-          "blockedSummary": "Online - HR Edit In-Flight Review (Reassign, Reschedule, Archive)",
-          "blockedStatus": "In Development",
-          "blockedProject": "HR"
-        }
-      ],
-      "dependencyCount": 6,
-      "oldestWipAgeDays": 708.1,
-      "agingWipCount": 59,
-      "agingWipIssues": [
-        {
-          "key": "HR-44",
-          "summary": "Benefits Admin Enhancements",
-          "status": "In Progress",
-          "ageDays": 708.1
-        },
-        {
-          "key": "HR-88",
-          "summary": "Improve the benefits management module's performance",
-          "status": "To Do",
-          "ageDays": 628.9
-        },
-        {
-          "key": "HR-107",
-          "summary": "Benefits - Performance Improvement",
-          "status": "In Progress",
-          "ageDays": 605.9
-        },
-        {
-          "key": "HR-106",
-          "summary": "Performance Management Revamp",
-          "status": "In Progress",
-          "ageDays": 605.9
-        },
-        {
-          "key": "HR-105",
-          "summary": "Benefits Admin - 2026",
-          "status": "In Progress",
-          "ageDays": 605.9
-        }
-      ],
+      "wipTotal": 0,
+      "dependencies": [],
+      "dependencyCount": 0,
+      "oldestWipAgeDays": null,
+      "agingWipCount": 0,
+      "agingWipIssues": [],
       "windowDays": 56,
       "cycleTimeDays": {
-        "avg": 17,
-        "median": 19.1,
-        "sampleSize": 26
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
       "leadTimeDays": {
-        "avg": 85.7,
-        "median": 38.1,
-        "sampleSize": 31
+        "avg": null,
+        "median": null,
+        "sampleSize": 0
       },
-      "flowEfficiencyPct": 19.8,
-      "throughput7d": 1,
-      "throughputWindowTotal": 31,
-      "throughputAvgPerWeek": 3.9,
-      "qualityLoopbackRatePct": 54.8,
-      "qualityLoopbackCount": 17,
-      "qualityLoopbackSampleSize": 31,
-      "aiLeverageRatePct": 0,
+      "flowEfficiencyPct": null,
+      "throughput7d": 0,
+      "throughputWindowTotal": 0,
+      "throughputAvgPerWeek": 0,
+      "qualityLoopbackRatePct": null,
+      "qualityLoopbackCount": 0,
+      "qualityLoopbackSampleSize": 0,
+      "aiLeverageRatePct": null,
       "weekly": [
         {
           "label": "May 26–Jun 2",
-          "weekStart": "2026-05-26T16:27:34.188Z",
-          "weekEnd": "2026-06-02T16:27:34.188Z",
-          "throughput": 4,
-          "cycleTimeAvg": 17.4,
-          "leadTimeAvg": 170.9,
-          "flowEfficiencyPct": 10.2,
-          "qualityLoopbackRatePct": 50,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 4,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-05-26T19:40:21.967Z",
+          "weekEnd": "2026-06-02T19:40:21.967Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 2–Jun 9",
-          "weekStart": "2026-06-02T16:27:34.188Z",
-          "weekEnd": "2026-06-09T16:27:34.188Z",
-          "throughput": 3,
-          "cycleTimeAvg": 16.5,
-          "leadTimeAvg": 130.4,
-          "flowEfficiencyPct": 12.7,
-          "qualityLoopbackRatePct": 66.7,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 3,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-02T19:40:21.967Z",
+          "weekEnd": "2026-06-09T19:40:21.967Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 9–Jun 16",
-          "weekStart": "2026-06-09T16:27:34.188Z",
-          "weekEnd": "2026-06-16T16:27:34.188Z",
-          "throughput": 5,
-          "cycleTimeAvg": 11,
-          "leadTimeAvg": 24.3,
-          "flowEfficiencyPct": 45.3,
-          "qualityLoopbackRatePct": 60,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 5,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-09T19:40:21.967Z",
+          "weekEnd": "2026-06-16T19:40:21.967Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 16–Jun 23",
-          "weekStart": "2026-06-16T16:27:34.188Z",
-          "weekEnd": "2026-06-23T16:27:34.188Z",
-          "throughput": 4,
-          "cycleTimeAvg": 25.6,
-          "leadTimeAvg": 169.3,
-          "flowEfficiencyPct": 15.1,
-          "qualityLoopbackRatePct": 25,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 4,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-16T19:40:21.967Z",
+          "weekEnd": "2026-06-23T19:40:21.967Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 23–Jun 30",
-          "weekStart": "2026-06-23T16:27:34.188Z",
-          "weekEnd": "2026-06-30T16:27:34.188Z",
-          "throughput": 6,
-          "cycleTimeAvg": 15.7,
-          "leadTimeAvg": 60.6,
-          "flowEfficiencyPct": 25.9,
-          "qualityLoopbackRatePct": 50,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 6,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-23T19:40:21.967Z",
+          "weekEnd": "2026-06-30T19:40:21.967Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jun 30–Jul 7",
-          "weekStart": "2026-06-30T16:27:34.188Z",
-          "weekEnd": "2026-07-07T16:27:34.188Z",
-          "throughput": 4,
-          "cycleTimeAvg": 16.8,
-          "leadTimeAvg": 36.9,
-          "flowEfficiencyPct": 45.5,
-          "qualityLoopbackRatePct": 75,
-          "qualityLoopbackCount": 3,
-          "qualityLoopbackSampleSize": 4,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-06-30T19:40:21.967Z",
+          "weekEnd": "2026-07-07T19:40:21.967Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 7–Jul 14",
-          "weekStart": "2026-07-07T16:27:34.188Z",
-          "weekEnd": "2026-07-14T16:27:34.188Z",
-          "throughput": 4,
-          "cycleTimeAvg": 25,
-          "leadTimeAvg": 45.4,
-          "flowEfficiencyPct": 55.1,
-          "qualityLoopbackRatePct": 50,
-          "qualityLoopbackCount": 2,
-          "qualityLoopbackSampleSize": 4,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-07T19:40:21.967Z",
+          "weekEnd": "2026-07-14T19:40:21.967Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         },
         {
           "label": "Jul 14–Jul 21",
-          "weekStart": "2026-07-14T16:27:34.188Z",
-          "weekEnd": "2026-07-21T16:27:34.188Z",
-          "throughput": 1,
-          "cycleTimeAvg": 20,
-          "leadTimeAvg": 89.9,
-          "flowEfficiencyPct": 22.2,
-          "qualityLoopbackRatePct": 100,
-          "qualityLoopbackCount": 1,
-          "qualityLoopbackSampleSize": 1,
-          "aiLeverageRatePct": 0
+          "weekStart": "2026-07-14T19:40:21.967Z",
+          "weekEnd": "2026-07-21T19:40:21.967Z",
+          "throughput": 0,
+          "cycleTimeAvg": null,
+          "leadTimeAvg": null,
+          "flowEfficiencyPct": null,
+          "qualityLoopbackRatePct": null,
+          "qualityLoopbackCount": 0,
+          "qualityLoopbackSampleSize": 0,
+          "aiLeverageRatePct": null
         }
       ]
     }
